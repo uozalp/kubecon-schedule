@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>KubeCon 2026 - Schedule</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card-bg: #1a1d27;
+    --accent: #326ce5;
+    --accent-light: #4a8af4;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --text: #e8e8e8;
+    --text-muted: #8a8f98;
+    --border: #2a2d37;
+    --card-radius: 16px;
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100dvh;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* ---- HEADER ---- */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px 8px;
+  }
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent-light);
+  }
+  .header .clock {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- DAY TABS ---- */
+  .day-tabs {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 4px;
+  }
+  .day-tabs::-webkit-scrollbar { display: none; }
+  .day-tab {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--border);
+    color: var(--text-muted);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .day-tab.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  .day-tab.today {
+    border: 1px solid var(--accent);
+  }
+
+  /* ---- NAV TABS (bottom) ---- */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    display: flex;
+    padding: 8px 0 calc(8px + var(--safe-bottom));
+  }
+  .nav-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 11px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .nav-btn.active { color: var(--accent-light); }
+  .nav-btn svg { width: 24px; height: 24px; }
+
+  /* ---- MAIN CONTENT ---- */
+  .content {
+    padding: 12px 16px;
+    padding-bottom: calc(80px + var(--safe-bottom));
+  }
+
+  /* ---- TIME SLOT HEADER ---- */
+  .slot-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .slot-time {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .slot-count {
+    font-size: 13px;
+    color: var(--text-muted);
+    background: var(--border);
+    padding: 4px 10px;
+    border-radius: 12px;
+  }
+  .slot-info {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  /* ---- CARD STACK ---- */
+  .card-stack {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    perspective: 1000px;
+  }
+  .card {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 100%;
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    border: 1px solid var(--border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    will-change: transform, opacity;
+    touch-action: pan-y;
+    overflow: hidden;
+  }
+  .card.dragging {
+    transition: none;
+  }
+  .card .card-category {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  .card .card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card .card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .card .card-meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .card .card-meta-item svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .card .card-desc {
+    flex: 1;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-muted);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(to bottom, #000 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, #000 85%, transparent 100%);
+  }
+  .card .swipe-indicator {
+    position: absolute;
+    top: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+  }
+  .card .swipe-indicator.left {
+    right: 20px;
+    background: rgba(231, 76, 60, 0.2);
+    color: var(--red);
+    border: 2px solid var(--red);
+  }
+  .card .swipe-indicator.right {
+    left: 20px;
+    background: rgba(46, 204, 113, 0.2);
+    color: var(--green);
+    border: 2px solid var(--green);
+  }
+
+  /* stacked cards behind — last-child is on top (fully visible),
+     others are stacked behind and hidden so they don't bleed through */
+  .card { opacity: 0; visibility: hidden; }
+  .card:last-child { opacity: 1; visibility: visible; z-index: 3; }
+  .card:nth-last-child(2) { opacity: 1; visibility: visible; z-index: 2; transform: scale(0.96) translateY(8px); }
+  .card:nth-last-child(2) * { visibility: hidden; } /* hide text on card behind */
+  .card:nth-last-child(3) { opacity: 0.5; visibility: visible; z-index: 1; transform: scale(0.92) translateY(16px); }
+  .card:nth-last-child(3) * { visibility: hidden; }
+
+  /* ---- SWIPE HINT ---- */
+  .swipe-hint {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .swipe-hint span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* ---- EMPTY STATE ---- */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .empty-state svg {
+    width: 64px;
+    height: 64px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  .empty-state h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .empty-state p {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  /* ---- REFRESH BUTTON ---- */
+  .refresh-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background 0.2s;
+  }
+  .refresh-btn:active { background: var(--accent-light); }
+
+  /* ---- SCHEDULE VIEW ---- */
+  .schedule-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 10px;
+  }
+  .schedule-item .si-time {
+    font-size: 12px;
+    color: var(--accent-light);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .schedule-item .si-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  .schedule-item .si-location {
+    font-size: 12px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .schedule-item .si-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .schedule-item .si-remove {
+    font-size: 12px;
+    color: var(--red);
+    background: rgba(231,76,60,0.15);
+    border: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+
+  /* ---- TIMELINE VIEW ---- */
+  .timeline-slot {
+    margin-bottom: 16px;
+  }
+  .timeline-time {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-light);
+    margin-bottom: 8px;
+    padding-left: 4px;
+  }
+  .timeline-events {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .timeline-event {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .timeline-event.selected {
+    border-color: var(--green);
+    background: rgba(46, 204, 113, 0.08);
+  }
+  .timeline-event .te-category {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .timeline-event .te-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 2px;
+  }
+  .timeline-event .te-loc {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* ---- DETAIL MODAL ---- */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 85dvh;
+    background: var(--card-bg);
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    animation: slideUp 0.25s ease;
+  }
+  @keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  .modal .modal-handle {
+    width: 36px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    margin: 0 auto 16px;
+  }
+  .modal .modal-category {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    margin-bottom: 8px;
+  }
+  .modal .modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  .modal .modal-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .modal .modal-meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  .modal .modal-meta-item svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .modal .modal-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .modal .modal-url {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--accent-light);
+    text-decoration: underline;
+    font-size: 13px;
+  }
+  .modal .modal-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    padding-bottom: var(--safe-bottom);
+  }
+  .modal .modal-actions button {
+    flex: 1;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  .modal .btn-select {
+    background: var(--green);
+    color: #fff;
+  }
+  .modal .btn-remove {
+    background: rgba(231,76,60,0.2);
+    color: var(--red);
+  }
+  .modal .btn-close-modal {
+    background: var(--border);
+    color: var(--text);
+  }
+
+  /* ---- LOADING ---- */
+  .loading {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ---- ALL TALKS VIEW (timeline with carousels) ---- */
+  .all-slot { margin-bottom: 24px; }
+  .all-slot-time {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-light);
+    margin-bottom: 8px;
+    position: sticky;
+    top: 80px;
+    background: var(--bg);
+    padding: 6px 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .all-slot-time .slot-label { flex: 1; }
+  .all-slot-time .slot-badge {
+    font-size: 11px;
+    background: var(--border);
+    color: var(--text-muted);
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+
+  /* carousel container */
+  .carousel-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+  }
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease;
+    touch-action: pan-y;
+  }
+  .carousel-card {
+    flex: 0 0 100%;
+    min-width: 100%;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  .carousel-card.picked {
+    border-color: var(--green);
+    background: rgba(46, 204, 113, 0.06);
+  }
+  .carousel-card .cc-category {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    letter-spacing: 0.4px;
+    margin-bottom: 4px;
+  }
+  .carousel-card .cc-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .carousel-card .cc-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .carousel-card .cc-meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .carousel-card .cc-meta-item svg { width: 14px; height: 14px; flex-shrink: 0; margin-top: 1px; }
+  .carousel-card .cc-desc {
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--text-muted);
+    margin-top: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .carousel-card .cc-pick-badge {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--green);
+    background: rgba(46,204,113,0.15);
+    padding: 2px 8px;
+    border-radius: 8px;
+  }
+
+  /* dots */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+  .carousel-dots .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: background 0.2s, transform 0.2s;
+  }
+  .carousel-dots .dot.active {
+    background: var(--accent-light);
+    transform: scale(1.3);
+  }
+  .carousel-dots .dot.has-pick {
+    background: var(--green);
+  }
+  .carousel-dots .dot.active.has-pick {
+    background: var(--green);
+    transform: scale(1.3);
+  }
+
+  /* search/filter */
+  .filter-bar {
+    margin-bottom: 12px;
+  }
+  .filter-bar input {
+    width: 100%;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+  }
+  .filter-bar input::placeholder {
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<!-- DEBUG TIME OVERRIDE -->
+<div id="debugBar" style="background:#1a1a2e;border-bottom:1px solid var(--border);padding:8px 16px;font-size:13px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;display:none;">
+  <label style="color:var(--text-muted);white-space:nowrap;">⏱ Test time:</label>
+  <input type="datetime-local" id="debugTime" style="background:var(--card-bg);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:4px 8px;font-size:13px;" value="2026-03-25T09:55">
+  <button onclick="setDebugTime()" style="background:var(--accent);color:#fff;border:none;border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;">Set</button>
+  <button onclick="clearDebugTime()" style="background:var(--border);color:var(--text-muted);border:none;border-radius:8px;padding:4px 12px;font-size:13px;cursor:pointer;">Use real time</button>
+  <span id="debugStatus" style="color:var(--green);font-size:11px;"></span>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-top">
+    <h1>KubeCon EU 2026</h1>
+    <span class="clock" id="clock"></span>
+  </div>
+  <div class="day-tabs" id="dayTabs"></div>
+</div>
+
+<!-- MAIN VIEWS -->
+<div class="content" id="viewUpcoming" style="display:none"></div>
+<div class="content" id="viewSchedule" style="display:none"></div>
+<div class="content" id="viewAll" style="display:none"></div>
+
+<!-- DETAIL MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal"></div>
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <button class="nav-btn active" data-view="upcoming" onclick="switchView('upcoming')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <span>Now</span>
+  </button>
+  <button class="nav-btn" data-view="all" onclick="switchView('all')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+    <span>All Talks</span>
+  </button>
+  <button class="nav-btn" data-view="schedule" onclick="switchView('schedule')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+    <span>My Picks</span>
+  </button>
+</div>
+
+<script>
+// =============================================
+// DEBUG TIME OVERRIDE
+// =============================================
+let _debugTimeOffset = null; // ms offset from real time
+
+function NOW() {
+  if (_debugTimeOffset !== null) {
+    return new Date(Date.now() + _debugTimeOffset);
+  }
+  return new Date();
+}
+
+function setDebugTime() {
+  const input = document.getElementById('debugTime').value;
+  if (!input) return;
+  setFakeTime(input);
+  // Reload the correct day
+  const [datePart] = input.split('T');
+  const [y, m, d] = datePart.split('-').map(Number);
+  const dayKey = `${y}${String(m).padStart(2,'0')}${String(d).padStart(2,'0')}`;
+  if (availableDays.find(dd => dd.date === dayKey)) {
+    loadDay(dayKey);
+  } else {
+    renderCurrentView();
+  }
+}
+
+function setFakeTime(datetimeStr) {
+  // datetimeStr: "YYYY-MM-DDTHH:MM" in local Amsterdam time
+  const [datePart, timePart] = datetimeStr.split('T');
+  const [y, m, d] = datePart.split('-').map(Number);
+  const [h, mi] = (timePart || '08:00').split(':').map(Number);
+  const fakeLocal = new Date(y, m - 1, d, h, mi, 0);
+  _debugTimeOffset = fakeLocal.getTime() - Date.now();
+  document.getElementById('debugTime').value = datetimeStr;
+  document.getElementById('debugStatus').textContent = '✓ Fake: ' + datePart + ' ' + (timePart || '08:00') + ' (local)';
+  updateClock();
+}
+
+function setFakeTimeForDay(dateKey) {
+  // dateKey: "YYYYMMDD" → set to 08:00 CEST on that day
+  const y = dateKey.slice(0, 4);
+  const m = dateKey.slice(4, 6);
+  const d = dateKey.slice(6, 8);
+  setFakeTime(`${y}-${m}-${d}T08:00`);
+}
+
+function clearDebugTime() {
+  _debugTimeOffset = null;
+  document.getElementById('debugStatus').textContent = '';
+  updateClock();
+  renderDayTabs();
+}
+
+// Restore debug time from sessionStorage if set
+(function restoreDebugTime() {
+  const saved = sessionStorage.getItem('debugTimeOffset');
+  if (saved) {
+    _debugTimeOffset = Number(saved);
+  }
+})();
+
+// =============================================
+// CONFIG
+// =============================================
+const UPCOMING_WINDOW_MINUTES = 15;
+const ICS_BASE_PATH = 'event/kubecon-2026/';
+// Amsterdam is CEST (UTC+2) during KubeCon
+const CONFERENCE_TZ = 'Europe/Amsterdam';
+
+// =============================================
+// STATE
+// =============================================
+let allEvents = [];        // all events for selected day
+let currentDayKey = '';     // YYYYMMDD
+let availableDays = [];     // from manifest
+let selectedUIDs = new Set(JSON.parse(localStorage.getItem('kubecon_picks') || '[]'));
+let currentView = 'upcoming';
+
+// =============================================
+// CLOCK
+// =============================================
+function updateClock() {
+  const now = NOW();
+  document.getElementById('clock').textContent = now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// =============================================
+// PERSISTENCE
+// =============================================
+function savePicks() {
+  localStorage.setItem('kubecon_picks', JSON.stringify([...selectedUIDs]));
+}
+
+function togglePick(uid) {
+  if (selectedUIDs.has(uid)) {
+    selectedUIDs.delete(uid);
+  } else {
+    selectedUIDs.add(uid);
+  }
+  savePicks();
+}
+
+// =============================================
+// ICS PARSER
+// =============================================
+function parseICS(text) {
+  const events = [];
+  const blocks = text.split('BEGIN:VEVENT').slice(1);
+
+  for (const block of blocks) {
+    const raw = block.split('END:VEVENT')[0];
+    const ev = {};
+
+    // Helper to unfold long lines (RFC 5545: lines starting with space/tab are continuations)
+    const unfolded = raw.replace(/\r?\n[ \t]/g, '');
+
+    const lines = unfolded.split(/\r?\n/);
+    for (const line of lines) {
+      const colonIdx = line.indexOf(':');
+      if (colonIdx === -1) continue;
+      const keyPart = line.substring(0, colonIdx);
+      const value = line.substring(colonIdx + 1);
+      const key = keyPart.split(';')[0].trim();
+
+      switch (key) {
+        case 'DTSTART': ev.dtstart = value; break;
+        case 'DTEND': ev.dtend = value; break;
+        case 'SUMMARY': ev.summary = value; break;
+        case 'DESCRIPTION': ev.description = value; break;
+        case 'LOCATION': ev.location = value; break;
+        case 'CATEGORIES': ev.categories = value; break;
+        case 'UID': ev.uid = value; break;
+        case 'URL': ev.url = value; break;
+      }
+    }
+
+    if (ev.dtstart && ev.summary) {
+      // Parse ICS date: 20260324T151500Z → Date
+      ev.start = parseICSDate(ev.dtstart);
+      ev.end = ev.dtend ? parseICSDate(ev.dtend) : null;
+      // Clean up description: unescape ICS text
+      ev.description = unescapeICS(ev.description || '');
+      ev.summary = unescapeICS(ev.summary || '');
+      ev.location = unescapeICS(ev.location || '');
+      events.push(ev);
+    }
+  }
+
+  events.sort((a, b) => a.start - b.start);
+  return events;
+}
+
+function parseICSDate(str) {
+  // Handle: 20260324T151500Z or 20260324T151500
+  const m = str.match(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/);
+  if (!m) return new Date(0);
+  const [, y, mo, d, h, mi, s] = m;
+  // Assume UTC (Z suffix in KubeCon data)
+  return new Date(Date.UTC(+y, +mo - 1, +d, +h, +mi, +s));
+}
+
+function unescapeICS(str) {
+  return str
+    .replace(/\\n/g, '\n')
+    .replace(/\\,/g, ',')
+    .replace(/\\;/g, ';')
+    .replace(/\\N/g, '\n')
+    .replace(/&nbsp;?/g, ' ')
+    .replace(/&amp;/g, '&')
+    .trim();
+}
+
+// =============================================
+// FORMAT HELPERS
+// =============================================
+function fmtTime(date) {
+  return date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+
+function fmtTimeRange(start, end) {
+  return fmtTime(start) + (end ? ' – ' + fmtTime(end) : '');
+}
+
+function fmtDayLabel(dateStr) {
+  // dateStr = YYYYMMDD
+  const d = new Date(dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8) + 'T12:00:00Z');
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return days[d.getUTCDay()] + ' ' + months[d.getUTCMonth()] + ' ' + d.getUTCDate();
+}
+
+function getTodayKey() {
+  const now = NOW();
+  // Use local time to determine "today"
+  const parts = now.toLocaleDateString('en-CA').split('-');
+  return parts.join('');
+}
+
+// =============================================
+// SVG ICONS (inline)
+// =============================================
+const ICON = {
+  clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+  tag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>',
+  calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+};
+
+// =============================================
+// LOAD DATA
+// =============================================
+async function loadManifest() {
+  try {
+    const res = await fetch(ICS_BASE_PATH + 'manifest.json');
+    availableDays = await res.json();
+  } catch (e) {
+    // Fallback: try known days
+    availableDays = [
+      { date: '20260322', file: '20260322.ics' },
+      { date: '20260323', file: '20260323.ics' },
+      { date: '20260324', file: '20260324.ics' },
+      { date: '20260325', file: '20260325.ics' },
+      { date: '20260326', file: '20260326.ics' },
+      { date: '20260327', file: '20260327.ics' },
+    ];
+  }
+  renderDayTabs();
+}
+
+async function loadDay(dateKey) {
+  currentDayKey = dateKey;
+  const container = document.getElementById('viewUpcoming');
+  container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading schedule...</p></div>';
+
+  try {
+    const res = await fetch(ICS_BASE_PATH + dateKey + '.ics');
+    if (!res.ok) throw new Error('No data for this day');
+    const text = await res.text();
+    allEvents = parseICS(text);
+  } catch (e) {
+    allEvents = [];
+  }
+
+  // Update active tab
+  document.querySelectorAll('.day-tab').forEach(t => t.classList.toggle('active', t.dataset.date === dateKey));
+
+  renderCurrentView();
+}
+
+// =============================================
+// DAY TABS
+// =============================================
+function renderDayTabs() {
+  const todayKey = getTodayKey();
+  const tabsEl = document.getElementById('dayTabs');
+
+  tabsEl.innerHTML = availableDays.map(d =>
+    `<button class="day-tab ${d.date === todayKey ? 'today' : ''}" data-date="${d.date}" onclick="selectDay('${d.date}')">${fmtDayLabel(d.date)}</button>`
+  ).join('');
+
+  // Auto-select today if available, otherwise first day
+  const startDay = availableDays.find(d => d.date === todayKey) || availableDays[0];
+  if (startDay) selectDay(startDay.date);
+}
+
+function selectDay(dateKey) {
+  loadDay(dateKey);
+}
+
+// =============================================
+// VIEW SWITCHING
+// =============================================
+function switchView(view) {
+  currentView = view;
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  document.getElementById('viewUpcoming').style.display = view === 'upcoming' ? '' : 'none';
+  document.getElementById('viewSchedule').style.display = view === 'schedule' ? '' : 'none';
+  document.getElementById('viewAll').style.display = view === 'all' ? '' : 'none';
+  renderCurrentView();
+}
+
+function renderCurrentView() {
+  switch (currentView) {
+    case 'upcoming': renderUpcoming(); break;
+    case 'schedule': renderSchedule(); break;
+    case 'all': renderAllTalks(); break;
+  }
+}
+
+// =============================================
+// UPCOMING VIEW (swipeable cards)
+// =============================================
+function getAllTimeSlots() {
+  // Group events by start time
+  const slots = {};
+  for (const ev of allEvents) {
+    const key = ev.start.getTime();
+    if (!slots[key]) slots[key] = [];
+    slots[key].push(ev);
+  }
+  const sortedSlotTimes = Object.keys(slots).map(Number).sort((a, b) => a - b);
+  return { slots, sortedSlotTimes };
+}
+
+function getUpcomingEvents() {
+  const now = NOW();
+  const windowStart = new Date(now.getTime() - 5 * 60000); // 5 min grace
+  const windowEnd = new Date(now.getTime() + UPCOMING_WINDOW_MINUTES * 60000);
+  const { slots, sortedSlotTimes } = getAllTimeSlots();
+
+  // 1) Find slots STARTING within the window (now-5min .. now+15min)
+  //    This is the primary match: talks about to start or just started
+  for (const t of sortedSlotTimes) {
+    const slotStart = new Date(t);
+    if (slotStart >= windowStart && slotStart <= windowEnd) {
+      return { slotStart, events: slots[t] };
+    }
+  }
+
+  // 2) Find the NEXT upcoming slot (starts after now)
+  for (const t of sortedSlotTimes) {
+    if (t > now.getTime()) {
+      return { slotStart: new Date(t), events: slots[t], isFuture: true };
+    }
+  }
+
+  return null;
+}
+
+function renderUpcoming() {
+  const container = document.getElementById('viewUpcoming');
+  const result = getUpcomingEvents();
+
+  if (!allEvents.length) {
+    container.innerHTML = `
+      <div class="empty-state">
+        ${ICON.calendar}
+        <h2>No events</h2>
+        <p>No events found for this day. Try selecting a different day.</p>
+      </div>`;
+    return;
+  }
+
+  if (!result) {
+    container.innerHTML = `
+      <div class="empty-state">
+        ${ICON.clock}
+        <h2>All done for today!</h2>
+        <p>No more upcoming talks. Check back tomorrow or browse all talks.</p>
+      </div>
+      <button class="refresh-btn" onclick="renderUpcoming()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+        Refresh
+      </button>`;
+    return;
+  }
+
+  const { slotStart, events, isFuture } = result;
+  const timeLabel = fmtTime(slotStart);
+  const statusMsg = isFuture
+    ? `Next batch starts at ${timeLabel}`
+    : `Starting now — ${events.length} talk${events.length > 1 ? 's' : ''}`;
+
+  container.innerHTML = `
+    <div class="slot-header">
+      <span class="slot-time">${timeLabel}</span>
+      <span class="slot-count">${events.length} talk${events.length > 1 ? 's' : ''}</span>
+    </div>
+    <p class="slot-info">${statusMsg}</p>
+    <div class="card-stack" id="cardStack"></div>
+    <div class="swipe-hint">
+      <span style="color:var(--red)">← Skip</span>
+      <span style="color:var(--green)">Pick →</span>
+    </div>
+    <button class="refresh-btn" onclick="renderUpcoming()" style="margin-top:20px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+      Refresh
+    </button>`;
+
+  renderCardStack(events);
+}
+
+function renderCardStack(events) {
+  const stack = document.getElementById('cardStack');
+  if (!stack) return;
+  stack.innerHTML = '';
+
+  // Render top 3 cards (reversed so first is on top)
+  const visible = events.slice(0, 3).reverse();
+  for (const ev of visible) {
+    const card = createCard(ev);
+    stack.appendChild(card);
+  }
+
+  // Remaining events stored as data
+  stack._events = [...events];
+  stack._currentIndex = 0;
+
+  if (events.length > 0) {
+    setupSwipe(stack);
+  }
+}
+
+function createCard(ev) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.dataset.uid = ev.uid;
+
+  const isPicked = selectedUIDs.has(ev.uid);
+  const descShort = ev.description.length > 300 ? ev.description.slice(0, 300) + '…' : ev.description;
+
+  card.innerHTML = `
+    <div class="swipe-indicator left">SKIP</div>
+    <div class="swipe-indicator right">PICK ✓</div>
+    <div class="card-category">${ev.categories || ''}</div>
+    <div class="card-title">${escHTML(ev.summary)}</div>
+    <div class="card-meta">
+      <div class="card-meta-item">${ICON.clock}<span>${fmtTimeRange(ev.start, ev.end)}</span></div>
+      <div class="card-meta-item">${ICON.pin}<span>${escHTML(ev.location || 'TBA')}</span></div>
+    </div>
+    <div class="card-desc">${escHTML(descShort)}</div>
+  `;
+
+  // Tap to open detail modal
+  card.addEventListener('click', (e) => {
+    if (!card._dragged) openModal(ev);
+  });
+
+  return card;
+}
+
+// =============================================
+// SWIPE MECHANICS
+// =============================================
+function setupSwipe(stack) {
+  const topCard = () => stack.lastElementChild;
+
+  let startX = 0, startY = 0, currentX = 0, isDragging = false;
+
+  function onStart(e) {
+    const card = topCard();
+    if (!card) return;
+    isDragging = true;
+    card._dragged = false;
+    card.classList.add('dragging');
+    const touch = e.touches ? e.touches[0] : e;
+    startX = touch.clientX;
+    startY = touch.clientY;
+    currentX = 0;
+  }
+
+  function onMove(e) {
+    if (!isDragging) return;
+    const card = topCard();
+    if (!card) return;
+    const touch = e.touches ? e.touches[0] : e;
+    currentX = touch.clientX - startX;
+    const rotate = currentX * 0.08;
+
+    card.style.transform = `translateX(${currentX}px) rotate(${rotate}deg)`;
+
+    // Show swipe indicators
+    const leftInd = card.querySelector('.swipe-indicator.left');
+    const rightInd = card.querySelector('.swipe-indicator.right');
+    if (currentX < -40) {
+      leftInd.style.opacity = Math.min(1, (-currentX - 40) / 60);
+      rightInd.style.opacity = 0;
+    } else if (currentX > 40) {
+      rightInd.style.opacity = Math.min(1, (currentX - 40) / 60);
+      leftInd.style.opacity = 0;
+    } else {
+      leftInd.style.opacity = 0;
+      rightInd.style.opacity = 0;
+    }
+
+    if (Math.abs(currentX) > 10) card._dragged = true;
+  }
+
+  function onEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    const card = topCard();
+    if (!card) return;
+    card.classList.remove('dragging');
+
+    const threshold = 80;
+
+    if (currentX > threshold) {
+      // Swiped right → PICK
+      animateOff(card, 1);
+      const uid = card.dataset.uid;
+      if (!selectedUIDs.has(uid)) {
+        selectedUIDs.add(uid);
+        savePicks();
+      }
+    } else if (currentX < -threshold) {
+      // Swiped left → SKIP
+      animateOff(card, -1);
+    } else {
+      // Snap back
+      card.style.transform = '';
+      card.querySelector('.swipe-indicator.left').style.opacity = 0;
+      card.querySelector('.swipe-indicator.right').style.opacity = 0;
+    }
+  }
+
+  function animateOff(card, direction) {
+    card.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+    card.style.transform = `translateX(${direction * 400}px) rotate(${direction * 30}deg)`;
+    card.style.opacity = '0';
+    card.style.visibility = 'visible';
+    card.style.zIndex = '10';
+
+    setTimeout(() => {
+      card.remove();
+      stack._currentIndex++;
+
+      // Add next card from the queue
+      const nextIdx = stack._currentIndex + 2; // show 3 ahead
+      if (nextIdx < stack._events.length) {
+        const newCard = createCard(stack._events[nextIdx]);
+        stack.insertBefore(newCard, stack.firstChild);
+      }
+      // Reset inline styles so CSS :nth-last-child selectors take over
+      updateStackPositions(stack);
+
+      // If all cards gone, show done message
+      if (!stack.children.length) {
+        stack.parentElement.querySelector('.swipe-hint').style.display = 'none';
+        stack.innerHTML = `
+          <div class="empty-state" style="position:relative">
+            <h2>All reviewed! 🎉</h2>
+            <p>You've gone through all talks in this slot. Hit Refresh to check the next time slot, or check My Picks.</p>
+          </div>`;
+      }
+    }, 300);
+  }
+
+  function updateStackPositions(stack) {
+    // CSS handles stacking via :nth-last-child selectors.
+    // Just reset inline styles so CSS takes over.
+    [...stack.children].forEach(c => {
+      c.style.transform = '';
+      c.style.opacity = '';
+      c.style.visibility = '';
+      c.style.zIndex = '';
+    });
+  }
+
+  stack.addEventListener('touchstart', onStart, { passive: true });
+  stack.addEventListener('touchmove', onMove, { passive: true });
+  stack.addEventListener('touchend', onEnd);
+  // Mouse fallback for testing
+  stack.addEventListener('mousedown', onStart);
+  stack.addEventListener('mousemove', onMove);
+  stack.addEventListener('mouseup', onEnd);
+  stack.addEventListener('mouseleave', onEnd);
+}
+
+// =============================================
+// MY PICKS VIEW
+// =============================================
+function renderSchedule() {
+  const container = document.getElementById('viewSchedule');
+
+  // Get selected events for the current day
+  const picked = allEvents.filter(ev => selectedUIDs.has(ev.uid));
+  picked.sort((a, b) => a.start - b.start);
+
+  if (!picked.length) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="64" height="64"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        <h2>No picks yet</h2>
+        <p>Swipe right on talks in the "Now" view to add them here.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = '<h2 style="font-size:18px;margin-bottom:12px">My Picks – ' + fmtDayLabel(currentDayKey) + '</h2>' +
+    picked.map(ev => `
+      <div class="schedule-item" onclick="openModal(getEventByUID('${ev.uid}'))">
+        <div class="si-time">${fmtTimeRange(ev.start, ev.end)}</div>
+        <div class="si-title">${escHTML(ev.summary)}</div>
+        <div class="si-location">${escHTML(ev.location || 'TBA')}</div>
+        <div class="si-actions">
+          <button class="si-remove" onclick="event.stopPropagation(); removePick('${ev.uid}')">Remove</button>
+        </div>
+      </div>
+    `).join('');
+}
+
+function removePick(uid) {
+  selectedUIDs.delete(uid);
+  savePicks();
+  renderSchedule();
+}
+
+function getEventByUID(uid) {
+  return allEvents.find(ev => ev.uid === uid);
+}
+
+// =============================================
+// ALL TALKS VIEW (timeline with carousels)
+// =============================================
+let _carousels = []; // track carousel state so we can restore positions
+
+function renderAllTalks() {
+  const container = document.getElementById('viewAll');
+
+  if (!allEvents.length) {
+    container.innerHTML = `<div class="empty-state"><h2>No events</h2><p>No events for this day.</p></div>`;
+    return;
+  }
+
+  // Group by time slot
+  const slots = {};
+  for (const ev of allEvents) {
+    const key = ev.start.getTime();
+    if (!slots[key]) slots[key] = { time: ev.start, events: [] };
+    slots[key].events.push(ev);
+  }
+
+  const sorted = Object.entries(slots).sort((a, b) => a[1].time - b[1].time);
+  _carousels = [];
+
+  let html = `<div class="filter-bar"><input type="text" id="searchInput" placeholder="Search talks..." oninput="filterAllTalks()"></div>`;
+  html += '<div id="allTalksList">';
+
+  for (const [key, slot] of sorted) {
+    const timeStr = fmtTime(slot.time);
+    const count = slot.events.length;
+    const slotId = 'slot_' + key;
+
+    html += `<div class="all-slot" data-time="${timeStr}" data-slotid="${slotId}">`;
+    html += `<div class="all-slot-time"><span class="slot-label">${timeStr}</span><span class="slot-badge">${count} talk${count > 1 ? 's' : ''}</span></div>`;
+
+    if (count === 1) {
+      // Single event — just show it directly, no carousel needed
+      const ev = slot.events[0];
+      const picked = selectedUIDs.has(ev.uid);
+      html += renderCarouselCard(ev, picked);
+    } else {
+      // Multiple events — carousel
+      html += `<div class="carousel-wrap" id="${slotId}">`;
+      html += `<div class="carousel-track">`;
+      for (const ev of slot.events) {
+        const picked = selectedUIDs.has(ev.uid);
+        html += renderCarouselCard(ev, picked);
+      }
+      html += `</div></div>`;
+      // dots
+      html += `<div class="carousel-dots" id="${slotId}_dots">`;
+      for (let i = 0; i < count; i++) {
+        const ev = slot.events[i];
+        const hasPick = selectedUIDs.has(ev.uid) ? ' has-pick' : '';
+        html += `<div class="dot${hasPick}" data-i="${i}"></div>`;
+      }
+      html += `</div>`;
+
+      _carousels.push({ id: slotId, events: slot.events, count });
+    }
+    html += '</div>';
+  }
+  html += '</div>';
+  container.innerHTML = html;
+
+  // Initialize carousels
+  for (const c of _carousels) {
+    initCarousel(c);
+  }
+}
+
+function renderCarouselCard(ev, picked) {
+  const pickBadge = picked ? `<div class="cc-pick-badge">\u2713 My Pick</div>` : '';
+  const pickedClass = picked ? ' picked' : '';
+  const descShort = (ev.description || '').length > 200 ? ev.description.slice(0, 200) + '\u2026' : (ev.description || '');
+  return `
+    <div class="carousel-card${pickedClass}" data-uid="${ev.uid}" onclick="openModal(getEventByUID('${ev.uid}'))">
+      <div class="cc-category">${escHTML(ev.categories || '')}</div>
+      <div class="cc-title">${escHTML(ev.summary)}</div>
+      <div class="cc-meta">
+        <div class="cc-meta-item">${ICON.clock}<span>${fmtTimeRange(ev.start, ev.end)}</span></div>
+        <div class="cc-meta-item">${ICON.pin}<span>${escHTML(ev.location || 'TBA')}</span></div>
+      </div>
+      <div class="cc-desc">${escHTML(descShort)}</div>
+      ${pickBadge}
+    </div>`;
+}
+
+function initCarousel(c) {
+  const wrap = document.getElementById(c.id);
+  if (!wrap) return;
+  const track = wrap.querySelector('.carousel-track');
+  const dots = document.getElementById(c.id + '_dots');
+  const allDots = dots ? [...dots.querySelectorAll('.dot')] : [];
+
+  // Start at picked event if any, otherwise index 0
+  let currentIdx = 0;
+  for (let i = 0; i < c.events.length; i++) {
+    if (selectedUIDs.has(c.events[i].uid)) { currentIdx = i; break; }
+  }
+
+  let startX = 0, moveX = 0, isDragging = false;
+
+  function goTo(idx) {
+    // Endless loop
+    if (idx < 0) idx = c.count - 1;
+    if (idx >= c.count) idx = 0;
+    currentIdx = idx;
+    track.style.transition = 'transform 0.3s ease';
+    track.style.transform = `translateX(-${currentIdx * 100}%)`;
+    updateDots();
+  }
+
+  function updateDots() {
+    allDots.forEach((d, i) => d.classList.toggle('active', i === currentIdx));
+  }
+
+  // Initial position
+  track.style.transform = `translateX(-${currentIdx * 100}%)`;
+  updateDots();
+
+  // Touch swipe
+  wrap.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    startX = e.touches[0].clientX;
+    moveX = 0;
+    track.style.transition = 'none';
+    track._tapped = false;
+  }, { passive: true });
+
+  wrap.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    moveX = e.touches[0].clientX - startX;
+    const offset = -currentIdx * wrap.offsetWidth + moveX;
+    track.style.transform = `translateX(${offset}px)`;
+    if (Math.abs(moveX) > 8) track._tapped = true;
+  }, { passive: true });
+
+  wrap.addEventListener('touchend', () => {
+    if (!isDragging) return;
+    isDragging = false;
+    const threshold = wrap.offsetWidth * 0.2;
+    if (moveX < -threshold) {
+      goTo(currentIdx + 1);
+    } else if (moveX > threshold) {
+      goTo(currentIdx - 1);
+    } else {
+      goTo(currentIdx); // snap back
+    }
+  });
+
+  // Mouse fallback
+  wrap.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    moveX = 0;
+    track.style.transition = 'none';
+    track._tapped = false;
+    e.preventDefault();
+  });
+  wrap.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    moveX = e.clientX - startX;
+    const offset = -currentIdx * wrap.offsetWidth + moveX;
+    track.style.transform = `translateX(${offset}px)`;
+    if (Math.abs(moveX) > 8) track._tapped = true;
+  });
+  wrap.addEventListener('mouseup', () => {
+    if (!isDragging) return;
+    isDragging = false;
+    const threshold = wrap.offsetWidth * 0.2;
+    if (moveX < -threshold) {
+      goTo(currentIdx + 1);
+    } else if (moveX > threshold) {
+      goTo(currentIdx - 1);
+    } else {
+      goTo(currentIdx);
+    }
+  });
+  wrap.addEventListener('mouseleave', () => {
+    if (isDragging) {
+      isDragging = false;
+      goTo(currentIdx);
+    }
+  });
+}
+
+function filterAllTalks() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  if (!q) {
+    // Reset: show all slots
+    document.querySelectorAll('#allTalksList .all-slot').forEach(s => s.style.display = '');
+    return;
+  }
+  // For each slot, check if any card matches
+  document.querySelectorAll('#allTalksList .all-slot').forEach(slot => {
+    const cards = slot.querySelectorAll('.carousel-card');
+    let hasMatch = false;
+    cards.forEach(card => {
+      if (card.textContent.toLowerCase().includes(q)) hasMatch = true;
+    });
+    slot.style.display = hasMatch ? '' : 'none';
+  });
+}
+
+// =============================================
+// DETAIL MODAL
+// =============================================
+function openModal(ev) {
+  if (!ev) return;
+  const overlay = document.getElementById('modalOverlay');
+  const modal = document.getElementById('modal');
+  const isPicked = selectedUIDs.has(ev.uid);
+
+  modal.innerHTML = `
+    <div class="modal-handle"></div>
+    <div class="modal-category">${escHTML(ev.categories || '')}</div>
+    <div class="modal-title">${escHTML(ev.summary)}</div>
+    <div class="modal-meta">
+      <div class="modal-meta-item">${ICON.clock}<span>${fmtTimeRange(ev.start, ev.end)}</span></div>
+      <div class="modal-meta-item">${ICON.pin}<span>${escHTML(ev.location || 'TBA')}</span></div>
+    </div>
+    <div class="modal-desc">${escHTML(ev.description || 'No description available.')}</div>
+    ${ev.url ? `<a class="modal-url" href="${ev.url}" target="_blank" rel="noopener">View on sched.com →</a>` : ''}
+    <div class="modal-actions">
+      ${isPicked
+        ? `<button class="btn-remove" onclick="togglePickAndRefresh('${ev.uid}')">Remove Pick</button>`
+        : `<button class="btn-select" onclick="togglePickAndRefresh('${ev.uid}')">Pick This Talk</button>`
+      }
+      <button class="btn-close-modal" onclick="closeModal()">Close</button>
+    </div>
+  `;
+
+  overlay.classList.add('open');
+
+  // Close on overlay tap
+  overlay.onclick = (e) => {
+    if (e.target === overlay) closeModal();
+  };
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function togglePickAndRefresh(uid) {
+  togglePick(uid);
+  closeModal();
+  renderCurrentView();
+}
+
+// =============================================
+// UTIL
+// =============================================
+function escHTML(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+// =============================================
+// INIT
+// =============================================
+loadManifest();
+</script>
+</body>
+</html>

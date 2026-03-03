@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:kccnceu2026
+X-WR-CALDESC:Event Calendar
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+PRODID:-//Sched.com KubeCon + CloudNativeCon Europe 2026//EN
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTSTAMP:20260303T114022Z
+DTSTART:20260327T080000Z
+DTEND:20260327T150000Z
+SUMMARY:AI Native Summit Hosted by ETSI ISG NFV | SEPARATE REGISTRATION REQUIRED
+DESCRIPTION:CNCF has lead the revolution of cloud native for IT industry\, telecommunication also has follow this direction after CNCF issued the definition of cloud native\, organization like ETSI NFV ISG followed CNCF’s flagship in this direction. The global telecom operators have deployed their 5G network with cloud native vision.\n\nWith the rapid growth of AI/ML\, cloud-native technology offers a scalable\, reliable\, and standardized platform for modern applications. Beyond just infrastructure\, CNCF is proactively defining and leading the "AI-Native" paradigm through open standards and projects\, ensuring future software development is on the right track to efficiently leverage artificial intelligence at scale.\n\nOn Mar 27th\, 2026\, &nbsp\;ETSI NFV ISG would like to gather leading global AI native enthusiasm in Amsterdam during the KubeCon + CloudNativeCon Europe 2026 and organize AI Native Summit. You are cordially invited to this open session. Your attendance will be highly anticipated.\n\n\nPlease note that this is an off-site Sponsor-hosted Co-located event.\n\nFor questions regarding the event\, please contact: denghui02@hotmail.com&nbsp\;
+CATEGORIES:SPONSOR-HOSTED CO-LOCATED EVENT
+LOCATION:Van der Valk Hotel Amsterdam – Zuidas\, Tommaso Albinonistraat 200\, 1083 HM Amsterdam
+SEQUENCE:0
+UID:3f4a912669133f4822df258cd20b6bab
+URL:http://kccnceu2026.sched.com/event/3f4a912669133f4822df258cd20b6bab
+END:VEVENT
+END:VCALENDAR
