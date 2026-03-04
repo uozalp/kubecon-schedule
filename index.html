@@ -960,8 +960,6 @@ async function loadManifest() {
 
 async function loadDay(dateKey) {
   currentDayKey = dateKey;
-  const container = document.getElementById('viewUpcoming');
-  container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading schedule...</p></div>';
 
   try {
     const res = await fetch(ICS_BASE_PATH + dateKey + '.ics');
@@ -975,7 +973,8 @@ async function loadDay(dateKey) {
   // Update active tab
   document.querySelectorAll('.day-tab').forEach(t => t.classList.toggle('active', t.dataset.date === dateKey));
 
-  renderCurrentView();
+  // Use switchView so the correct div is made visible
+  switchView(currentView);
 }
 
 // =============================================
