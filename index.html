@@ -695,6 +695,7 @@
 </div>
 
 <!-- MAIN VIEWS -->
+<div class="content" id="viewNow" style="display:none"></div>
 <div class="content" id="viewUpcoming" style="display:none"></div>
 <div class="content" id="viewSchedule" style="display:none"></div>
 <div class="content" id="viewAll" style="display:none"></div>
@@ -706,9 +707,13 @@
 
 <!-- BOTTOM NAV -->
 <div class="bottom-nav">
-  <button class="nav-btn active" data-view="upcoming" onclick="switchView('upcoming')">
+  <button class="nav-btn active" data-view="now" onclick="switchView('now')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
     <span>Now</span>
+  </button>
+  <button class="nav-btn" data-view="upcoming" onclick="switchView('upcoming')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+    <span>Discover</span>
   </button>
   <button class="nav-btn" data-view="all" onclick="switchView('all')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
@@ -798,7 +803,7 @@ let allEvents = [];        // all events for selected day
 let currentDayKey = '';     // YYYYMMDD
 let availableDays = [];     // from manifest
 let selectedUIDs = new Set(JSON.parse(localStorage.getItem('kubecon_picks') || '[]'));
-let currentView = 'upcoming';
+let currentView = 'now';
 
 // =============================================
 // CLOCK
@@ -999,22 +1004,93 @@ function selectDay(dateKey) {
 function switchView(view) {
   currentView = view;
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  document.getElementById('viewNow').style.display = view === 'now' ? '' : 'none';
   document.getElementById('viewUpcoming').style.display = view === 'upcoming' ? '' : 'none';
   document.getElementById('viewSchedule').style.display = view === 'schedule' ? '' : 'none';
   document.getElementById('viewAll').style.display = view === 'all' ? '' : 'none';
+  // Hide day tabs on Now view (it uses current time across all loaded days)
+  document.getElementById('dayTabs').style.display = view === 'now' ? 'none' : '';
   renderCurrentView();
 }
 
 function renderCurrentView() {
   switch (currentView) {
-    case 'upcoming': renderUpcoming(); break;
+    case 'now': renderNow(); break;
+    case 'upcoming': renderDiscover(); break;
     case 'schedule': renderSchedule(); break;
     case 'all': renderAllTalks(); break;
   }
 }
 
 // =============================================
-// UPCOMING VIEW (swipeable cards)
+// NOW VIEW (simple live list, no day selector)
+// =============================================
+function renderNow() {
+  const container = document.getElementById('viewNow');
+  const now = NOW();
+  const windowEnd = new Date(now.getTime() + UPCOMING_WINDOW_MINUTES * 60000);
+  const windowStart = new Date(now.getTime() - 5 * 60000); // 5 min grace
+
+  // Collect events from currently loaded day
+  const upcoming = allEvents.filter(ev => ev.start >= windowStart && ev.start <= windowEnd);
+  upcoming.sort((a, b) => a.start - b.start);
+
+  if (!upcoming.length) {
+    // Find next event on the loaded day
+    const next = allEvents.filter(ev => ev.start > now).sort((a, b) => a.start - b.start)[0];
+    const nextMsg = next
+      ? `Next up at ${fmtTime(next.start)}`
+      : 'No more talks today';
+    container.innerHTML = `
+      <div class="empty-state">
+        ${ICON.clock}
+        <h2>Nothing starting soon</h2>
+        <p>${nextMsg}</p>
+      </div>
+      <button class="refresh-btn" onclick="renderNow()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+        Refresh
+      </button>`;
+    return;
+  }
+
+  let html = `<h2 style="font-size:18px;margin-bottom:4px">Starting now</h2>`;
+  html += `<p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">Talks starting within the next ${UPCOMING_WINDOW_MINUTES} minutes</p>`;
+
+  // Group by start time
+  const slots = {};
+  for (const ev of upcoming) {
+    const key = ev.start.getTime();
+    if (!slots[key]) slots[key] = { time: ev.start, events: [] };
+    slots[key].events.push(ev);
+  }
+  for (const [, slot] of Object.entries(slots).sort((a,b) => a[1].time - b[1].time)) {
+    html += `<div class="timeline-slot">`;
+    html += `<div class="timeline-time">${fmtTime(slot.time)}</div>`;
+    html += `<div class="timeline-events">`;
+    for (const ev of slot.events) {
+      const picked = selectedUIDs.has(ev.uid);
+      html += `
+        <div class="timeline-event${picked ? ' selected' : ''}" onclick="openModal(getEventByUID('${ev.uid}'))">
+          <div class="te-category">${escHTML(ev.categories || '')}</div>
+          <div class="te-title">${escHTML(ev.summary)}</div>
+          <div class="te-loc">${escHTML(ev.location || 'TBA')}</div>
+          ${picked ? '<div style="font-size:11px;color:var(--green);margin-top:4px;font-weight:600">✓ My Pick</div>' : ''}
+        </div>`;
+    }
+    html += `</div></div>`;
+  }
+
+  html += `<button class="refresh-btn" onclick="renderNow()" style="margin-top:8px">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+    Refresh
+  </button>`;
+
+  container.innerHTML = html;
+}
+
+// =============================================
+// DISCOVER VIEW (swipeable cards for all day events)
 // =============================================
 function getAllTimeSlots() {
   // Group events by start time
@@ -1053,9 +1129,8 @@ function getUpcomingEvents() {
   return null;
 }
 
-function renderUpcoming() {
+function renderDiscover() {
   const container = document.getElementById('viewUpcoming');
-  const result = getUpcomingEvents();
 
   if (!allEvents.length) {
     container.innerHTML = `
@@ -1067,43 +1142,20 @@ function renderUpcoming() {
     return;
   }
 
-  if (!result) {
-    container.innerHTML = `
-      <div class="empty-state">
-        ${ICON.clock}
-        <h2>All done for today!</h2>
-        <p>No more upcoming talks. Check back tomorrow or browse all talks.</p>
-      </div>
-      <button class="refresh-btn" onclick="renderUpcoming()">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
-        Refresh
-      </button>`;
-    return;
-  }
-
-  const { slotStart, events, isFuture } = result;
-  const timeLabel = fmtTime(slotStart);
-  const statusMsg = isFuture
-    ? `Next batch starts at ${timeLabel}`
-    : `Starting now — ${events.length} talk${events.length > 1 ? 's' : ''}`;
-
+  const total = allEvents.length;
   container.innerHTML = `
     <div class="slot-header">
-      <span class="slot-time">${timeLabel}</span>
-      <span class="slot-count">${events.length} talk${events.length > 1 ? 's' : ''}</span>
+      <span class="slot-time">Discover</span>
+      <span class="slot-count">${total} talks</span>
     </div>
-    <p class="slot-info">${statusMsg}</p>
+    <p class="slot-info">Swipe right to pick, left to skip</p>
     <div class="card-stack" id="cardStack"></div>
     <div class="swipe-hint">
       <span style="color:var(--red)">← Skip</span>
       <span style="color:var(--green)">Pick →</span>
-    </div>
-    <button class="refresh-btn" onclick="renderUpcoming()" style="margin-top:20px">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
-      Refresh
-    </button>`;
+    </div>`;
 
-  renderCardStack(events);
+  renderCardStack(allEvents);
 }
 
 function renderCardStack(events) {
@@ -1255,8 +1307,8 @@ function setupSwipe(stack) {
         stack.parentElement.querySelector('.swipe-hint').style.display = 'none';
         stack.innerHTML = `
           <div class="empty-state" style="position:relative">
-            <h2>All reviewed! 🎉</h2>
-            <p>You've gone through all talks in this slot. Hit Refresh to check the next time slot, or check My Picks.</p>
+            <h2>All done! 🎉</h2>
+            <p>You've gone through all talks for this day. Check My Picks to see what you saved.</p>
           </div>`;
       }
     }, 300);
@@ -1303,20 +1355,40 @@ function renderSchedule() {
     return;
   }
 
-  container.innerHTML = '<h2 style="font-size:18px;margin-bottom:12px">My Picks – ' + fmtDayLabel(currentDayKey) + '</h2>' +
-    picked.map(ev => `
-      <div class="schedule-item" onclick="openModal(getEventByUID('${ev.uid}'))">
-        <div class="si-time">${fmtTimeRange(ev.start, ev.end)}</div>
-        <div class="si-title">${escHTML(ev.summary)}</div>
-        <div class="si-location">${escHTML(ev.location || 'TBA')}</div>
-        <div class="si-actions">
-          <button class="si-remove" onclick="event.stopPropagation(); removePick('${ev.uid}')">Remove</button>
-        </div>
-      </div>
-    `).join('');
+  // Group by start time
+  const slots = {};
+  for (const ev of picked) {
+    const key = ev.start.getTime();
+    if (!slots[key]) slots[key] = { time: ev.start, events: [] };
+    slots[key].events.push(ev);
+  }
+  const sorted = Object.entries(slots).sort((a, b) => Number(a[0]) - Number(b[0]));
+
+  let html = '<h2 style="font-size:18px;margin-bottom:16px">My Picks – ' + fmtDayLabel(currentDayKey) + '</h2>';
+  for (const [, slot] of sorted) {
+    const timeStr = fmtTime(slot.time);
+    const count = slot.events.length;
+    html += `<div class="timeline-slot">`;
+    html += `<div class="timeline-time">${timeStr}${count > 1 ? ` <span style="font-size:11px;color:var(--text-muted);font-weight:400">(${count} talks)</span>` : ''}</div>`;
+    html += `<div class="timeline-events">`;
+    for (const ev of slot.events) {
+      html += `
+        <div class="schedule-item" onclick="openModal(getEventByUID('${ev.uid}'))">
+          <div class="si-title">${escHTML(ev.summary)}</div>
+          <div class="si-location">${escHTML(ev.location || 'TBA')}</div>
+          <div class="si-actions">
+            <button class="si-remove" onclick="event.stopPropagation(); removePick('${ev.uid}')">Remove</button>
+          </div>
+        </div>`;
+    }
+    html += `</div></div>`;
+  }
+
+  container.innerHTML = html;
 }
 
 function removePick(uid) {
+  if (!confirm('Remove this talk from your picks?')) return;
   selectedUIDs.delete(uid);
   savePicks();
   renderSchedule();
@@ -1330,6 +1402,7 @@ function getEventByUID(uid) {
 // ALL TALKS VIEW (timeline with carousels)
 // =============================================
 let _carousels = []; // track carousel state so we can restore positions
+let _carouselPositions = {}; // remember last position per slot across re-renders
 
 function renderAllTalks() {
   const container = document.getElementById('viewAll');
@@ -1421,10 +1494,14 @@ function initCarousel(c) {
   const dots = document.getElementById(c.id + '_dots');
   const allDots = dots ? [...dots.querySelectorAll('.dot')] : [];
 
-  // Start at picked event if any, otherwise index 0
+  // Restore last navigated position; fall back to first pick on fresh load
   let currentIdx = 0;
-  for (let i = 0; i < c.events.length; i++) {
-    if (selectedUIDs.has(c.events[i].uid)) { currentIdx = i; break; }
+  if (_carouselPositions[c.id] !== undefined) {
+    currentIdx = _carouselPositions[c.id];
+  } else {
+    for (let i = 0; i < c.events.length; i++) {
+      if (selectedUIDs.has(c.events[i].uid)) { currentIdx = i; break; }
+    }
   }
 
   let startX = 0, moveX = 0, isDragging = false;
@@ -1434,6 +1511,7 @@ function initCarousel(c) {
     if (idx < 0) idx = c.count - 1;
     if (idx >= c.count) idx = 0;
     currentIdx = idx;
+    _carouselPositions[c.id] = idx; // remember last position
     track.style.transition = 'transform 0.3s ease';
     track.style.transform = `translateX(-${currentIdx * 100}%)`;
     updateDots();
@@ -1560,6 +1638,7 @@ function openModal(ev) {
   `;
 
   overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
 
   // Close on overlay tap
   overlay.onclick = (e) => {
@@ -1569,9 +1648,12 @@ function openModal(ev) {
 
 function closeModal() {
   document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 function togglePickAndRefresh(uid) {
+  const isRemoving = selectedUIDs.has(uid);
+  if (isRemoving && !confirm('Remove this talk from your picks?')) return;
   togglePick(uid);
   closeModal();
   renderCurrentView();
