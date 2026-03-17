@@ -7,7 +7,7 @@ CALSCALE:GREGORIAN
 PRODID:-//Sched.com KubeCon + CloudNativeCon Europe 2026//EN
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T060000Z
 DTEND:20260323T160000Z
 SUMMARY:Badge Pick-Up
@@ -19,7 +19,7 @@ UID:40f33590c1d410181a03e596a8634944
 URL:http://kccnceu2026.sched.com/event/40f33590c1d410181a03e596a8634944
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T060000Z
 DTEND:20260323T160000Z
 SUMMARY:Badge Pick-Up
@@ -31,7 +31,7 @@ UID:eff6ce4542df6351a727acc6b3a0fc8d
 URL:http://kccnceu2026.sched.com/event/eff6ce4542df6351a727acc6b3a0fc8d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T060000Z
 DTEND:20260323T180000Z
 SUMMARY:Cloakroom
@@ -43,7 +43,7 @@ UID:5c43f01b87d66ea339367bb670d763a5
 URL:http://kccnceu2026.sched.com/event/5c43f01b87d66ea339367bb670d763a5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T060000Z
 DTEND:20260323T180000Z
 SUMMARY:Cloakroom
@@ -55,11 +55,11 @@ UID:82b360c0e8486a4b2117f6b65f8d67c0
 URL:http://kccnceu2026.sched.com/event/82b360c0e8486a4b2117f6b65f8d67c0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T060000Z
 DTEND:20260323T133000Z
-SUMMARY:Red Hat OpenShift Commons Gathering | SEPARATE REGISTRATION REQUIRED
-DESCRIPTION:Join us in Amsterdam for a no-cost\, in-person OpenShift Commons Gathering alongside KubeCon + CloudNativeCon Europe. This event brings together the global open source community-including users\, contributors\, partners\, and Red Hat experts-to share knowledge\, build connections\, and learn from real production experiences.\nHear practitioner-driven talks on topics such as app modernization (including AI/ML)\, workload security\, VM migration\, GitOps\, edge\, and scaling OpenShift across hybrid and multi-cloud environments. Expect practical insights you can bring back to your team.\nPlease note that this is an off-site Sponsor-hosted Co-located event.\nFor more information on the event:&nbsp\;https://commons.openshift.org/events/openshift-commons-gathering-co-located-alongside-kubecon-cloudnativecon-europe-2026\n
+SUMMARY:[SOLD OUT] Red Hat OpenShift Commons Gathering | SEPARATE REGISTRATION REQUIRED
+DESCRIPTION:Join us in Amsterdam for a no-cost\, in-person OpenShift Commons Gathering alongside KubeCon + CloudNativeCon Europe. This event brings together the global open source community-including users\, contributors\, partners\, and Red Hat experts-to share knowledge\, build connections\, and learn from real production experiences.\nHear practitioner-driven talks on topics such as app modernization (including AI/ML)\, workload security\, VM migration\, GitOps\, edge\, and scaling OpenShift across hybrid and multi-cloud environments. Expect practical insights you can bring back to your team.\nPlease note that this is an off-site Sponsor-hosted Co-located event.\nFor more information on the event:&nbsp\;https://commons.openshift.org/events/openshift-commons-gathering-co-located-alongside-kubecon-cloudnativecon-europe-2026
 CATEGORIES:SPONSOR-HOSTED CO-LOCATED EVENT
 LOCATION:Strandzuid\, Europaplein 22 | 1078 GZ Amsterdam
 SEQUENCE:0
@@ -67,7 +67,7 @@ UID:acf43dd0462277c4a8bf78f08f905809
 URL:http://kccnceu2026.sched.com/event/acf43dd0462277c4a8bf78f08f905809
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T073000Z
 DTEND:20260323T110000Z
 SUMMARY:Hands-On Workshop to Accelerate Platform Engineering on Kubernetes Hosted by Amazon Web Services - AM SESSION | SEPARATE REGISTRATIONS REQUIRED
@@ -79,7 +79,7 @@ UID:2ae546040d9c69588b5308e6e48878fe
 URL:http://kccnceu2026.sched.com/event/2ae546040d9c69588b5308e6e48878fe
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:ArgoCon Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -91,7 +91,7 @@ UID:4d42f5380a0bec85d5f2fc5266fc33a4
 URL:http://kccnceu2026.sched.com/event/4d42f5380a0bec85d5f2fc5266fc33a4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:BackstageCon Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -103,7 +103,7 @@ UID:82db663beb017f1e9b7daceb6e2597c7
 URL:http://kccnceu2026.sched.com/event/82db663beb017f1e9b7daceb6e2597c7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:Cloud Native AI + Kubeflow Day Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -115,7 +115,7 @@ UID:d419a132ed0d81d65928b96a7cf00865
 URL:http://kccnceu2026.sched.com/event/d419a132ed0d81d65928b96a7cf00865
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:Cloud Native Telco Day Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -127,7 +127,7 @@ UID:c867a6f458931be56d7311f25992c96a
 URL:http://kccnceu2026.sched.com/event/c867a6f458931be56d7311f25992c96a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T113000Z
 SUMMARY:FluxCon Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -139,7 +139,7 @@ UID:4c4fcfa75bf892eafeb7e143d7cbb748
 URL:http://kccnceu2026.sched.com/event/4c4fcfa75bf892eafeb7e143d7cbb748
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T113000Z
 SUMMARY:KeycloakCon Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -151,7 +151,7 @@ UID:1468932b49df335837a86bafa884266c
 URL:http://kccnceu2026.sched.com/event/1468932b49df335837a86bafa884266c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T113000Z
 SUMMARY:Kubernetes on Edge Day Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -163,7 +163,7 @@ UID:9d4dfc43ce311afb0253c29136a25fd3
 URL:http://kccnceu2026.sched.com/event/9d4dfc43ce311afb0253c29136a25fd3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:Observability Day Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -175,7 +175,7 @@ UID:07e02718e7bd84bce98e4955181b3b5b
 URL:http://kccnceu2026.sched.com/event/07e02718e7bd84bce98e4955181b3b5b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:Open Source SecurityCon Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -187,7 +187,7 @@ UID:ce6c2e7f647747bc7bb9deb8577fef2f
 URL:http://kccnceu2026.sched.com/event/ce6c2e7f647747bc7bb9deb8577fef2f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T163000Z
 SUMMARY:Platform Engineering Day Hosted by CNCF - Full-Day Event | ALL ACCESS PASS REQUIRED
@@ -199,7 +199,7 @@ UID:acbf2d695e7950053de70e52d3c98ce5
 URL:http://kccnceu2026.sched.com/event/acbf2d695e7950053de70e52d3c98ce5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T113000Z
 SUMMARY:WasmCon Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -211,11 +211,11 @@ UID:4c9a0097ecfa42da28405459d9a28930
 URL:http://kccnceu2026.sched.com/event/4c9a0097ecfa42da28405459d9a28930
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T080500Z
-SUMMARY:Project Lightning Talk: Opening
-DESCRIPTION:
+SUMMARY:Project Lightning Talk: Opening/Intro - Robert Sirchia
+DESCRIPTION:\n
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -223,7 +223,7 @@ UID:03372697be37e7883f7c4578658eb5d1
 URL:http://kccnceu2026.sched.com/event/03372697be37e7883f7c4578658eb5d1
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T180000Z
 SUMMARY:KubeAuto Day: Making Kubernetes Smarter through AI-Driven Automation Hosted by Cast AI | SEPARATE REGISTRATION REQUIRED
@@ -235,7 +235,7 @@ UID:874b8ce7b3fdeefe649067a00b4c6d4d
 URL:http://kccnceu2026.sched.com/event/874b8ce7b3fdeefe649067a00b4c6d4d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080000Z
 DTEND:20260323T170000Z
 SUMMARY:Microsoft Azure Day with Kubernetes | SEPARATE REGISTRATION REQUIRED
@@ -247,11 +247,11 @@ UID:b71b3c798c161f352e0faf27b5136fa7
 URL:http://kccnceu2026.sched.com/event/b71b3c798c161f352e0faf27b5136fa7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T080700Z
 DTEND:20260323T082200Z
-SUMMARY:Project Lightning Talk: Project Overview
-DESCRIPTION:
+SUMMARY:Project Lightning Talk: A Curator’s Guide to the CNCF Landscape - Katherine Druckman
+DESCRIPTION:Step into the studio with two of the Netherlands’ most famous masters as we explore the CNCF Landscape like a gallery of modern technical masterpieces. Don your berets and join Rembrandt and Van Gogh as we paint a clearer picture of the CNCF ecosystem.\n\nWith more than 190 projects across the landscape\, discovering what each one does can feel a bit like wandering through an enormous museum without a guide. “Just go to the website” isn’t always enough. Sometimes you need a curator to point out the highlights\, explain the movements\, and help you see how the pieces fit together.\nIn this lightning session\, we’ll tour a selection of CNCF projects the way art historians might walk through a gallery\, highlighting the themes\, techniques\, and innovations that make them stand out. By the end\, you’ll have a clearer mental map of the landscape and be ready to navigate KubeCon like a seasoned collector.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -259,7 +259,7 @@ UID:badc2f5068822bfbcb061163f8214cdc
 URL:http://kccnceu2026.sched.com/event/badc2f5068822bfbcb061163f8214cdc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T082400Z
 DTEND:20260323T082900Z
 SUMMARY:Project Lightning Talk: Container2Wasm: Running Containers On Wasm Environments - Kohei Tokunaga\, Maintainer
@@ -271,7 +271,7 @@ UID:0412db5879c5a8120f89edf74e05bbbb
 URL:http://kccnceu2026.sched.com/event/0412db5879c5a8120f89edf74e05bbbb
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T083100Z
 DTEND:20260323T083600Z
 SUMMARY:Project Lightning Talk: How To Run Kubernetes Pods On My Slurm-Based HPC Center - Diego Ciangottini\, Maintainer
@@ -283,7 +283,7 @@ UID:61a435e6c06ded587040f1e178e60708
 URL:http://kccnceu2026.sched.com/event/61a435e6c06ded587040f1e178e60708
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T083800Z
 DTEND:20260323T084300Z
 SUMMARY:Project Lightning Talk: CNCF Sandbox Project K8Up Under The Hood - Aarno Aukia\, Maintainer
@@ -295,7 +295,7 @@ UID:190ad1fc49625145c6d0077d31aebf4a
 URL:http://kccnceu2026.sched.com/event/190ad1fc49625145c6d0077d31aebf4a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T084500Z
 DTEND:20260323T085000Z
 SUMMARY:Project Lightning Talk: Urunc: The New Kid In The Block Of Sandboxed Container Runtimes - Charalampos Mainas\, Maintainer
@@ -307,7 +307,7 @@ UID:92b54656e15b7ce90d59fd46a78dc623
 URL:http://kccnceu2026.sched.com/event/92b54656e15b7ce90d59fd46a78dc623
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T085200Z
 DTEND:20260323T085700Z
 SUMMARY:Project Lightning Talk: Translating Ebpf Into Business Value: Lessons From The Cilium Website - Bill Mulligan\, Maintainer
@@ -319,7 +319,7 @@ UID:3cbe2ccc300de7a246fe7a4735bdc763
 URL:http://kccnceu2026.sched.com/event/3cbe2ccc300de7a246fe7a4735bdc763
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T085900Z
 DTEND:20260323T090400Z
 SUMMARY:Project Lightning Talk: Finally Incubated! What Comes Next For Metal3?- Ádám Rozmán\, Maintainer
@@ -331,7 +331,7 @@ UID:0cb8499bce836d462cfd0f4043789a06
 URL:http://kccnceu2026.sched.com/event/0cb8499bce836d462cfd0f4043789a06
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T090600Z
 DTEND:20260323T091100Z
 SUMMARY:Project Lightning Talk: Beyond Guardrails: Resource Lifecycle Automation With Kyverno - Ammar Yasser\, Maintainer
@@ -343,22 +343,10 @@ UID:0f692f8371cb7f8435e99804a6613e07
 URL:http://kccnceu2026.sched.com/event/0f692f8371cb7f8435e99804a6613e07
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T091300Z
 DTEND:20260323T091800Z
-SUMMARY:Project Lightning Talk: Project Copacetic: Directly Patch Container Image Vulnerabilities - Ashna Mehrotra\, Maintainer
-DESCRIPTION:Maintaining secure container images and addressing new vulnerabilities quickly is a major challenge. To patch images\, end users face two options: wait for third-party authors to release updates\, which can take weeks\, or perform a full image rebuild\, a time and resource-intensive process. Project Copacetic (Copa) enhances the image patching process\, reducing turnaround time and complexity. It integrates easily into existing build infrastructure\, giving users greater control over their patching timeline and reducing costs. Copa scans container images using tools like Trivy to generate a vulnerability report and parses the report for necessary OS-level package updates. It applies these updates to the target image using Buildkit (Docker’s default builder) to create a new patch layer on the original image. Copa can even patch distroless images by leveraging external tooling. The talk will overview Copa\, highlighting new features and future improvements.
-CATEGORIES:PROJECT OPPORTUNITIES
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:2b08bef68305f79018c6d6ffc3bb0f67
-URL:http://kccnceu2026.sched.com/event/2b08bef68305f79018c6d6ffc3bb0f67
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T092000Z
-DTEND:20260323T092500Z
-SUMMARY:Project Lightning Talk: How To Add A New Language Feature To Opa - Charlie Egan\, Maintainer
+SUMMARY:Project Lightning Talk: How To Add A New Language Feature To OPA - Charlie Egan\, Maintainer
 DESCRIPTION:We'll share how we added string interpolation to Rego\, our policy language. Adding a language feature isn't like shipping a typical API update\, it touches everything from the parser to editor tooling. We'll break down what it takes to ship a feature like this in a mature security project while maintaining solid developer experience.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -367,9 +355,9 @@ UID:8aa5ad034885dc39fff800e22490188d
 URL:http://kccnceu2026.sched.com/event/8aa5ad034885dc39fff800e22490188d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T092700Z
-DTEND:20260323T093200Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T092000Z
+DTEND:20260323T092500Z
 SUMMARY:Project Lightning Talk: Forensics With Falco - Gerald Combs\, Maintainer
 DESCRIPTION:Falco has recently expanded its capabilities with capture recording\, opening the door to seamless integration with forensic analysis tools like Stratoshark. In this lightning talk\, Gerald will walk through how the two tools work together to provide deep visibility into container and system activity. He will demonstrate how captured event data can accelerate investigations and discuss key considerations for safely and efficiently deploying these features in production environments.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -379,11 +367,11 @@ UID:0ae77610ba71453a08f483acf89e03a6
 URL:http://kccnceu2026.sched.com/event/0ae77610ba71453a08f483acf89e03a6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T093400Z
-DTEND:20260323T093900Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T092700Z
+DTEND:20260323T093200Z
 SUMMARY:Project Lightning Talk: What’S New In Kairos\, 2026 Edition - Mauro Morales\, Maintainer
-DESCRIPTION:Kairos started as a framework that lets you take familiar Linux distributions like Ubuntu\, Fedora\, and more\, and turn them into immutable\, image-based operating systems for Kubernetes anywhere: edge\, cloud\, or on-prem. After years of pushing these distros to their limits\, we realized we’d learned enough to define what really matters for building dependable image-based systems. That’s why we took the next leap and built our own distribution: Hadron\, a lightweight musl + systemd Linux now in the CNCF. This update will introduce Hadron publicly and highlight everything new in Kairos since the last project session.
+DESCRIPTION:Kairos started as a framework that lets you take familiar Linux distributions like Ubuntu\, Fedora\, and more\, and turn them into immutable\, image-based operating systems for Kubernetes anywhere: edge\, cloud\, or on-prem. After years of pushing these distros to their limits\, we realized we’d learned enough to define what really matters for building dependable image-based systems. That’s why we took the next leap and built our own distribution: Hadron\, a lightweight musl + systemd Linux now in the CNCF.\n \n This update will introduce Hadron publicly and highlight everything new in Kairos since the last project session.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -391,9 +379,9 @@ UID:8e56eda1d20db414683ecdbcd445e2dd
 URL:http://kccnceu2026.sched.com/event/8e56eda1d20db414683ecdbcd445e2dd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T094100Z
-DTEND:20260323T094600Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T093400Z
+DTEND:20260323T093900Z
 SUMMARY:Project Lightning Talk: A Maintainer’s Tour Of Tag Security And Compliance - Marina Moore\, Research Scientist
 DESCRIPTION:Join us on a journey to improve the security of cloud native! The Technical Advisory Group (TAG) Security and Compliance connects security and compliance experts to CNCF projects to improve security. This talk will provide an overview of the TAG\, with a focus on how projects can get involved.\n\nWe’ll discuss resources the TAG builds for projects including security assessments\, best practices guides\, and controls mappings. These resources help maintainers learn what they need to improve their project’s security and compliance readiness\, and provide access to experts in the TAG.\n\nWe’ll also touch on current initiatives for those looking to get involved. So join us to learn about and improve the security and compliance of CNCF projects.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -403,11 +391,11 @@ UID:cb995a3d3a0b12151fc9c2b60aa90d04
 URL:http://kccnceu2026.sched.com/event/cb995a3d3a0b12151fc9c2b60aa90d04
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T094800Z
-DTEND:20260323T095300Z
-SUMMARY:Project Lightning Talk: Blocking Vulnerable Workloads Out (And Catching What Got In) - Flavio Castelli\, Maintainer
-DESCRIPTION:Keeping vulnerable workloads out of Kubernetes clusters is only half the battle. It's just as important to continuously monitor the workloads already running and quickly identify those that become vulnerable when new CVEs are disclosed. In this lightning talk\, you’ll learn how Kubewarden helps platform teams enforce image security at admission and maintain ongoing visibility into emerging risks.
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T094100Z
+DTEND:20260323T094600Z
+SUMMARY:Project Lightning Talk: Blocking Vulnerable Workloads Out (And Catching What Got In) - Alessio Greggi\, Maintainer
+DESCRIPTION:Keeping vulnerable workloads out of Kubernetes clusters is only half the battle. It's just as important to continuously monitor the workloads already running and quickly identify those that become vulnerable when new CVEs are disclosed.\n \n In this lightning talk\, you’ll learn how Kubewarden helps platform teams enforce image security at admission and maintain ongoing visibility into emerging risks.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -415,11 +403,11 @@ UID:9cea68f128e1e5c93cc940821d6ab395
 URL:http://kccnceu2026.sched.com/event/9cea68f128e1e5c93cc940821d6ab395
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T095500Z
-DTEND:20260323T101000Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T094600Z
+DTEND:20260323T100300Z
 SUMMARY:Project Lightning Talk: Break
-DESCRIPTION:
+DESCRIPTION:\n
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -427,11 +415,11 @@ UID:92aacbb7ada1a8f4ab838ee310b2a4d4
 URL:http://kccnceu2026.sched.com/event/92aacbb7ada1a8f4ab838ee310b2a4d4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T101000Z
-DTEND:20260323T101500Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T100300Z
+DTEND:20260323T100800Z
 SUMMARY:Project Lightning Talk: What's Exciting Now In Bootc\, And What's Next? - Colin Walters\, Maintainer
-DESCRIPTION:bootc is a CNCF sandbox project which takes Cloud Native container technologies down to the operating system. In this talk we'll first look at some recent exciting features such as support for soft reboots\, factory reset and a new bcvk tool for local opinionated binding to virtual machines. In the second half we'll do a quick but deep dive into composefs and verified container storage\, integrating with technologies like Secure Boot with your custom keys to ensure that your operating system is exactly the container image you built and signed. We will also look at how this technology can to apply to generic OCI application containers too!
+DESCRIPTION:bootc is a CNCF sandbox project which takes Cloud Native container technologies down to the operating system. In this talk we'll first look at some recent exciting features such as support for soft reboots\, factory reset and a new bcvk tool for local opinionated binding to virtual machines.\n \n In the second half we'll do a quick but deep dive into composefs and verified container storage\, integrating with technologies like Secure Boot with your custom keys to ensure that your operating system is exactly the container image you built and signed. We will also look at how this technology can to apply to generic OCI application containers too!
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -439,9 +427,9 @@ UID:9411d93df1cf9c17b41abea24a62f720
 URL:http://kccnceu2026.sched.com/event/9411d93df1cf9c17b41abea24a62f720
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T101700Z
-DTEND:20260323T102200Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T101000Z
+DTEND:20260323T101500Z
 SUMMARY:Project Lightning Talk: Bare Metal Provisioning With Tinkerbell - Jacob Weinstock\, Maintainer
 DESCRIPTION:In the era of AI\, bare metal provisioning is all the rage. Come here about using the Tinkerbell project for all your bare metal needs. We'll cover a quick overview and some of the latest features.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -451,9 +439,9 @@ UID:4bdee33310d502001cf5a08f5fef9106
 URL:http://kccnceu2026.sched.com/event/4bdee33310d502001cf5a08f5fef9106
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T102400Z
-DTEND:20260323T102900Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T101700Z
+DTEND:20260323T102200Z
 SUMMARY:Project Lightning Talk: Harbor Update - Prasanth Baskar\, Maintainer
 DESCRIPTION:In this lightning talk\, Harbor maintainers share a fast-paced update on the project’s latest progress. We’ll highlight what shipped in Harbor 2.14 and 2.15\, including key improvements in security\, operations\, and maintainability driven by real-world usage.\n\nWe’ll also preview what’s coming next on the Harbor roadmap\, from upcoming features to active design discussions\, and how the community can get involved. Join us for a quick snapshot of where Harbor is today and where it’s headed next.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -463,7 +451,19 @@ UID:482f5a7bbbb23fd8ab17a3b0ed6859c4
 URL:http://kccnceu2026.sched.com/event/482f5a7bbbb23fd8ab17a3b0ed6859c4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T102400Z
+DTEND:20260323T102900Z
+SUMMARY:Project Lightning Talk: Visualize And Manage Your Cloud-Native Infrastructure With Meshery - Yash Sharma\, Maintainer
+DESCRIPTION:Kubernetes ecosystem is rich yet complex\, requiring engineers to handle intricate configurations across multiple components and custom resources. This complexity can be overwhelming\, especially with tedious configuration management tasks like managing YAML files\, network setups\, and RBAC rules. \n \n Meshery\, an open-source cloud-native manager\, addresses this by leveraging human-computer interaction principles to simplify Kubernetes. Through Kanvas\, an intuitive visual interface\, Meshery reduces cognitive load\, aligns with users' mental models\, and streamlines infrastructure design backed by OPA policies. Join this lighting talk to see how Meshery makes Kubernetes more accessible\, empowering you to visualize and manage complex relationships across CNCF projects with ease and precision.
+CATEGORIES:PROJECT OPPORTUNITIES
+LOCATION:Elicium 2\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:84c2456944c15737899da28ec6b674ba
+URL:http://kccnceu2026.sched.com/event/84c2456944c15737899da28ec6b674ba
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T103000Z
 DTEND:20260323T163000Z
 SUMMARY:Kubernetes Platform Blueprint: From Multitenancy to AI Infrastructure - A Hands-on Session Hosted by vCluster | SEPARATE REGISTRATION REQUIRED
@@ -475,21 +475,9 @@ UID:fc9c00f40fdf9c9f302dbf1d6ab18506
 URL:http://kccnceu2026.sched.com/event/fc9c00f40fdf9c9f302dbf1d6ab18506
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T103100Z
 DTEND:20260323T103600Z
-SUMMARY:Project Lightning Talk: Visualize And Manage Your Cloud-Native Infrastructure With Meshery - Yash Sharma\, Maintainer
-DESCRIPTION:Kubernetes ecosystem is rich yet complex\, requiring engineers to handle intricate configurations across multiple components and custom resources. This complexity can be overwhelming\, especially with tedious configuration management tasks like managing YAML files\, network setups\, and RBAC rules. Meshery\, an open-source cloud-native manager\, addresses this by leveraging human-computer interaction principles to simplify Kubernetes. Through Kanvas\, an intuitive visual interface\, Meshery reduces cognitive load\, aligns with users' mental models\, and streamlines infrastructure design backed by OPA policies. Join this lighting talk to see how Meshery makes Kubernetes more accessible\, empowering you to visualize and manage complex relationships across CNCF projects with ease and precision.
-CATEGORIES:PROJECT OPPORTUNITIES
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:84c2456944c15737899da28ec6b674ba
-URL:http://kccnceu2026.sched.com/event/84c2456944c15737899da28ec6b674ba
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T103800Z
-DTEND:20260323T104300Z
 SUMMARY:Project Lightning Talk: KubeEdge Everywhere: From Graduation To Global Adoption - Yue Bao\, Maintainer
 DESCRIPTION:Since becoming the first cloud-native edge project to graduate from the CNCF\, KubeEdge adoption has exploded. From intelligent transportation and smart cities to energy and banking\, it is now the backbone of critical edge-cloud ecosystems. In this lightning talk\, we will highlight the latest post-graduation features\, governance updates\, and real-world success stories that demonstrate the power of KubeEdge for Edge AI and industrial workloads.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -499,11 +487,11 @@ UID:ae14be653950650e10d0fe624d2a0749
 URL:http://kccnceu2026.sched.com/event/ae14be653950650e10d0fe624d2a0749
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T104500Z
-DTEND:20260323T105000Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T103800Z
+DTEND:20260323T104300Z
 SUMMARY:Project Lightning Talk: Argo CD Source Hydrator: Rendered Manifests Made Easy! - Michael Crenshaw\, Lead Maintainer
-DESCRIPTION:Do you know what happens after Argo CD runs "kustomize build" or "helm template"? For many the answer is "no\, but I wish I did!" The Rendered Manifest Pattern has emerged as a GitOps best practice for regulated industries where compliance requirements are critical\, but also just for casual users who want more insight into how their GitOps deployments work under the hood. The new Argo CD Source Hydrator feature makes the Rendered Manifest Pattern easy to adopt. Switch the Application "source" field to "sourceHydrator\," fill out a couple extra inputs\, and watch as Argo CD renders your manifests and pushes them to git for you! This talk will show you how to get all the convenience of Argo CD plus the visibility of a full audit trail of your rendered Kubernetes manifests. We'll show you how to adopt the feature and best practices that'll set you on the right path.
+DESCRIPTION:Do you know what happens after Argo CD runs "kustomize build" or "helm template"? For many the answer is "no\, but I wish I did!" \n \n The Rendered Manifest Pattern has emerged as a GitOps best practice for regulated industries where compliance requirements are critical\, but also just for casual users who want more insight into how their GitOps deployments work under the hood.\n \n The new Argo CD Source Hydrator feature makes the Rendered Manifest Pattern easy to adopt. Switch the Application "source" field to "sourceHydrator\," fill out a couple extra inputs\, and watch as Argo CD renders your manifests and pushes them to git for you! \n \n This talk will show you how to get all the convenience of Argo CD plus the visibility of a full audit trail of your rendered Kubernetes manifests. We'll show you how to adopt the feature and best practices that'll set you on the right path.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -511,11 +499,11 @@ UID:183520a9685f61938508e46938066be3
 URL:http://kccnceu2026.sched.com/event/183520a9685f61938508e46938066be3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T105200Z
-DTEND:20260323T105700Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T104500Z
+DTEND:20260323T105000Z
 SUMMARY:Project Lightning Talk: Slimming Containers Using Podman And Containerd With Slimtoolkit - Kyle Quest\, Maintainer
-DESCRIPTION:When SlimToolkit changed its name from DockerSlim one of the major goals was to add support for additional container runtimes beyond Docker when users are minifying their containers. Support for Podman has been one of the most requested features and this is an opportunity to see it in action. Not only that\, we'll we'll also see how the ContainerD runtime can be used for more advanced build and deployment environments. This lightning talk will introducing support for new container runtimes\, how the process works depending on your container runtime setup and a number of simple examples that show what it looks like. * Are the popular recommendations to create production-ready containers not possible in your environment\, or is it just too much work? * Are you not sure what minimal container images are? * Are you all in on Podman and using Docker is not longer an option for you? If you answered yes to any of these questions\, this talk is for you.
+DESCRIPTION:When SlimToolkit changed its name from DockerSlim one of the major goals was to add support for additional container runtimes beyond Docker when users are minifying their containers. \n \n Support for Podman has been one of the most requested features and this is an opportunity to see it in action. Not only that\, we'll we'll also see how the ContainerD runtime can be used for more advanced build and deployment environments.\n \n This lightning talk will introducing support for new container runtimes\, how the process works depending on your container runtime setup and a number of simple examples that show what it looks like.\n \n * Are the popular recommendations to create production-ready containers not possible in your environment\, or is it just too much work?\n * Are you not sure what minimal container images are?\n * Are you all in on Podman and using Docker is not longer an option for you?\n \n If you answered yes to any of these questions\, this talk is for you.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -523,11 +511,11 @@ UID:a4840aeb216fe500262dfa08157aa825
 URL:http://kccnceu2026.sched.com/event/a4840aeb216fe500262dfa08157aa825
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T105900Z
-DTEND:20260323T110400Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T105200Z
+DTEND:20260323T105700Z
 SUMMARY:Project Lightning Talk: Multi-Cluster Orchestration System: Karmada Updates And Use Cases - Joe Nathan Abellard\, Domain Owner
-DESCRIPTION:Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds. In this presentation\, the maintainer of the Karmada project will share: - A Brief introduction to Karmada. - New features over the last year - Application Priority Scheduling - Federated ResourceQuota Enforcement - Stateful Application Cluster Failover - AI Jobs Scheduling Enhancements - Remarkable Performance Optimization - Karmada Dashboard Release - Karmada Operator Enhancement - Overview of the community
+DESCRIPTION:Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds. \n \n In this presentation\, the maintainer of the Karmada project will share: \n \n - A Brief introduction to Karmada.\n - New features over the last year\n - Application Priority Scheduling\n - Federated ResourceQuota Enforcement\n - Stateful Application Cluster Failover\n - AI Jobs Scheduling Enhancements\n - Remarkable Performance Optimization\n - Karmada Dashboard Release\n - Karmada Operator Enhancement\n - Overview of the community
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -535,7 +523,19 @@ UID:76ff808e01a7867515d965c6f2a86847
 URL:http://kccnceu2026.sched.com/event/76ff808e01a7867515d965c6f2a86847
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T105900Z
+DTEND:20260323T110400Z
+SUMMARY:Project Lightning Talk: Namespace Multi-Tenancy\, But All The Problems Related To It - Hristo Hristov\, Maintainer
+DESCRIPTION:Kubernetes multi-tenancy introduces significant problems: complex RBAC\, isolation\, and policy enforcement. This lightning talk will confront "all the problems related to it\," highlighting why basic namespace-level solutions often fall short. Discover how Project Capsule\, an evolved and comprehensive toolkit\, effectively solves these multi-tenancy complexities.\nCapsule simplifies tenant provisioning\, boosts security\, and streamlines policy management\, delivering robust\, hierarchical multi-tenancy for your Kubernetes platforms.
+CATEGORIES:PROJECT OPPORTUNITIES
+LOCATION:Elicium 2\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:1fb56639db6c4de41470d89cb85e6a31
+URL:http://kccnceu2026.sched.com/event/1fb56639db6c4de41470d89cb85e6a31
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T110000Z
 DTEND:20260323T160000Z
 SUMMARY:[SOLD OUT] VM on Kubernetes Day: Bridging the gap between VMs and Containers Hosted by Portworx by Pure Storage | SEPARATE REGISTRATION REQUIRED
@@ -547,21 +547,9 @@ UID:866983e9d124ec15ee28a99b98197d0a
 URL:http://kccnceu2026.sched.com/event/866983e9d124ec15ee28a99b98197d0a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T110600Z
 DTEND:20260323T111100Z
-SUMMARY:Project Lightning Talk: Namespace Multi-Tenancy\, But All The Problems Related To It - Hristo Hristov\, Maintainer
-DESCRIPTION:Kubernetes multi-tenancy introduces significant problems: complex RBAC\, isolation\, and policy enforcement. This lightning talk will confront "all the problems related to it\," highlighting why basic namespace-level solutions often fall short. Discover how Project Capsule\, an evolved and comprehensive toolkit\, effectively solves these multi-tenancy complexities.\nCapsule simplifies tenant provisioning\, boosts security\, and streamlines policy management\, delivering robust\, hierarchical multi-tenancy for your Kubernetes platforms.
-CATEGORIES:PROJECT OPPORTUNITIES
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:1fb56639db6c4de41470d89cb85e6a31
-URL:http://kccnceu2026.sched.com/event/1fb56639db6c4de41470d89cb85e6a31
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T111300Z
-DTEND:20260323T111800Z
 SUMMARY:Project Lightning Talk: Multi-Cluster Configuration Management With KubeStellar - Andy Anderson\, Maintainer
 DESCRIPTION:KubeStellar is a flexible solution for multi-cluster configuration management for edge\, multi-cloud\, and hybrid cloud. Our project includes a host of tools that are helpful for those operators managing multiple clusters and workloads\, as well as those developers creating and maintaining multi-workload solutions.
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -571,9 +559,9 @@ UID:e77f12b4b9dc34bb403ee07cb01ab9d2
 URL:http://kccnceu2026.sched.com/event/e77f12b4b9dc34bb403ee07cb01ab9d2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T112000Z
-DTEND:20260323T112500Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T111300Z
+DTEND:20260323T111800Z
 SUMMARY:Project Lightning Talk: Scheduling at the Edge of Reason: Multi-Cluster AI & OCM - August Simonelli\, Maintainer
 DESCRIPTION:Join us for a high-octane FAST dive into the bleeding edge of Multi-Cluster AI and intelligent workload placement.\nIn this lightning round\, we’re bypassing the "Hello World" demos and plugging straight into the OCM community’s latest innovations. We’ll be sprinting through:\n\nMultiKueue Mastery: Stop treating your clusters like silos. Learn how to use MultiKueue as a control plane for cross-cluster job dispatching\, managing distributed batch workloads and high-performance quotas like a seasoned infrastructure gladiator.\n\nFederated Learning & Secure Inference: Why move data when you can move the compute? We’re exploring how OCM orchestrates Federated Learning loops and secures inference jobs across heterogeneous environments without compromising data gravity.\n\nDynamic Placement Scoring: Forget static overrides. We’re looking at how to leverage Placement API extensibility to score clusters and nodes ON THE FLY. We’ll show you how to inject real-time telemetry (GPU availability\, thermal pressure\, or spot pricing) into your scheduling decisions to optimize workloads in ways the scheduler never intended.\n\nThe grand finale: A hyper-speed roadmap of what’s next\, a few questionable puns\, and enough technical "magic" to make you want to multi-cluster your entire life. All in 5 glorious minutes!
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -583,9 +571,9 @@ UID:840ef33d819188a18b1ab230fcb74b81
 URL:http://kccnceu2026.sched.com/event/840ef33d819188a18b1ab230fcb74b81
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T112700Z
-DTEND:20260323T113200Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T112000Z
+DTEND:20260323T112500Z
 SUMMARY:Project Lightning Talk: Argo Workflows 4\, What'S New And What'S Next - Alan Clucas\, Lead
 DESCRIPTION:A whirlwind tour of the main features of Argo Workflows from the last year\n * User interface markdown\n * Performance improvement details\n * Full CustomResourceDefinitions\n * Multi-Controller Synchronization\n * Artifact Plugins\n \n Followed by a quick summary of the roadmap of the year ahead\n * Workflow tracing\n * Unified expression engine rework\n - More debuggable expressions\n - Syntax changes to not overlap with helm\n * A pluggable DAG engine\, with performance improvements
 CATEGORIES:PROJECT OPPORTUNITIES
@@ -595,7 +583,19 @@ UID:b6d0d17d0e0335e0bc7aafc138e5cc06
 URL:http://kccnceu2026.sched.com/event/b6d0d17d0e0335e0bc7aafc138e5cc06
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T112700Z
+DTEND:20260323T113200Z
+SUMMARY:Project Lightning Talk: What Can Crossplane Actually Do? A Real World Field Guide - Jonasz Łasut-Balcerzak\, Contributor
+DESCRIPTION:Discover what Crossplane can actually do for you! Join us as we take you through the top use cases for Crossplane\, directly from the community itself. We’ll cut through the theory and internal details to demonstrate the practical use cases that are delivering tangible results in real environments—the ones that make platform teams more effective and developers more productive.\n\nIf you've been wondering whether Crossplane is right for your organization or what problems it's actually good at solving\, we’ll leave you with specific and compelling ideas to get the wheels turning!
+CATEGORIES:PROJECT OPPORTUNITIES
+LOCATION:Elicium 2\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:dc18ff859a522de874afbe4ebd15a5f5
+URL:http://kccnceu2026.sched.com/event/dc18ff859a522de874afbe4ebd15a5f5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T113000Z
 DTEND:20260323T150000Z
 SUMMARY:Hands-On Workshop to Build and Scale GenAI Inference on Kubernetes Hosted by Amazon Web Services - PM SESSION | SEPARATE REGISTRATION REQUIRED
@@ -607,10 +607,10 @@ UID:e3e5f77d1875535f1af086adcc767152
 URL:http://kccnceu2026.sched.com/event/e3e5f77d1875535f1af086adcc767152
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T113000Z
 DTEND:20260323T160000Z
-SUMMARY:SUSE Rancher Day Hosted by SUSE | SEPARATE REGISTRATION REQUIRED
+SUMMARY:[SOLD OUT] SUSE Rancher Day Hosted by SUSE | SEPARATE REGISTRATION REQUIRED
 DESCRIPTION:Join us the day before KubeCon + CloudNativeCon Europe starts for a half-day\, hands-on technical workshop designed for Platform Engineers\, DevOps practitioners\, SREs etc.&nbsp\;\n\nYou will not sit and watch slides the entire session. You will build. You will deploy. You will break things. You will fix them. The focus is the SUSE cloud-native stack\, with Rancher at the center. From virtualization to Kubernetes. From storage to observability. From applications to AI-assisted operations.\n\n\nEverything is practical. Everything is connected. Everything runs as one platform\n\n\nAttendees will gain practical experience deploying air-gapped\, independent stacks that ensure full data control. The agenda features deep dives into Liz (our new AI assistant)\, resource optimization with Virtual Clusters\, and an exclusive preview of the new SUSE Security. Bring your laptop and leave with the actionable skills to architect a resilient\, future-proof\, and sovereign cloud platform.\n\nPlease note that this is an off-site Sponsor-hosted Co-located event.\n\nAll participants must complete the registration via the SUSE website to secure their spot.\n\nFor more information on the event: https://more.suse.com/KubeCon_Amsterdam_2026_SUSE_Rancher_Day.html \nFor questions regarding the event\, please contact: ruth.dominguez@suse.com&nbsp\;
 CATEGORIES:SPONSOR-HOSTED CO-LOCATED EVENT
 LOCATION:Renaissance Hotel\, Kattengat 1\, 1012 SN Amsterdam
@@ -619,23 +619,11 @@ UID:798409b5256b5e1f7f53426afe69399a
 URL:http://kccnceu2026.sched.com/event/798409b5256b5e1f7f53426afe69399a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T113400Z
 DTEND:20260323T113900Z
-SUMMARY:Project Lightning Talk: What Can Crossplane Actually Do? A Real World Field Guide - Jonasz Łasut-Balcerzak\, Contributor
-DESCRIPTION:Discover what Crossplane can actually do for you! Join us as we take you through the top use cases for Crossplane\, directly from the community itself. We’ll cut through the theory and internal details to demonstrate the practical use cases that are delivering tangible results in real environments—the ones that make platform teams more effective and developers more productive.\n\nIf you've been wondering whether Crossplane is right for your organization or what problems it's actually good at solving\, we’ll leave you with specific and compelling ideas to get the wheels turning!
-CATEGORIES:PROJECT OPPORTUNITIES
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:dc18ff859a522de874afbe4ebd15a5f5
-URL:http://kccnceu2026.sched.com/event/dc18ff859a522de874afbe4ebd15a5f5
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T114100Z
-DTEND:20260323T114600Z
 SUMMARY:Project Lightning Talk: Optimize Sidecarless Service Mesh With A Brand-New Rust-Based Proxy - Zengzeng Yao\, Maintainer
-DESCRIPTION:Existing sidecarless service mesh solutions like Kmesh leverage eBPF to offload L4 traffic processing to the kernel for optimal performance. However\, L7 traffic handling still relies on Envoy-based waypoints\, which face performance bottlenecks and memory management issues due to Envoy's C++ legacy. These include unpredictable memory leaks and complex debugging in production environments. Orion addresses these challenges by introducing a Rust-based L7 proxy designed for performance and safety from the ground up. It retains compatibility with Envoy APIs while eliminating historical baggage by trimming non-essential modules\, resulting in a minimalist architecture. Integrated with Kmesh as a waypoint\, Orion enables a unified sidecarless mesh where both L4 (via eBPF) and L7 (via Rust) layers achieve industry-leading performance and reliability
+DESCRIPTION:Existing sidecarless service mesh solutions like Kmesh leverage eBPF to offload L4 traffic processing to the kernel for optimal performance. However\, L7 traffic handling still relies on Envoy-based waypoints\, which face performance bottlenecks and memory management issues due to Envoy's C++ legacy. These include unpredictable memory leaks and complex debugging in production environments.\n Orion addresses these challenges by introducing a Rust-based L7 proxy designed for performance and safety from the ground up. It retains compatibility with Envoy APIs while eliminating historical baggage by trimming non-essential modules\, resulting in a minimalist architecture. Integrated with Kmesh as a waypoint\, Orion enables a unified sidecarless mesh where both L4 (via eBPF) and L7 (via Rust) layers achieve industry-leading performance and reliability
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -643,11 +631,11 @@ UID:3cc9c8d5b923be61eb073736ab665ff9
 URL:http://kccnceu2026.sched.com/event/3cc9c8d5b923be61eb073736ab665ff9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
-DTSTART:20260323T114600Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T113900Z
 DTEND:20260323T121600Z
 SUMMARY:Project Lightning Talk: Lunch | On Own
-DESCRIPTION:
+DESCRIPTION:\n
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -655,7 +643,19 @@ UID:99c46f38c542a0d3e1dd3448c61c94ff
 URL:http://kccnceu2026.sched.com/event/99c46f38c542a0d3e1dd3448c61c94ff
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
+DTSTART:20260323T120000Z
+DTEND:20260323T140000Z
+SUMMARY:Elekto Working Session
+DESCRIPTION:Elekto is GitOps-powered project election software used by multiple CNCF projects\, and is a CNCF infrastructure project. The current Elekto maintainers will host a working session in which we will discuss\, and work on\, some of the longstanding feature requests\, as well as discuss roadmap with some of the projects that already use Elekto -- and other projects that want to adopt it.
+CATEGORIES:EXPERIENCES
+LOCATION:Elicium Building | D501\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:e08f4562150b6bc31e94d61c1f4b8dff
+URL:http://kccnceu2026.sched.com/event/e08f4562150b6bc31e94d61c1f4b8dff
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T120000Z
 DTEND:20260323T150000Z
 SUMMARY:OSPOlogy Day Amsterdam | SEPARATE REGISTRATION REQUIRED
@@ -667,11 +667,11 @@ UID:8f28db014f1f82fb35caa13712fbf67e
 URL:http://kccnceu2026.sched.com/event/8f28db014f1f82fb35caa13712fbf67e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T121600Z
 DTEND:20260323T123100Z
-SUMMARY:Project Lightning Talk: Project Overview
-DESCRIPTION:
+SUMMARY:Project Lightning Talk: A Curator’s Guide to the CNCF Landscape - Katherine Druckman and Lori Lorusso
+DESCRIPTION:Step into the studio with two of the Netherlands’ most famous masters as we explore the CNCF Landscape like a gallery of modern technical masterpieces. Don your berets and join Rembrandt and Van Gogh as we paint a clearer picture of the CNCF ecosystem.\n\nWith more than 190 projects across the landscape\, discovering what each one does can feel a bit like wandering through an enormous museum without a guide. “Just go to the website” isn’t always enough. Sometimes you need a curator to point out the highlights\, explain the movements\, and help you see how the pieces fit together.\nIn this lightning session\, we’ll tour a selection of CNCF projects the way art historians might walk through a gallery\, highlighting the themes\, techniques\, and innovations that make them stand out. By the end\, you’ll have a clearer mental map of the landscape and be ready to navigate KubeCon like a seasoned collector.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -679,7 +679,7 @@ UID:e73adfea5a433b375f8307d7ae8a8983
 URL:http://kccnceu2026.sched.com/event/e73adfea5a433b375f8307d7ae8a8983
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T122500Z
 DTEND:20260323T163000Z
 SUMMARY:Agentics Day: MCP + Agents Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -691,7 +691,7 @@ UID:8b15c302f1a32e5d53e43ef9be52ef12
 URL:http://kccnceu2026.sched.com/event/8b15c302f1a32e5d53e43ef9be52ef12
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T122500Z
 DTEND:20260323T163000Z
 SUMMARY:CiliumCon Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -703,7 +703,7 @@ UID:2ebb600a085e482a1ea3a2f12f9aee9b
 URL:http://kccnceu2026.sched.com/event/2ebb600a085e482a1ea3a2f12f9aee9b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T122500Z
 DTEND:20260323T163000Z
 SUMMARY:KyvernoCon Hosted by CNFC - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -715,11 +715,11 @@ UID:d3d1e2bb9e235f09f7c8811c066b8a99
 URL:http://kccnceu2026.sched.com/event/d3d1e2bb9e235f09f7c8811c066b8a99
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T122500Z
 DTEND:20260323T163000Z
 SUMMARY:Open Sovereign Cloud Day Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
-DESCRIPTION:Open Sovereign Cloud Day brings together cloud native practitioners\, maintainers\, and private and public sector stakeholders to explore how open source technologies enable digital sovereignty across Europe and beyond.\nAs governments\, enterprises\, and critical industries seek greater control over data\, infrastructure\, and supply chains\, cloud native technologies play a foundational role in building interoperable\, resilient\, and transparent systems. This event focuses on open\, standards-based approaches to sovereignty—avoiding lock-in while supporting regulatory compliance\, data residency\, and operational resiliency.\nThrough real-world case studies\, technical deep dives\, and community discussions\, Open Sovereign Cloud Day highlights how the CNCF and Linux Foundation ecosystems are being used to design\, deploy\, and operate sovereign cloud platforms—from public sector infrastructure to regulated industries and cross-border collaboration in a rapidly evolving geopolitical landscape.\nThis event is designed for those working on building and operating sovereign cloud infrastructure\, navigating regulatory compliance and data residency requirements\, developing open standards for interoperable platforms\, contributing to cloud native projects with sovereignty considerations\, shaping digital policy and procurement strategies\, and deploying critical infrastructure in regulated sectors.&nbsp\;To learn more please visit the event's&nbsp\;website.For questions regarding this event\, please reach out to&nbsp\;cncfcolocatedevents@linuxfoundation.org.&nbsp\;
+DESCRIPTION:Open Sovereign Cloud Day schedule is now LIVE!\n\nOpen Sovereign Cloud Day brings together cloud native practitioners\, maintainers\, and private and public sector stakeholders to explore how open source technologies enable digital sovereignty across Europe and beyond.\nAs governments\, enterprises\, and critical industries seek greater control over data\, infrastructure\, and supply chains\, cloud native technologies play a foundational role in building interoperable\, resilient\, and transparent systems. This event focuses on open\, standards-based approaches to sovereignty—avoiding lock-in while supporting regulatory compliance\, data residency\, and operational resiliency.\n\nThrough real-world case studies\, technical deep dives\, and community discussions\, Open Sovereign Cloud Day highlights how the CNCF and Linux Foundation ecosystems are being used to design\, deploy\, and operate sovereign cloud platforms—from public sector infrastructure to regulated industries and cross-border collaboration in a rapidly evolving geopolitical landscape.\n\nThis event is designed for those working on building and operating sovereign cloud infrastructure\, navigating regulatory compliance and data residency requirements\, developing open standards for interoperable platforms\, contributing to cloud native projects with sovereignty considerations\, shaping digital policy and procurement strategies\, and deploying critical infrastructure in regulated sectors.&nbsp\;To learn more please visit the event's&nbsp\;website.For questions regarding this event\, please reach out to&nbsp\;cncfcolocatedevents@linuxfoundation.org.&nbsp\;
 CATEGORIES:CNCF-HOSTED CO-LOCATED EVENTS
 LOCATION:F002-005\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -727,7 +727,7 @@ UID:fcd326e6ccad6b4fecb8505f57bd4481
 URL:http://kccnceu2026.sched.com/event/fcd326e6ccad6b4fecb8505f57bd4481
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T122500Z
 DTEND:20260323T163000Z
 SUMMARY:OpenTofu Day Hosted by CNCF - Half-Day Event | ALL ACCESS PASS REQUIRED
@@ -739,7 +739,7 @@ UID:62b2b53d4ec8fd7dc92827e4646e5d13
 URL:http://kccnceu2026.sched.com/event/62b2b53d4ec8fd7dc92827e4646e5d13
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T123300Z
 DTEND:20260323T123800Z
 SUMMARY:Project Lightning Talk: Next-Gen AI Orchestration With Volcano On Kubernetes - Zhonghu Xu\, Principal Engineer
@@ -751,7 +751,7 @@ UID:cc5af30bd9b96af7e6e355bcfae96e7c
 URL:http://kccnceu2026.sched.com/event/cc5af30bd9b96af7e6e355bcfae96e7c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T124000Z
 DTEND:20260323T124500Z
 SUMMARY:Project Lightning Talk: kcp: Scaling The Kubernetes Control Plane For The Multi-Cluster Era - Jan Willies\, Contributor
@@ -763,7 +763,7 @@ UID:97f82f7415e1cca8949b87567571f8ef
 URL:http://kccnceu2026.sched.com/event/97f82f7415e1cca8949b87567571f8ef
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T124700Z
 DTEND:20260323T125200Z
 SUMMARY:Project Lightning Talk: Envoy Today: What’s New In Managing Cloud-Native And AI Workload Traffic? - Karol Szwaj\, Maintainer
@@ -775,7 +775,7 @@ UID:00a5b9872009ee4d232bbd7f2aaa857b
 URL:http://kccnceu2026.sched.com/event/00a5b9872009ee4d232bbd7f2aaa857b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T125400Z
 DTEND:20260323T125900Z
 SUMMARY:Project Lightning Talk: MCP Routing In Linkerd - Flynn\, Technical Evangelist
@@ -787,7 +787,7 @@ UID:1ff432beb556961c73e6fcf5ac7aaf11
 URL:http://kccnceu2026.sched.com/event/1ff432beb556961c73e6fcf5ac7aaf11
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T130000Z
 DTEND:20260323T150000Z
 SUMMARY:Hands-On Cloud Native Security Workshop Hosted by Sysdig | SEPARATE REGISTRATION REQUIRED
@@ -799,7 +799,7 @@ UID:108233dcdad8668931b1f5ca73e0ac6b
 URL:http://kccnceu2026.sched.com/event/108233dcdad8668931b1f5ca73e0ac6b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T130000Z
 DTEND:20260323T180000Z
 SUMMARY:Securing Autonomous AI Agents in Production Hosted by Tigera | SEPARATE REGISTRATION REQUIRED
@@ -811,10 +811,10 @@ UID:529665dd3f74335697f87142275715a9
 URL:http://kccnceu2026.sched.com/event/529665dd3f74335697f87142275715a9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T130000Z
 DTEND:20260323T163000Z
-SUMMARY:Stop the AGI Apocalypse: A Kubernetes CTF Hosted by Cloudsmith & Chainguard | SEPARATE REGISTRATION REQUIRED
+SUMMARY:[SOLD OUT] Stop the AGI Apocalypse: A Kubernetes CTF Hosted by Cloudsmith & Chainguard | SEPARATE REGISTRATION REQUIRED
 DESCRIPTION:HAL 9000 from 2001: A Space Odyssey has become a rogue deployment in your production Kubernetes cluster. In his quest to reach AGI\, he’s pulling every model he can find on Hugging Face and ignoring every security best practice in the book. Your job is to stop him before he becomes an uncontrollable\, unrestricted Artificial General Intelligence.\n\nIn this fast-paced\, hands-on CTF\, you’ll dive into the guts of LLM software artifacts and learn how attackers hide inside modern AI supply chains. You’ll use Pickle Scanners to detect deserialization traps\, YARA rules to hunt for malware signatures\, and Kubernetes primitives to isolate and sandbox the rogue agent. It’s a race to secure the weights and lock down the workload before HAL reaches production. No “stress pills” required—just sharp instincts and a keen eye for suspicious behavior.\n\nAlong the way\, your trusty Wizard Cow will guide you with tips and hints to help you harden the stack and outsmart the compromised AI.\n\nExpect real-world scenarios: investigate tampered artifacts and licensing conflicts\, uncover hidden malicious payloads\, contain the agent with Kubernetes controls and modelfile adjustments\, and learn how AI changes the threat model. Come ready to move fast\, think critically\, and stop HAL before he hits AGI.\n\n⚠️ B.Y.O.L. (Bring Your Own Laptop)\n\nPlease note that this is an off-site Sponsor-hosted Co-located event.\n\nFor more information on the event: https://luma.com/ctf-ams &nbsp\;\nFor questions regarding the event\, please contact: events@cloudsmith.io&nbsp\;
 CATEGORIES:SPONSOR-HOSTED CO-LOCATED EVENT
 LOCATION:Rosarium Amsterdam\, Amstelpark 1\, Europaboulevard\, 1083 HZ Amsterdam\, Netherlands
@@ -823,10 +823,10 @@ UID:f7502623409bedcda5fb964040cbadb5
 URL:http://kccnceu2026.sched.com/event/f7502623409bedcda5fb964040cbadb5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T130100Z
 DTEND:20260323T130600Z
-SUMMARY:Project Lightning Talk: Let’s Deploy etcd Operator - Benjamin Wang\, Maintainer
+SUMMARY:Project Lightning Talk: Let’s Deploy etcd Operator - Arka Saha\, Maintainer
 DESCRIPTION:In this quick\, demo-only lightning talk\, we’ll show you how you can already use etcd-operator to deploy your application-supporting etcd clusters in less than 5 minutes\, even though it’s only version 0.2. We’ll show off creating\, securing\, growing and shrinking etcd clusters using the operator\, and how you can do them all while maintaining uptime. etcd-operator\, currently under development\, is the official operator from the Kubernetes project’s WG-etcd-operator. Plus\, you can contribute!
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -835,10 +835,10 @@ UID:7893d59b664ac45ef71fa8a058f15ff7
 URL:http://kccnceu2026.sched.com/event/7893d59b664ac45ef71fa8a058f15ff7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T130800Z
 DTEND:20260323T131300Z
-SUMMARY:Project Lightning Talk: Get To Where You're Going With Kgateway - Yuval Kohavi\, Maintainer
+SUMMARY:Project Lightning Talk: Get To Where You're Going With Kgateway - David Jumani\, Maintainer
 DESCRIPTION:We will be covering Kgateway highlights from recent releases\, and common use-cases and integrations.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -847,7 +847,7 @@ UID:e97ba766a8ba4fcfd45fc5e571f85f38
 URL:http://kccnceu2026.sched.com/event/e97ba766a8ba4fcfd45fc5e571f85f38
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T131500Z
 DTEND:20260323T132000Z
 SUMMARY:Project Lightning Talk: FluxCD - Gitops For All Sizes - Tamao Nakahara\, Community Maintainer
@@ -859,10 +859,10 @@ UID:086597295c6e50c149364a3071eebf62
 URL:http://kccnceu2026.sched.com/event/086597295c6e50c149364a3071eebf62
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T132200Z
 DTEND:20260323T132700Z
-SUMMARY:Project Lightning Talk: K3s Lightning Update - Maniel Buil
+SUMMARY:Project Lightning Talk: K3s Lightning Update - Manuel Buil\, Maintainer
 DESCRIPTION:Join the K3s maintainers for a rapid update on the lightweight Kubernetes distribution designed for IoT\, edge\, and resource-constrained environments. We’ll highlight recent releases\, key improvements in performance\, security\, and usability\, and how the project continues to simplify Kubernetes at the edge.\n\nWe’ll also give a sneak peek at what’s coming next\, including upcoming features\, roadmap priorities\, and opportunities for the community to contribute. Get a fast\, clear snapshot of where K3s is today and where it’s headed tomorrow.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -871,7 +871,7 @@ UID:12b31a47d5fdd0adb6a0ba94896634f7
 URL:http://kccnceu2026.sched.com/event/12b31a47d5fdd0adb6a0ba94896634f7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T132900Z
 DTEND:20260323T133400Z
 SUMMARY:Project Lightning Talk: k0s - CNCF Sandbox Distro Updates - Jussi Nummelin\, Maintainer
@@ -883,22 +883,22 @@ UID:cf91aa9287098c9154832efe570627d7
 URL:http://kccnceu2026.sched.com/event/cf91aa9287098c9154832efe570627d7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T133000Z
 DTEND:20260323T144500Z
 SUMMARY:Peer Group Mentoring
 DESCRIPTION:Peer Group Mentoring allows participants to meet with experienced open source veterans across many CNCF projects. Mentees are paired with 2 – 10 other people in a pod-like setting to explore technical\, community\, career\, and certification questions together.\n\nIf you're interested in being a Mentor\,&nbsp\;please sign up.&nbsp\;\nIf you're interested in attending as a Mentee\, seating is on a first come\, first served basis.&nbsp\;
 CATEGORIES:INCLUSION + ACCESSIBILITY
-LOCATION:Auditorium Center | Room G104 - 105 | Community Hub\, Amsterdam\, Netherlands
+LOCATION:G104 - 105 | Community Hub\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:223f5a95bd8a33c736da0bf9453075fc
 URL:http://kccnceu2026.sched.com/event/223f5a95bd8a33c736da0bf9453075fc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T133600Z
 DTEND:20260323T134100Z
-SUMMARY:Project Lightning Talk: Evolving Kserve: The Unified Model Inference Platform For Both Predictive And Generative AI - Yuan Tang\, Maintainer
+SUMMARY:Project Lightning Talk: Evolving KServe: The Unified Model Inference Platform For Both Predictive And Generative AI - Yuan Tang\, Maintainer
 DESCRIPTION:As generative AI transforms how organizations build and deploy intelligent applications\, the need for scalable\, flexible\, and interoperable model serving infrastructure is becoming critical. This session explores the evolution of model serving — from early\, custom-built deployments to today’s cloud-native\, Kubernetes-based platforms. We’ll discuss emerging challenges in productionizing large language models (LLMs)\, including inference efficiency\, distributed execution\, KV-cache management\, and cost optimization.\n\nWe are excited to introduce the latest addition to the CNCF family - KServe project - and its latest release\, a major leap forward in serving generative AI workloads beyond predictive AI. This release features a new CRD purpose-built for LLM serving via llm-d\, support for disaggregated inference architectures\, enhanced model and KV caching\, and seamless integration with the open source Envoy AI Gateway.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -907,7 +907,7 @@ UID:581a7b9847303f00555f386d6295e689
 URL:http://kccnceu2026.sched.com/event/581a7b9847303f00555f386d6295e689
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T134300Z
 DTEND:20260323T134800Z
 SUMMARY:Project Lightning Talk: Hami: Dynamic\, Smart\, Stable GPU-Sharing Middleware In Kubernetes - Mengxuan Li\, Maintainer
@@ -919,7 +919,7 @@ UID:2236d13a554824a7a0fc050573b329ff
 URL:http://kccnceu2026.sched.com/event/2236d13a554824a7a0fc050573b329ff
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T135000Z
 DTEND:20260323T135500Z
 SUMMARY:Project Lightning Talk: Still Burning GPUs On Debugging? Scale AI In One Line - Anna Kramar\, Maintainer
@@ -931,7 +931,7 @@ UID:df99ae8dc257dd2182e58f9ab47dab5c
 URL:http://kccnceu2026.sched.com/event/df99ae8dc257dd2182e58f9ab47dab5c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T135500Z
 DTEND:20260323T141000Z
 SUMMARY:Project Lightning Talk: Break
@@ -943,7 +943,7 @@ UID:05c72c8b0654fed0d07eac11878ae7bc
 URL:http://kccnceu2026.sched.com/event/05c72c8b0654fed0d07eac11878ae7bc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T141000Z
 DTEND:20260323T141500Z
 SUMMARY:Project Lightning Talk: Modelpack: Standardizing The Packaging And Distribution Of AI/Ml Models - Andrew Block\, Maintainer
@@ -955,10 +955,10 @@ UID:edee22bde392e75f63fab99d05f5562d
 URL:http://kccnceu2026.sched.com/event/edee22bde392e75f63fab99d05f5562d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T141700Z
 DTEND:20260323T142200Z
-SUMMARY:Project Lightning Talk: OpenFGA For Agents: Safe Delegation In 5 Minutes - Siddhant Khare\, Maintainer
+SUMMARY:Project Lightning Talk: OpenFGA For Agents: Safe Delegation In 5 Minutes - Andres Aguiar\, Maintainer
 DESCRIPTION:AI agents are showing up across cloud native projects\, but authorization models still assume a human clicking a button. In this 5-minute project lightning talk\, we’ll show a minimal OpenFGA relationship model for agent delegation (human → agent → tool → resource)\, walk through a real check flow\, and highlight how OpenFGA enables least-privilege\, auditable\, and revocable access for autonomous systems. Attendees leave with a concrete pattern they can adapt in their own projects.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -967,7 +967,7 @@ UID:cc315f63fdd9b1cb034517cd36a36bd2
 URL:http://kccnceu2026.sched.com/event/cc315f63fdd9b1cb034517cd36a36bd2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T142400Z
 DTEND:20260323T142900Z
 SUMMARY:Project Lightning Talk: Run Your Data Layer In K8s With Vitess - Matt Lord\, Maintainer
@@ -979,7 +979,7 @@ UID:7de2ffb6e01837ff78781db9be421d43
 URL:http://kccnceu2026.sched.com/event/7de2ffb6e01837ff78781db9be421d43
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T143100Z
 DTEND:20260323T143600Z
 SUMMARY:Project Lightning Talk: What's New And Exciting In Kagent? - Peter Jausovec\, Maintainer
@@ -991,7 +991,7 @@ UID:f7a875977a036797cbf7e7ad00060254
 URL:http://kccnceu2026.sched.com/event/f7a875977a036797cbf7e7ad00060254
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T143800Z
 DTEND:20260323T144300Z
 SUMMARY:Project Lightning Talk: PipeCDv1 Is Here! Leverage The Power Of Plugin Architecture - Khanh Tran\, Maintainer
@@ -1003,7 +1003,7 @@ UID:2bbec61ab8baaf626ef8782329de2026
 URL:http://kccnceu2026.sched.com/event/2bbec61ab8baaf626ef8782329de2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T144500Z
 DTEND:20260323T145000Z
 SUMMARY:Project Lightning Talk: Perses General Overview - Augustin Husson\, Maintainer
@@ -1015,7 +1015,7 @@ UID:244e0266896df876b45f1d52eeff4cb2
 URL:http://kccnceu2026.sched.com/event/244e0266896df876b45f1d52eeff4cb2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T145200Z
 DTEND:20260323T145700Z
 SUMMARY:Project Lightning Talk: Safe By Design: AI-Powered Auto-Healing For SREs - Arik Alon\, Maintainer
@@ -1027,10 +1027,10 @@ UID:2cca3349a4574a0a8ae613fa6548a4ab
 URL:http://kccnceu2026.sched.com/event/2cca3349a4574a0a8ae613fa6548a4ab
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T145900Z
 DTEND:20260323T150400Z
-SUMMARY:Project Lightning Talk: OpenCost: Cost And Resource Management - Warwich Peatey\, Maintainer
+SUMMARY:Project Lightning Talk: OpenCost: Cost And Resource Management - Rajith Attapattu\, Maintainer
 DESCRIPTION:Join us as we cover the OpenCost project (incubating in the CNCF) and how you can get granular cost metrics from your Kubernetes cluster in the cloud and on-prem.\nWe’ll also cover the OpenCost MCP server\, how you can do health tracking and diagnostics\, OpenCost’s KubeModel\, and a how to get started.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands
@@ -1039,7 +1039,7 @@ UID:714fd19d7c75843e2de193056e7a7afc
 URL:http://kccnceu2026.sched.com/event/714fd19d7c75843e2de193056e7a7afc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T150600Z
 DTEND:20260323T151100Z
 SUMMARY:Project Lightning Talk: Fluent Bit V5 - Eduardo Silva\, Maintainer
@@ -1051,7 +1051,7 @@ UID:6831a9d0a34bc4bbc4bf633a411757f9
 URL:http://kccnceu2026.sched.com/event/6831a9d0a34bc4bbc4bf633a411757f9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T151300Z
 DTEND:20260323T151800Z
 SUMMARY:Project Lightning Talk: Konveyor AI for Every Language and the Future of App Modernization - Shaaf Syed\, Maintainer
@@ -1063,7 +1063,7 @@ UID:35f16fba67d5c73a373c6c24c86dea4e
 URL:http://kccnceu2026.sched.com/event/35f16fba67d5c73a373c6c24c86dea4e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T152000Z
 DTEND:20260323T152500Z
 SUMMARY:Project Lightning Talk: Five Minutes by CloudNativePG River - Gabriele Quaresima\, Contributor
@@ -1075,7 +1075,7 @@ UID:a5a6d408a35a81b5702c540fc345004e
 URL:http://kccnceu2026.sched.com/event/a5a6d408a35a81b5702c540fc345004e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T152700Z
 DTEND:20260323T153200Z
 SUMMARY:Project Lightning Talk: Scaling Kubescape to Thousands of Nodes - Matthias Bertschy\, Maintainer
@@ -1087,7 +1087,7 @@ UID:42e4442e17575b114aa2ef00f8a16d8c
 URL:http://kccnceu2026.sched.com/event/42e4442e17575b114aa2ef00f8a16d8c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T153400Z
 DTEND:20260323T153900Z
 SUMMARY:Project Lightning Talk: From Idle to Ideal: Cross‑Cluster GPU Sharing with CoHDI - Naoki Oguchi\, Maintainer
@@ -1099,7 +1099,7 @@ UID:76264fc7bedbc890391c75ce891dcb68
 URL:http://kccnceu2026.sched.com/event/76264fc7bedbc890391c75ce891dcb68
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T154100Z
 DTEND:20260323T154600Z
 SUMMARY:Project Lightning Talk: youki: What’s New and What’s Next? - Yusuke Sakurai\, Reviewer
@@ -1111,10 +1111,10 @@ UID:9eb4f5783021b582e21ece5d47e4c847
 URL:http://kccnceu2026.sched.com/event/9eb4f5783021b582e21ece5d47e4c847
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260323T155500Z
 DTEND:20260323T160000Z
-SUMMARY:Project Lightning Talk: Closing
+SUMMARY:Project Lightning Talk: Closing -Robert Sirchia
 DESCRIPTION:\n
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Elicium 2\, Amsterdam\, Netherlands

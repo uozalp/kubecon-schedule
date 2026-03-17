@@ -7,7 +7,7 @@ CALSCALE:GREGORIAN
 PRODID:-//Sched.com KubeCon + CloudNativeCon Europe 2026//EN
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260322T070000Z
 DTEND:20260322T170000Z
 SUMMARY:Badge Pick-Up
@@ -19,7 +19,7 @@ UID:bdeb89fcb7b271c2053791f3789faff7
 URL:http://kccnceu2026.sched.com/event/bdeb89fcb7b271c2053791f3789faff7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260322T070000Z
 DTEND:20260322T170000Z
 SUMMARY:Badge Pick-Up
@@ -31,7 +31,7 @@ UID:d9a209281d8d6570090a0350e44e4fa5
 URL:http://kccnceu2026.sched.com/event/d9a209281d8d6570090a0350e44e4fa5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260303T114022Z
+DTSTAMP:20260317T131510Z
 DTSTART:20260322T070000Z
 DTEND:20260322T170000Z
 SUMMARY:Cloakroom
@@ -41,5 +41,17 @@ LOCATION:Entrance C\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:6a73133eb06d9951685c0b4ffb3a0176
 URL:http://kccnceu2026.sched.com/event/6a73133eb06d9951685c0b4ffb3a0176
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T131510Z
+DTSTART:20260322T073000Z
+DTEND:20260322T183000Z
+SUMMARY:[SOLD OUT] Maintainer Summit Hosted by CNCF | SEPARATE REGISTRATION REQUIRED
+DESCRIPTION:THIS EVENT IS SOLD OUT.&nbsp\; PLEASE REVIEW WAITLIST PROCESS.\n\nView the Maintainer Summit Schedule.The CNCF Maintainer Summit is an exclusive event for the people behind our projects to gather face-to-face\, collaborate\, and celebrate the projects that make “Cloud Native.” Programming will be focused on sharing best practices\, diving into contributing processes\, and solving common problems across projects to enrich our great community of maintainers. To learn more\, please visit the event's website.Please note: You must be registered for KubeCon + CloudNativeCon and meet the Eligibility Requirements to participate.\n\nFor questions regarding this event\, please reach out to projectsatkubecon@linuxfoundation.org.
+CATEGORIES:PROJECT OPPORTUNITIES
+LOCATION:Forum\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:0c2c3729721440b841aaaf02e5d99579
+URL:http://kccnceu2026.sched.com/event/0c2c3729721440b841aaaf02e5d99579
 END:VEVENT
 END:VCALENDAR

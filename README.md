@@ -5,7 +5,9 @@ This is a mobile-friendly web app for browsing the KubeCon EU 2026 schedule. It 
 ## Hosted Version
 You are welcome to use the hosted app during KubeCon:
 
-👉 [https://ozalp.dk/kubecon/](https://ozalp.dk/kubecon/)
+[https://ozalp.dk/kubecon/](https://ozalp.dk/kubecon/)
+
+> Tip: Add the URL to your phone's home screen for a native app-like experience!
 
 ## Features
 - Fast loading: ICS files are split by day for quick access
@@ -15,4 +17,14 @@ You are welcome to use the hosted app during KubeCon:
 ## Screenshot
 
 ![KubeCon 2026 Schedule App GUI](asset/schedule-gui.png)
+
+## Usage
+1. Open `index.html` in your browser
+2. Select a day from the tabs
+3. Swipe through upcoming talks or view all talks grouped by time
+4. Pick your favorites to see them in "My Picks"
+
+---
+
+For development or to split the ICS file, use `split-ics.py`.
 
