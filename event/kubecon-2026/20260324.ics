@@ -7,7 +7,7 @@ CALSCALE:GREGORIAN
 PRODID:-//Sched.com KubeCon + CloudNativeCon Europe 2026//EN
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T063000Z
 DTEND:20260324T171500Z
 SUMMARY:Badge Pick-Up
@@ -19,7 +19,7 @@ UID:3b0a94816e5f19e956cdadf75a8d7715
 URL:http://kccnceu2026.sched.com/event/3b0a94816e5f19e956cdadf75a8d7715
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T063000Z
 DTEND:20260324T171500Z
 SUMMARY:Badge Pick-Up
@@ -31,7 +31,7 @@ UID:69a66136857276e27a0bcac2ca4fbc7b
 URL:http://kccnceu2026.sched.com/event/69a66136857276e27a0bcac2ca4fbc7b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T063000Z
 DTEND:20260324T183000Z
 SUMMARY:Cloakroom
@@ -43,7 +43,7 @@ UID:a4cfa791741b05245bdc74b2ae8d0e20
 URL:http://kccnceu2026.sched.com/event/a4cfa791741b05245bdc74b2ae8d0e20
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T063000Z
 DTEND:20260324T183000Z
 SUMMARY:Cloakroom
@@ -55,7 +55,7 @@ UID:e38a3e71f2196e4b6b8f419c330dcfc6
 URL:http://kccnceu2026.sched.com/event/e38a3e71f2196e4b6b8f419c330dcfc6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T080000Z
 DTEND:20260324T083500Z
 SUMMARY:Keynote: Welcome + Opening Remarks - Jonathan Bryce\, Executive Director\, Cloud and Infrastructure\, Linux Foundation & Chris Aniszczyk\, CTO\, Cloud and Infrastructure\, Linux Foundation
@@ -67,7 +67,7 @@ UID:6d33234981cf5b14145b63b75fa9e0c0
 URL:http://kccnceu2026.sched.com/event/6d33234981cf5b14145b63b75fa9e0c0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T083700Z
 DTEND:20260324T084000Z
 SUMMARY:Keynote: Rules of the Road for Shared GPUs: AI Inference Scheduling at Wayve - Mukund Muralikrishnan\, Staff Engineer\, Wayve
@@ -79,7 +79,7 @@ UID:c3fcdba10ac8228da1f5f45cfdc27b07
 URL:http://kccnceu2026.sched.com/event/c3fcdba10ac8228da1f5f45cfdc27b07
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T084200Z
 DTEND:20260324T084700Z
 SUMMARY:Sponsored Keynote: From Complexity to Clarity: Engineering an Invisible Kubernetes - Jesse Butler\, Principal Product Manager and Technologist\, Amazon Elastic Kubernetes Service (EKS)
@@ -91,10 +91,10 @@ UID:d12556725da7816d8422a553dc44e27e
 URL:http://kccnceu2026.sched.com/event/d12556725da7816d8422a553dc44e27e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T084900Z
 DTEND:20260324T085400Z
-SUMMARY:Keynote: To be Announced
+SUMMARY:Keynote: The Future of AI is Community-Driven and OPEN - Erin A. Boyd\, Senior Director\, NVIDIA
 DESCRIPTION:\n
 CATEGORIES:KEYNOTE SESSIONS
 LOCATION:Hall 12\, Amsterdam\, Netherlands
@@ -103,7 +103,7 @@ UID:9de183c913a1a16f8f8fb9efbe83a039
 URL:http://kccnceu2026.sched.com/event/9de183c913a1a16f8f8fb9efbe83a039
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T085600Z
 DTEND:20260324T090100Z
 SUMMARY:Keynote: From Inference to Agents: Where Open Source AI Is Headed - Jonathan Bryce\, CNCF; Brian Stevens\, Red Hat; Mark Collier\, PyTorch Foundation; Lin Sun\, Solo.io
@@ -115,7 +115,7 @@ UID:55bd23423789cd1d328edf6bb67f770d
 URL:http://kccnceu2026.sched.com/event/55bd23423789cd1d328edf6bb67f770d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T090300Z
 DTEND:20260324T091800Z
 SUMMARY:Keynote: The Future of Cloud Native Is… Agentic - Lin Sun\, Head of Open Source\, Solo.io
@@ -127,7 +127,7 @@ UID:779f63b3a4833fe4009a5100a1fe205b
 URL:http://kccnceu2026.sched.com/event/779f63b3a4833fe4009a5100a1fe205b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T092000Z
 DTEND:20260324T092300Z
 SUMMARY:Keynote: Orchestrating Document Data Extraction with Dapr Agents - Fabian Steinbach\, Software Architect\, ZEISS
@@ -139,7 +139,7 @@ UID:fd10d8cf0054aac8f3206ddd6d996ccd
 URL:http://kccnceu2026.sched.com/event/fd10d8cf0054aac8f3206ddd6d996ccd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T092500Z
 DTEND:20260324T093000Z
 SUMMARY:Sponsored Keynote: Scaling Platform Ops with AI Agents: Troubleshooting to Remediation - Jorge Palma\, Principal PDM Manager\, Microsoft & Natan Yellin\, CEO\, Robusta
@@ -151,7 +151,7 @@ UID:1ff722e8bc50da45979d6969e0503a49
 URL:http://kccnceu2026.sched.com/event/1ff722e8bc50da45979d6969e0503a49
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T093200Z
 DTEND:20260324T094200Z
 SUMMARY:Keynote: Riding the Waves: Around the World in an Electric Glider - Powered by Nature\, Data\, and Open Science - Ricardo Rocha\, Lead Platforms Infrastructure\, CERN & Klaus Ohlmann\, Founder\, Mountain-Wave-Project
@@ -163,7 +163,7 @@ UID:24d5aad35c9ec75d9eb2abcc7a3638fd
 URL:http://kccnceu2026.sched.com/event/24d5aad35c9ec75d9eb2abcc7a3638fd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T094400Z
 DTEND:20260324T094500Z
 SUMMARY:Keynote: Closing Remarks
@@ -175,7 +175,7 @@ UID:78a76e0f5b94c4c2369336c2e400aed9
 URL:http://kccnceu2026.sched.com/event/78a76e0f5b94c4c2369336c2e400aed9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T094500Z
 DTEND:20260324T101500Z
 SUMMARY:Coffee Break ☕
@@ -187,7 +187,7 @@ UID:e0f37706ca1af72e8a6f22a9c0ddfd69
 URL:http://kccnceu2026.sched.com/event/e0f37706ca1af72e8a6f22a9c0ddfd69
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T094500Z
 DTEND:20260324T180000Z
 SUMMARY:Solutions Showcase
@@ -199,7 +199,7 @@ UID:20993197391f265dc51e6457b569cafa
 URL:http://kccnceu2026.sched.com/event/20993197391f265dc51e6457b569cafa
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T095000Z
 DTEND:20260324T100000Z
 SUMMARY:Gold Sponsor In-Booth Demos
@@ -211,19 +211,19 @@ UID:356ebea9d5af415eb5c0e62f96f4ff67
 URL:http://kccnceu2026.sched.com/event/356ebea9d5af415eb5c0e62f96f4ff67
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T095000Z
 DTEND:20260324T101000Z
 SUMMARY:Sponsored Demo: Tailor-Made Nodes on GKE with Compute Classes
 DESCRIPTION:In the era of specialized hardware\, "one size fits all" is a recipe for resource wastage and performance bottlenecks. Enter Compute Classes\, an API that allows platform engineers to define bespoke infrastructure templates for specific workloads. \n \n Beyond simple selection\, Compute Classes introduces a prioritization engine for machine types. Whether you are hunting for the perfect CPU-to-memory ratio for high-frequency trading or optimizing GPU attachments for LLM inference\, Custom Compute Classes provide the abstraction layer needed to scale without the friction of manual node pool management. \n \n In this demo-heavy session\, we will:\n - Explore the architecture of Custom Compute Classes.\n - Demonstrate "Just-in-Time" infrastructure provisioning.\n - Reveal how to automate the lifecycle of specialized hardware\n - Configuring machine type priority to balance performance vs. availability.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:70326af9adf464bd8f817786382bd497
 URL:http://kccnceu2026.sched.com/event/70326af9adf464bd8f817786382bd497
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T095500Z
 DTEND:20260324T101500Z
 SUMMARY:Project Pavilion Tour wtih Atulpriya Sharma\, CNCF Ambassador
@@ -235,7 +235,7 @@ UID:56061ce6a26e5f59dc0cb89877a8cab7
 URL:http://kccnceu2026.sched.com/event/56061ce6a26e5f59dc0cb89877a8cab7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T100000Z
 DTEND:20260324T110000Z
 SUMMARY:Merge + Meet: Kickoff Meeting for Underrepresented Groups and Allies
@@ -247,7 +247,7 @@ UID:5c95613591172b5cf419bb047a17b229
 URL:http://kccnceu2026.sched.com/event/5c95613591172b5cf419bb047a17b229
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T100000Z
 DTEND:20260324T101500Z
 SUMMARY:Cloud Native Theater | Cloud Native University: Cloud Native vs. Platform Native vs. Cloud Agnostic - Ruckus Voxi\, Akamai
@@ -259,7 +259,7 @@ UID:0bd76a4bdccc80c8e69c1ae61e4b72bd
 URL:http://kccnceu2026.sched.com/event/0bd76a4bdccc80c8e69c1ae61e4b72bd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T100000Z
 DTEND:20260324T101500Z
 SUMMARY:Learning Lounge: AI Runs on Open Source and Real Humans: Why You Need Linux and Cloud Native Skills to Power AI at Scale - Christophe Sauthier\, CNCF
@@ -271,19 +271,7 @@ UID:2e3d5c8dc40a79987f1cbb098402add4
 URL:http://kccnceu2026.sched.com/event/2e3d5c8dc40a79987f1cbb098402add4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
-DTSTART:20260324T101500Z
-DTEND:20260324T104500Z
-SUMMARY:Breaking the Monolith: Decomposing and Governing Giant LLM Jobs Across Clusters - Kevin Wang\, Huawei
-DESCRIPTION:Multi-cluster architecture is now a common choice for enterprise AI infrastructure\, enabling unified resource management\, flexible integration of multi-cloud and data center GPUs\, and abstraction of hardware differences for simplified scheduling. Traditionally\, AI jobs were scheduled as a whole to a member cluster to ensure performance consistency\, but this limited flexibility and resource utilization. In practice\, splitting jobs across clusters becomes necessary for large-scale LLM training exceeding single-cluster capacity or aggregating idle resources from multiple clusters. This session introduces how Volcano Global and Karmada enable adaptive cross-cluster scheduling for LLM jobs: 1. a universal global scheduling control plane 2. a higher-level job abstraction for intelligent decomposition of large AI jobs across clusters 3. a centralized global queue and priority mechanism to ensure fair and orderly resource allocation\, preventing large tasks from overwhelming the shared pool
-CATEGORIES:AI + ML
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:a100f382f331c59d59f1046a91411d71
-URL:http://kccnceu2026.sched.com/event/a100f382f331c59d59f1046a91411d71
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:Least-Privilege for AI: Authorizing Agents and MCP Tools with Agentgateway and Kyverno - Luc Chmielowski\, Nirmata & Nina Polshakova\, Solo.io
@@ -295,7 +283,7 @@ UID:7894a8a1796a190531bbdbe9379d681a
 URL:http://kccnceu2026.sched.com/event/7894a8a1796a190531bbdbe9379d681a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:When an Agent Acts on Your Behalf\, Who Holds the Keys? - Mariusz Sabath & Maia Iyer\, IBM Research
@@ -307,7 +295,7 @@ UID:90de8b6bc1b399b4e26695f426537759
 URL:http://kccnceu2026.sched.com/event/90de8b6bc1b399b4e26695f426537759
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:Unifying Inner & Outer Loops To Bridge the Gaps Between Devs & Ops With Microcks + Score - Laurent Broudoux\, Microcks & Mathieu Benoit\, Docker
@@ -319,7 +307,7 @@ UID:860223a2a2c040f3f1651e8a74d49135
 URL:http://kccnceu2026.sched.com/event/860223a2a2c040f3f1651e8a74d49135
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:What Survived Production: Operating Game Backends at Million-Player Scale - Berkay Uckac\, Futureplay Games
@@ -331,7 +319,7 @@ UID:e2d9001ffc1c0cbe724890ab48a19875
 URL:http://kccnceu2026.sched.com/event/e2d9001ffc1c0cbe724890ab48a19875
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:From NLB Sprawl To Mesh Efficiency: How Skyscanner Handles 60M Requests Per Minute With Istio - John Clark\, Skyscanner & Steven Thwaites\, Solo.io
@@ -343,7 +331,7 @@ UID:3744130f8166538a8106cd12790a3883
 URL:http://kccnceu2026.sched.com/event/3744130f8166538a8106cd12790a3883
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:Accelerating Thanos at Scale: Faster and Cheaper Queries With Parquet - Giedrius Statkevičius\, Vinted
@@ -355,31 +343,19 @@ UID:ff7c46fae4184572c0b7e9f7803b6b56
 URL:http://kccnceu2026.sched.com/event/ff7c46fae4184572c0b7e9f7803b6b56
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:Gateway API: Bridging the Gap from Ingress to the Future - Nick Young & James Strong\, Isovalent at Cisco; Katarzyna Łach & Rostislav Bobrovsky\, Google; Norwin Schnyder\, Airlock
 DESCRIPTION:Gateway API continues to mature into a core part of the toolkit for Cloud Native networking. But\, since the last Gateway API update\, some big changes have happened. This session goes through some of the recent improvements that have happened in Gateway API in the last six months\, along with laying out some of the upcoming features.\n\nIn particular\, with the archival of ingress-nginx coming up\, many more Ingress users have been looking at Gateway API\, and the community has been hard at work trying to smooth out friction points for those users\, especially with helping with migration (using the ingress2gateway tool)\, improving integrations with tools like cert-manager and external-dns\, and making improvements to TLS handling.\n\nIn particular\, the new ListenerSet resource moving to Standard is intended to help Ingress users have an experience more like what they are used to\, while keeping some of the enhanced security features that Gateway API brings.
 CATEGORIES:MAINTAINER TRACK
-LOCATION:F002-005\, Amsterdam\, Netherlands
+LOCATION:Amtrium 1+2\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:1e73d8927ae16ce79cb6c7acd766edaf
 URL:http://kccnceu2026.sched.com/event/1e73d8927ae16ce79cb6c7acd766edaf
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
-DTSTART:20260324T101500Z
-DTEND:20260324T104500Z
-SUMMARY:Helm 4 Is Here. So\, Now What? - Andrew Block\, Red Hat; Scott Rigby\, Replicated; Robert Sirchia\, SUSE
-DESCRIPTION:After five years\, Helm 4 was released last November at KubeCon North America 2025. While there was a large amount of fanfare coinciding with the release\, many now wonder: “what does the future have in store for the Helm project?” In this session\, join Helm project maintainers as they look not on the past\, but towards the future. They will share the list of features that were both planned for and/or delivered with the release of Helm 4. These capabilities have helped lay the foundation for what is available today within Helm 4 and where further advancement can be made. They will also share where the project is headed strategically and all of the different contribution opportunities available for the community.
-CATEGORIES:MAINTAINER TRACK
-LOCATION:Amtrium 1+2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:f0cc491a7a88203a134adae055ea0318
-URL:http://kccnceu2026.sched.com/event/f0cc491a7a88203a134adae055ea0318
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:SIG Contributor Experience: Guiding Contributors Through the Project - Nabarun Pal\, Broadcom; Priyanka Saggu\, SUSE; Arpit Agrawal\, Kubernetes; Mario Fahlandt\, Kubermatic
@@ -391,7 +367,19 @@ UID:7d739c81f2218a1a21b720fb31f2e28d
 URL:http://kccnceu2026.sched.com/event/7d739c81f2218a1a21b720fb31f2e28d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
+DTSTART:20260324T101500Z
+DTEND:20260324T104500Z
+SUMMARY:Vitess: More Data\, No Problems - Matt Lord & Rohit Nayak\, PlanetScale
+DESCRIPTION:You may have already bumped up against cases where operating at your current scale prove challenging: schema changes\, upgrades\, failovers\, performance\, backups\, data migrations\, and more. \n \n Vitess has allowed some of the biggest tech companies on the planet to operate massive data storage layers. It provides the automation\, the tooling\, and the feature set necessary to operate at virtually unlimited scale. And its cloud native\, automated\, self-healing nature allows you to achieve this with a small team of engineers! \n \n In this talk we will cover some of the key aspects of Vitess that allow you to confidently and successfully meet your current and future database operation needs as your organization grows and your data expands along with it.
+CATEGORIES:MAINTAINER TRACK
+LOCATION:F002-005\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:b797a8e09a33b6738d2d9acc24770e2d
+URL:http://kccnceu2026.sched.com/event/b797a8e09a33b6738d2d9acc24770e2d
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:When DNS Blinks: Scaling and Hardening CoreDNS in Critical Cloud Infrastructure - Yong Tang\, Ivanti & John Belamaric\, Google
@@ -403,7 +391,7 @@ UID:39edf008ef3ad43f49ad62248509b2e3
 URL:http://kccnceu2026.sched.com/event/39edf008ef3ad43f49ad62248509b2e3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:We Deleted Our Observability Stack and Rebuilt It With OTEL: 12 Engineers to 4 at 20K+ Clusters - Yash Sharma & Kunju Perath\, DigitalOcean
@@ -415,7 +403,7 @@ UID:bef972dd98608f53962eebf778bcc9d3
 URL:http://kccnceu2026.sched.com/event/bef972dd98608f53962eebf778bcc9d3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:1000 Services\, 1 Year\, 0 Downtime: Airbnb’s Zonal Cluster Migration - Sunny Beatteay\, Airbnb
@@ -427,7 +415,7 @@ UID:ee2858afa98d4798a6f21407502d50b2
 URL:http://kccnceu2026.sched.com/event/ee2858afa98d4798a6f21407502d50b2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:API-Driven Infrastructure as Code: Kubernetes APIs as the Contract Bridge Between Teams - Florian Hopfensperger\, Allianz Technology & Yury Tsarev\, Upbound
@@ -439,7 +427,7 @@ UID:f0f84fd83ad08f2389e530b483d51717
 URL:http://kccnceu2026.sched.com/event/f0f84fd83ad08f2389e530b483d51717
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T104500Z
 SUMMARY:No Pain No Drain: Lessons From Node Drains at Scale - Ryan Hallisey & Natalie Bandel\, NVIDIA
@@ -451,7 +439,7 @@ UID:7d00ee75fdcdc921e14f5bbdecffb9f9
 URL:http://kccnceu2026.sched.com/event/7d00ee75fdcdc921e14f5bbdecffb9f9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T113000Z
 SUMMARY:🚨 Contribfest: Get Started Contributing To bootc - Joseph Marrero Corchado\, Laura Santamaria\, Preethi Thomas\, Alice Frosi & Colin Walters\, Red Hat
@@ -463,7 +451,7 @@ UID:3e43b37db6ce7c4e491a88786c980f82
 URL:http://kccnceu2026.sched.com/event/3e43b37db6ce7c4e491a88786c980f82
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T113000Z
 SUMMARY:🚨 Contribfest: Improving Submariner in Support of Privacy-preserving Federated Statistics Research on Kubernetes - Stephen Kitt\, Red Hat & Julien D.\, Lausanne University Hospital
@@ -475,7 +463,7 @@ UID:7fece19dd0709e9e0ddb70c1f2f8a5f5
 URL:http://kccnceu2026.sched.com/event/7fece19dd0709e9e0ddb70c1f2f8a5f5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101500Z
 DTEND:20260324T113000Z
 SUMMARY:📚 Tutorial: 5 Stages of Kubernetes - Rick Rackow\, STACKIT
@@ -487,7 +475,7 @@ UID:68c19a35b12ebb107963129394cda95e
 URL:http://kccnceu2026.sched.com/event/68c19a35b12ebb107963129394cda95e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T101800Z
 DTEND:20260324T104200Z
 SUMMARY:Cloud Native Theater | Cloud Native University: Kubernetes and the Answer is… 42! - Jan Stomphorst\, ACC ICT
@@ -499,7 +487,7 @@ UID:012a33f9176b0f9079653481b9da7242
 URL:http://kccnceu2026.sched.com/event/012a33f9176b0f9079653481b9da7242
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T102000Z
 DTEND:20260324T104000Z
 SUMMARY:Sponsored Demo: Running HA Kubernetes on Interruptible Infrastructure at Picnic
@@ -511,10 +499,10 @@ UID:788faa2c0487bcb9238170894e38a734
 URL:http://kccnceu2026.sched.com/event/788faa2c0487bcb9238170894e38a734
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T103000Z
 DTEND:20260324T123000Z
-SUMMARY:🚩 An Introduction to Capture The Flag - Fabian Kammel\, John Kjell
+SUMMARY:🚩 An Introduction to Capture The Flag - Fabian Kammel & John Kjell\, ControlPlane
 DESCRIPTION:An Introduction to Capture The Flag\n\nThe Cloud Native Capture The Flag (CTF) is available to all KubeCon + CloudNativeCon attendees. &nbsp\;In preparation for playing the game\, you are invited to attend an introductory session.This session introduces CTF competitions for newcomers: any experience level is welcome. We will share tips and tricks for completing these challenges and work through a practice scenario together. You can play solo or with a friend!\nLearn more about how to participate in Capture The Flag here.
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Hall 1-5 | Gouda Zone | Project Pavilion\, Amsterdam\, Netherlands
@@ -523,7 +511,7 @@ UID:b63d6b440911c9d7edeae8cc6b6a617c
 URL:http://kccnceu2026.sched.com/event/b63d6b440911c9d7edeae8cc6b6a617c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T104500Z
 DTEND:20260324T105000Z
 SUMMARY:Cloud Native Theater | Cloud Native University: Kubernetes: The API of Everything - Tibo Beijen\, DPG Media Nederland
@@ -535,19 +523,19 @@ UID:0c7133fe193b01168e07bf0375332b06
 URL:http://kccnceu2026.sched.com/event/0c7133fe193b01168e07bf0375332b06
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T105000Z
 DTEND:20260324T111000Z
 SUMMARY:Sponsored Demo: Expectations vs. Reality: Scaling the Dream of Zero-CVE Images
-DESCRIPTION:Expectation: Zero-CVE images. Reality: Manual\, friction-filled migrations. The gap between wanting to start secure and actually doing it at scale is where innovation often stalls. Join us to move from "this sounds great" to "this is running in production." We'll explore how Wiz closes the secured image migration gap with code-to-cloud visibility and control. Learn how Wiz platform helps teams: Understand their current container landscape and risk posture Prioritize and plan migration with start secure opportunities Streamline migration to secured\, WizOS images with AI Make secured images the easy choice for developers See how to turn the dream of zero-CVE images into a practical reality for both security and development teams. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Expectation: Zero-CVE images. Reality: Manual\, friction-filled migrations. The gap between wanting to start secure and actually doing it at scale is where innovation often stalls.\n \n Join us to move from "this sounds great" to "this is running in production." We'll explore how Wiz closes the secured image migration gap with code-to-cloud visibility and control. Learn how Wiz platform helps teams:\n \n Understand their current container landscape and risk posture\n Prioritize and plan migration with start secure opportunities\n Streamline migration to secured\, WizOS images with AI\n Make secured images the easy choice for developers\n \n \n See how to turn the dream of zero-CVE images into a practical reality for both security and development teams.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:5c7f86bbc924b983d75d126dcefa8f8c
 URL:http://kccnceu2026.sched.com/event/5c7f86bbc924b983d75d126dcefa8f8c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T105300Z
 DTEND:20260324T110800Z
 SUMMARY:Cloud Native Theater | Cloud Native University: A Simple and Practical Guide to Observability in Kubernetes - Diana Todea\, VictoriaMetrics
@@ -559,7 +547,19 @@ UID:8206c71d45f08ac9586d16c718cb8577
 URL:http://kccnceu2026.sched.com/event/8206c71d45f08ac9586d16c718cb8577
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
+DTSTART:20260324T110000Z
+DTEND:20260324T113000Z
+SUMMARY:Breaking the Monolith: Decomposing and Governing Giant LLM Jobs Across Clusters - Kevin Wang\, Huawei
+DESCRIPTION:Multi-cluster architecture is now a common choice for enterprise AI infrastructure\, enabling unified resource management\, flexible integration of multi-cloud and data center GPUs\, and abstraction of hardware differences for simplified scheduling. \n \n Traditionally\, AI jobs were scheduled as a whole to a member cluster to ensure performance consistency\, but this limited flexibility and resource utilization. In practice\, splitting jobs across clusters becomes necessary for large-scale LLM training exceeding single-cluster capacity or aggregating idle resources from multiple clusters. \n \n This session introduces how Volcano Global and Karmada enable adaptive cross-cluster scheduling for LLM jobs: \n 1. a universal global scheduling control plane \n 2. a higher-level job abstraction for intelligent decomposition of large AI jobs across clusters \n 3. a centralized global queue and priority mechanism to ensure fair and orderly resource allocation\, preventing large tasks from overwhelming the shared pool
+CATEGORIES:AI + ML
+LOCATION:Elicium 2\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:a100f382f331c59d59f1046a91411d71
+URL:http://kccnceu2026.sched.com/event/a100f382f331c59d59f1046a91411d71
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Locking Down Ray Serve: How to Secure Ur ML Models? - Kateryna Hrytsaienko\, Valtech
@@ -571,7 +571,7 @@ UID:389058fef05b31189c0ebad567972229
 URL:http://kccnceu2026.sched.com/event/389058fef05b31189c0ebad567972229
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Your Models Are Vulnerable: How KitOps Turns KServe Into a Zero-Trust Inference Platform - Brad Micklea\, Jozu & Gavrish Prabhu\, Nutanix
@@ -583,7 +583,7 @@ UID:a9670815dd9716f90a5f939beea5b5b9
 URL:http://kccnceu2026.sched.com/event/a9670815dd9716f90a5f939beea5b5b9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Virtual Power Plants (VPP): How They Work and What They Are - LeRenzo Malcom & Mario Flores\, Enpal
@@ -595,7 +595,7 @@ UID:481d9a8fadd5e5e3385cfbf1fe3d101e
 URL:http://kccnceu2026.sched.com/event/481d9a8fadd5e5e3385cfbf1fe3d101e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Cloud Native Non-Functional Requirements: Building Scalable\, Resilient and Secure Applications - Jakub Krzywda\, Elastisys
@@ -607,7 +607,7 @@ UID:420e335e851a485e100c7cbe96ae0ff9
 URL:http://kccnceu2026.sched.com/event/420e335e851a485e100c7cbe96ae0ff9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Intelligent Routing for Optimized Inference - Antonio Berben\, Solo.io & Felipe Vicens\, Telefonica
@@ -619,7 +619,7 @@ UID:6655d8392d0a5368bee480cbe1182626
 URL:http://kccnceu2026.sched.com/event/6655d8392d0a5368bee480cbe1182626
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Dapr in the AI Era: Orchestrating Complex Multi-agent Workflows With Automatic Recovery - Yaron Schneider\, Diagrid
@@ -631,7 +631,19 @@ UID:7506253eb12615d2ff4195d0bf5c64bc
 URL:http://kccnceu2026.sched.com/event/7506253eb12615d2ff4195d0bf5c64bc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
+DTSTART:20260324T110000Z
+DTEND:20260324T113000Z
+SUMMARY:Helm 4 Is Here. So\, Now What? - Andrew Block\, Red Hat; Scott Rigby\, Replicated; Robert Sirchia\, SUSE
+DESCRIPTION:After five years\, Helm 4 was released last November at KubeCon North America 2025. While there was a large amount of fanfare coinciding with the release\, many now wonder: “what does the future have in store for the Helm project?” \n \n In this session\, join Helm project maintainers as they look not on the past\, but towards the future. They will share the list of features that were both planned for and/or delivered with the release of Helm 4. These capabilities have helped lay the foundation for what is available today within Helm 4 and where further advancement can be made. They will also share where the project is headed strategically and all of the different contribution opportunities available for the community.
+CATEGORIES:MAINTAINER TRACK
+LOCATION:Amtrium 1+2\, Amsterdam\, Netherlands
+SEQUENCE:0
+UID:f0cc491a7a88203a134adae055ea0318
+URL:http://kccnceu2026.sched.com/event/f0cc491a7a88203a134adae055ea0318
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:In Falco's Nest: The Evolution of Cloud Native Runtime Security - Iacopo Rozzo\, Sysdig; Aldo Lacuku\, Kong Inc.
@@ -643,19 +655,7 @@ UID:8baff91284b0e2034da133b8441e7919
 URL:http://kccnceu2026.sched.com/event/8baff91284b0e2034da133b8441e7919
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
-DTSTART:20260324T110000Z
-DTEND:20260324T113000Z
-SUMMARY:Vitess: More Data\, No Problems - Matt Lord & Rohit Nayak\, PlanetScale
-DESCRIPTION:You may have already bumped up against cases where operating at your current scale prove challenging: schema changes\, upgrades\, failovers\, performance\, backups\, data migrations\, and more. Vitess has allowed some of the biggest tech companies on the planet to operate massive data storage layers. It provides the automation\, the tooling\, and the feature set necessary to operate at virtually unlimited scale. And its cloud native\, automated\, self-healing nature allows you to achieve this with a small team of engineers! In this talk we will cover some of the key aspects of Vitess that allow you to confidently and successfully meet your current and future database operation needs as your organization grows and your data expands along with it.
-CATEGORIES:MAINTAINER TRACK
-LOCATION:Amtrium 1+2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:b797a8e09a33b6738d2d9acc24770e2d
-URL:http://kccnceu2026.sched.com/event/b797a8e09a33b6738d2d9acc24770e2d
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:WIT Happens: Exploring the Latest Evolution of the SPIFFE and WIMSE Workload Identity Standards. - Noah Stride\, Teleport & Arndt Schwenkschuster\, Defakto Security
@@ -667,43 +667,31 @@ UID:40e24e529b40a399be6886ab29a6b433
 URL:http://kccnceu2026.sched.com/event/40e24e529b40a399be6886ab29a6b433
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:When OTTL Goes Off the Rails: Debugging Transformations with Confidence - Edmo Vamerlatti Costa\, Elastic & Tyler Helmuth\, Honeycomb
 DESCRIPTION:Ever written an OpenTelemetry Transformation Language (OTTL) statement that looked right but went completely off the rails when you ran it? You’re not alone. Testing and troubleshooting OTTL can be tricky\, especially when it’s unclear how your telemetry data is being interpreted and transformed under the hood.\n\nIn this session\, we’ll demonstrate how to keep your transformations running smoothly. Using the OpenTelemetry Collector’s built-in tools and the OTTL Playground (https://ottl.run)\, we’ll validate\, debug\, and fine-tune statements using real-world examples. Along the way\, we’ll uncover hidden issues\, explain unexpected behavior\, and explore strategies to guide your transformations back on track.\n\nExpect live demos\, debug logs\, a few intentional derailments\, and practical tips to make your next troubleshooting session smoother\, and maybe even a little https://ottl.fun.
 CATEGORIES:OBSERVABILITY
-LOCATION:Hall 8 | Room G\, Amsterdam\, Netherlands
+LOCATION:Hall 8 | Room D\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:311ed775421c436be4a895da434410a8
 URL:http://kccnceu2026.sched.com/event/311ed775421c436be4a895da434410a8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:5000 Kubernetes Clusters\, 5 Minutes: Walmart’s Secret to Rapid Edge Deployments with Argo - Yug Gupta\, Walmart Global Tech
 DESCRIPTION:Imagine deploying applications across 5\,000+ Kubernetes edge clusters in under 5 minutes\, despite severe internet bandwidth constraints. In this case study\, we unveil how we turned this challenge into an opportunity by harnessing the power of Argo Workflows. Our edge clusters\, located in retail stores across the U.S.\, required a deployment strategy that could overcome slow internet speeds and avoid business disruptions during operational hours.\n\nWe’ll show how we cut fleet-wide deploys to ~5 minutes P95 by pre-seeding OCI images to local caches\, time-windowing Helm releases\, and enforcing digest-pinned\, policy-gated rollouts with an intelligent pull+push mechanism. The result was a highly efficient\, batch-based deployment across a massive fleet of edge clusters\, completed in record time.\n\nYou’ll leave with YAMLs and a runbook you can try in staging\, plus the pitfalls we hit first (cold caches\, egress bottlenecks\, etc) and the pragmatic fixes that made it fast and predictable.
 CATEGORIES:OPERATIONS + PERFORMANCE
-LOCATION:Hall 8 | Room D\, Amsterdam\, Netherlands
+LOCATION:Hall 8 | Room G\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:fec46aa65d4e2ab5814a8855dd4a6c1b
 URL:http://kccnceu2026.sched.com/event/fec46aa65d4e2ab5814a8855dd4a6c1b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
-DTSTART:20260324T110000Z
-DTEND:20260324T113000Z
-SUMMARY:Kubernetes Autopsy: Live Debugging a Cluster Meltdown - Sandeep Kanabar\, Gen; Aditi Gupta\, Disney+ Hotstar; Anshika Gupta\, Independent
-DESCRIPTION:What happens when a Kubernetes cluster spirals? In this technical deep-dive\, we'll reconstruct a real-world cluster catastrophe from the digital crime scene it left behind.\n\nWatch as we perform a live forensic analysis of a cascading failure: a memory leak that triggered an OOMKill\, which destabilized etcd\, which corrupted state\, which triggered a controller storm\, which brought down the control plane. Using actual logs\, metrics\, and traces\, we'll reverse-engineer the incident minute-by-minute\, revealing how seemingly unrelated symptoms connect into a devastating chain reaction.\n\nYou'll learn advanced debugging techniques using kubectl\, crictl\, etcdctl\, and eBPF-based observability tools. We'll explore how to read the "black box" data Kubernetes components leave behind\, identify root causes hidden in cascading symptoms\, and build runbooks that prevent similar disasters.\n\nThis isn't post-mortem theater—it's about reading the signs before your cluster writes its own obituary.
-CATEGORIES:OPERATIONS + PERFORMANCE
-LOCATION:Elicium 2\, Amsterdam\, Netherlands
-SEQUENCE:0
-UID:2e22c03ced7c9f271cc8c93413a23ab8
-URL:http://kccnceu2026.sched.com/event/2e22c03ced7c9f271cc8c93413a23ab8
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:API is the New SSH: Forging a Zero-Trust VM Platform on Kubernetes - Evangelista Tragni\, Devoteam
@@ -715,7 +703,7 @@ UID:4316ced9317557722617ff1bdab83a5c
 URL:http://kccnceu2026.sched.com/event/4316ced9317557722617ff1bdab83a5c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:Flipping the Curve: A Platform Engineer's Guide to Unlocking the Silent 80% - Michael Reichenbach\, 1KOMMA5°
@@ -727,7 +715,7 @@ UID:9d430e536a950c1b8a2427d2fc4d1b75
 URL:http://kccnceu2026.sched.com/event/9d430e536a950c1b8a2427d2fc4d1b75
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T110000Z
 DTEND:20260324T113000Z
 SUMMARY:No Shame\, Just Pain: How We Migrated Away From Kubernetes 1.16 in 2025 - Jannis Relakis & Michael Seiwald-McCarty\, Celonis
@@ -739,7 +727,7 @@ UID:b3716c6eb82afd1efaaa0a94dec865d9
 URL:http://kccnceu2026.sched.com/event/b3716c6eb82afd1efaaa0a94dec865d9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T111100Z
 DTEND:20260324T111600Z
 SUMMARY:Cloud Native Theater | Cloud Native University: Introduction to GitOps - Chris Plank\, NatWest
@@ -751,7 +739,7 @@ UID:cfdb5531dd2ee4ded0180b07a716c817
 URL:http://kccnceu2026.sched.com/event/cfdb5531dd2ee4ded0180b07a716c817
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T111900Z
 DTEND:20260324T113400Z
 SUMMARY:Cloud Native Theater | Cloud Native University: Platform Engineering - About Tools\, Techniques\, People and Culture - Max Körbächer\, Liquid Reply
@@ -763,7 +751,7 @@ UID:98b51485b7fabc81ec49d1d0f97ed4af
 URL:http://kccnceu2026.sched.com/event/98b51485b7fabc81ec49d1d0f97ed4af
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T113000Z
 DTEND:20260324T133000Z
 SUMMARY:Lunch 🍲
@@ -775,7 +763,7 @@ UID:5bcf6d0e31b4079bfd3de1e807033706
 URL:http://kccnceu2026.sched.com/event/5bcf6d0e31b4079bfd3de1e807033706
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T113000Z
 DTEND:20260324T123000Z
 SUMMARY:Deep Roots: Black\, Indigenous\, and People of Color Community Gathering
@@ -787,7 +775,7 @@ UID:7a4356a580ce17f9896b049a7c3188c2
 URL:http://kccnceu2026.sched.com/event/7a4356a580ce17f9896b049a7c3188c2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T113000Z
 DTEND:20260324T120000Z
 SUMMARY:Gold Sponsor In-Booth Demos
@@ -799,19 +787,19 @@ UID:eb4b740818d7506af35af45548b4aac9
 URL:http://kccnceu2026.sched.com/event/eb4b740818d7506af35af45548b4aac9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T113000Z
 DTEND:20260324T115000Z
 SUMMARY:Sponsored Demo: API Collaboration in Postman: Your Git Repo is now the Single Source of Truth for your APIs
-DESCRIPTION:When developers think about collaborating on API interfaces\, they often do not think about them in git based workflows\, similar to how they would when collaborating on building these APIs. This means these flows are often disconnected from the code that they describe. In this demo\, we will explore what it really means to collaboratively iterate on APIs as teams continue to expose new interfaces\, and how your existing git repository can be the single source of truth for all your API artefacts (Collections\, OpenAPI definitions\, environments\, etc.) while still being able to collaboratively iterate upon them using tools like Postman. We'll explore the roles of API producers and consumers and walk through an end-to-end workflow between producer to producer\, consumer to consumer\, and producer to consumer API Collaboration workflows using git as the single source of truth in Postman. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:When developers think about collaborating on API interfaces\, they often do not think about them in git based workflows\, similar to how they would when collaborating on building these APIs. This means these flows are often disconnected from the code that they describe. \n In this demo\, we will explore what it really means to collaboratively iterate on APIs as teams continue to expose new interfaces\, and how your existing git repository can be the single source of truth for all your API artefacts (Collections\, OpenAPI definitions\, environments\, etc.) while still being able to collaboratively iterate upon them using tools like Postman. \n We'll explore the roles of API producers and consumers and walk through an end-to-end workflow between producer to producer\, consumer to consumer\, and producer to consumer API Collaboration workflows using git as the single source of truth in Postman.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:21f82e6ec9c600a05f557e1c529a90f1
 URL:http://kccnceu2026.sched.com/event/21f82e6ec9c600a05f557e1c529a90f1
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T113700Z
 DTEND:20260324T115700Z
 SUMMARY:Cloud Native Theater | Cloud Native University: How Kubernetes Actually Ships: An Educator's Guide to Core Releases\, SIGs\, and Staying Current - Michael Forrester and Mumshad Mannambeth\, KodeKloud
@@ -823,7 +811,7 @@ UID:949a59e8cbd36711db0202ba4536bad7
 URL:http://kccnceu2026.sched.com/event/949a59e8cbd36711db0202ba4536bad7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T120000Z
 DTEND:20260324T130000Z
 SUMMARY:Network Nook Meetup: 1st Time Attendees
@@ -835,7 +823,7 @@ UID:24e5c769e7a2d77af99ce711d4396bef
 URL:http://kccnceu2026.sched.com/event/24e5c769e7a2d77af99ce711d4396bef
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T120000Z
 DTEND:20260324T121500Z
 SUMMARY:Cloud Native Theater | Cloud Native University: The AI-Hiker’s Guide to Cloud Native AI - Cansu Kavili Örnek and Anneli Sara Banderby\, RedHat
@@ -847,7 +835,7 @@ UID:7d834c7a1d2fd8302ab2271061a478fd
 URL:http://kccnceu2026.sched.com/event/7d834c7a1d2fd8302ab2271061a478fd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T120000Z
 DTEND:20260324T123000Z
 SUMMARY:Gold Sponsor In-Booth Demos
@@ -859,19 +847,19 @@ UID:a566a9a402f7d62e736cd32268eb857c
 URL:http://kccnceu2026.sched.com/event/a566a9a402f7d62e736cd32268eb857c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T120000Z
 DTEND:20260324T122000Z
 SUMMARY:Sponsored Demo: Securely Connecting Agentic IDEs to SaaS MCPs in the Enterprise
-DESCRIPTION:Public facing MCP servers expect clients to login and consent through OAuth\, but this is done on a different IdP that the enterprise IdP. Even SSO/Federated SSO doesn’t really solve this. Enterprises don’t want AI agents or users going directly to these public providers without knowing about it and enforcing/managing/revoking access. So how can you safely and securely connect your Agent IDE to public MCP servers? In this talk\, we’ll look at (through live demos) the specific challenges and best practices for managing this flow\, tying into enterprise SSO and policy enforcement\, and then safely retrieving public access tokens. We want to shield the user from all of this happening under the covers\, but maintain auditability\, observability\, and compliance. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Public facing MCP servers expect clients to login and consent through OAuth\, but this is done on a different IdP that the enterprise IdP. Even SSO/Federated SSO doesn’t really solve this.&nbsp\;Enterprises don’t want AI agents or users going directly to these public providers without knowing about it and enforcing/managing/revoking access. So how can you safely and securely connect your Agent IDE to public MCP servers? In this talk\, we’ll look at (through live demos) the specific challenges and best practices for managing this flow\, tying into enterprise SSO and policy enforcement\, and then safely retrieving public access tokens. We want to shield the user from all of this happening under the covers\, but maintain auditability\, observability\, and compliance.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:4ef78ddcd6cdb2c2504b60235504a02c
 URL:http://kccnceu2026.sched.com/event/4ef78ddcd6cdb2c2504b60235504a02c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T121500Z
 DTEND:20260324T123000Z
 SUMMARY:Learning Lounge: Starting Your Kubestronaut Journey with the KCNA\, CKA and CKAD - James Spurin\, DiveInto
@@ -883,11 +871,11 @@ UID:eefde10b77475dc4fb5a10fce78a6c40
 URL:http://kccnceu2026.sched.com/event/eefde10b77475dc4fb5a10fce78a6c40
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T121800Z
 DTEND:20260324T123400Z
-SUMMARY:Cloud Native Theater | Cloud Native University: From Control Planes to Cognitive Planes: Agentic Architecture with MCP - Eddie Wassef\, Archetypical Software
-DESCRIPTION:APIs helped define cloud-native—but agentic systems need more.\n \n In this talk\, we introduce MCP (Model\, Context\, Protocol)—an architectural framework built for adaptive\, AI-enhanced\, agentic systems. You'll learn how MCP extends API-centric thinking to define not just interfaces\, but also capabilities\, environment-aware behavior\, and reflective discovery.
+SUMMARY:Cloud Native Theater | Cloud Native University: AI + Kubernetes: What Beginners Need to Know in 2026 - Michael Forrester\, KodeKloud
+DESCRIPTION:\n
 CATEGORIES:SOLUTIONS SHOWCASE
 LOCATION:Hall 1-5 | Tram Zone | Cloud Native Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -895,19 +883,19 @@ UID:6054ae293f012fd4c64aa2604ee03312
 URL:http://kccnceu2026.sched.com/event/6054ae293f012fd4c64aa2604ee03312
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T123000Z
 DTEND:20260324T125000Z
 SUMMARY:Sponsored Demo: Autonomous Kubernetes Resource Management in Production
-DESCRIPTION:Cost optimization without performance guarantees is gambling with production. In this live demo\, we’ll show how ScaleOps autonomously manages Kubernetes resources in real production clusters\, continuously aligning CPU\, memory\, and replica configurations with actual workload behavior. The goal is simple: every workload runs with exactly the resources it needs. No more. No less. ScaleOps uses context-aware optimization powered by real-time cluster conditions and workload behavior to continuously and autonomously rightsize CPU and memory\, manage replicas\, and eliminate inefficiencies. You’ll see how autonomous actions are validated\, rolled out with guardrails\, and monitored to prevent regression or scaling oscillation across both AI and cloud-native workloads. The result: improved latency and workload stability first\, followed by measurable reductions in overprovisioning and cloud waste\, without manual tuning. If you operate Kubernetes in production and need automation that enforces performance discipline while improving efficiency\, this demo is for you. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Cost optimization without performance guarantees is gambling with production.\n \n In this live demo\, we’ll show how ScaleOps autonomously manages Kubernetes resources in real production clusters\, continuously aligning CPU\, memory\, and replica configurations with actual workload behavior. \n \n The goal is simple: every workload runs with exactly the resources it needs. No more. No less.\n \n ScaleOps uses context-aware optimization powered by real-time cluster conditions and workload behavior to continuously and autonomously rightsize CPU and memory\, manage replicas\, and eliminate inefficiencies. You’ll see how autonomous actions are validated\, rolled out with guardrails\, and monitored to prevent regression or scaling oscillation across both AI and cloud-native workloads.\n \n The result: improved latency and workload stability first\, followed by measurable reductions in overprovisioning and cloud waste\, without manual tuning.\n \n If you operate Kubernetes in production and need automation that enforces performance discipline while improving efficiency\, this demo is for you.\n \n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:9cf6bb03a4718af3c7e1e004dce0ea99
 URL:http://kccnceu2026.sched.com/event/9cf6bb03a4718af3c7e1e004dce0ea99
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T124500Z
 DTEND:20260324T133000Z
 SUMMARY:Laughter Workshop
@@ -919,7 +907,7 @@ UID:0a20699f6d6236437376cb7f62ebd6a7
 URL:http://kccnceu2026.sched.com/event/0a20699f6d6236437376cb7f62ebd6a7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T124500Z
 DTEND:20260324T131000Z
 SUMMARY:Project Demo
@@ -931,7 +919,7 @@ UID:51e9b724d9962af312f64bf36f84a203
 URL:http://kccnceu2026.sched.com/event/51e9b724d9962af312f64bf36f84a203
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T130000Z
 DTEND:20260324T143000Z
 SUMMARY:Kubernetes Contribution 101
@@ -943,11 +931,11 @@ UID:217f0d792807a57efb9617ea922072f1
 URL:http://kccnceu2026.sched.com/event/217f0d792807a57efb9617ea922072f1
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T130000Z
 DTEND:20260324T133000Z
 SUMMARY:Gold Sponsor In-Booth Demos
-DESCRIPTION:Sponsor: Harness\n Demo: ArgoCD in Production: Scaling GitOps Without Compromise\n Booth Number: 421\n \n Sponsor: Infisical\n Demo: Open source secrets\, certificates\, and privileged access\n Booth Number: 431\n \n Sponsor: Nscale\n Demo: One Stack to Rule Them All: Ground to Cloud AI infrastructure\n Booth Number: 231\n \n Sponsor: PerfectScale by DoiT\n Demo: The Perfect Cluster A Kubernetes Optimization Framework with PerfectScale by DoiT - Anton Weiss\, PerfectScale by DoiT\n Booth Number: 251\n \n Sponsor: Port\n Demo: Agents sprawl. Solved.\n Booth Number: 330\n \n Sponsor: Tigera\n Demo: The AI Assistant Troubleshoots Network Issues and Identifies Policy Gaps\n Booth Number: 400\n \n \n *In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.*
+DESCRIPTION:Sponsor: Harness\n Demo: ArgoCD in Production: Scaling GitOps Without Compromise\n Booth Number: 421\n \n Sponsor: Infisical\n Demo: Open source secrets\, certificates\, and privileged access\n Booth Number: 431\n \n Sponsor: Nscale\n Demo: One Stack to Rule Them All: Ground to Cloud AI infrastructure\n Booth Number: 231\n \n Sponsor: PerfectScale by DoiT\n Demo: The Perfect Cluster A Kubernetes Optimization Framework with PerfectScale by DoiT - Anton Weiss\, PerfectScale by DoiT\n Booth Number: 251\n \n Sponsor: Tigera\n Demo: The AI Assistant Troubleshoots Network Issues and Identifies Policy Gaps\n Booth Number: 400\n \n \n *In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.*
 CATEGORIES:SOLUTIONS SHOWCASE
 LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -955,7 +943,7 @@ UID:edd8a6d660950c6e505255d4a5f882ae
 URL:http://kccnceu2026.sched.com/event/edd8a6d660950c6e505255d4a5f882ae
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T130000Z
 DTEND:20260324T131500Z
 SUMMARY:Learning Lounge: What Platform Engineers Need to Know About Developer Experience - Max Körbächer\, Liquid Reply
@@ -967,19 +955,19 @@ UID:c39e97c6e232bdff7197848d1727f7ce
 URL:http://kccnceu2026.sched.com/event/c39e97c6e232bdff7197848d1727f7ce
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T130000Z
 DTEND:20260324T132000Z
 SUMMARY:Sponsored Demo: CSI WON’T SAVE YOU - Why “CSI Support” is not a storage strategy and you are being setup to fail
-DESCRIPTION:CSI compliance is often presented as a checkbox for running both stateful and virtualised workloads on Kubernetes. In practice\, that checkbox hides some dangerous assumptions. This talk challenges the idea that CSI alone is enough. We’ll examine the responsibilities CSI deliberately avoids\, why those omissions matter in production\, and how they impact day-2 operations for stateful workloads. Through practical examples\, we’ll show how Portworx continues where CSI stops to provide resilience\, disaster recovery\, and data mobility… the things teams expect their storage vendor to handle and CSI seemed to promise\, but never delivered. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:CSI compliance is often presented as a checkbox for running both stateful and virtualised workloads on Kubernetes. In practice\, that checkbox hides some dangerous assumptions.\n \n This talk challenges the idea that CSI alone is enough. We’ll examine the responsibilities CSI deliberately avoids\, why those omissions matter in production\, and how they impact day-2 operations for stateful workloads. Through practical examples\, we’ll show how Portworx continues where CSI stops to provide resilience\, disaster recovery\, and data mobility… the things teams expect their storage vendor to handle and CSI seemed to promise\, but never delivered.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:ecf2f1c562a74b365f32247d7a374a21
 URL:http://kccnceu2026.sched.com/event/ecf2f1c562a74b365f32247d7a374a21
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T132500Z
 DTEND:20260324T135000Z
 SUMMARY:Project Demo
@@ -991,7 +979,7 @@ UID:161ed77737bbbb2015c7d16d9bba5ced
 URL:http://kccnceu2026.sched.com/event/161ed77737bbbb2015c7d16d9bba5ced
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Driving Adoption and Automation With MCP in Production at Liftoff - Tommy Nguyen\, Liftoff Mobile
@@ -1003,7 +991,7 @@ UID:2dd0dfbcea0b837936ad52d98bf5daf0
 URL:http://kccnceu2026.sched.com/event/2dd0dfbcea0b837936ad52d98bf5daf0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Make GenAI Production-Ready With Kubernetes Patterns - Roland Huss\, Red Hat & Bilgin Ibryam\, Diagrid
@@ -1015,7 +1003,7 @@ UID:5bfd9cb236c6d049ba62b1f63fda9360
 URL:http://kccnceu2026.sched.com/event/5bfd9cb236c6d049ba62b1f63fda9360
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:From Open Source To Enterprise Scale and Back: A Journey With Road-Runner - Michael Kuhnt\, Mercedes-Benz Tech Innovation & Gabriel Adrian Samfira\, Cloudbase Solutions
@@ -1027,7 +1015,7 @@ UID:2e425afeeb30d6bbee4bcf870ae3ab33
 URL:http://kccnceu2026.sched.com/event/2e425afeeb30d6bbee4bcf870ae3ab33
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:"Will it Kubernetes?" A Tinkerer’s Journey From Curiosity To Career - Niklas Frick\, The Platform Engineering Company
@@ -1039,7 +1027,7 @@ UID:696cb01e4a2bebdd59b30a9eb5382f4a
 URL:http://kccnceu2026.sched.com/event/696cb01e4a2bebdd59b30a9eb5382f4a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Do You Trust Your PodDisruptionBudgets? You Shouldn’t! - Kārlis Akots Gribulis\, Saxo Bank
@@ -1051,7 +1039,7 @@ UID:d78059314acf7327f5f23ee6d3252f43
 URL:http://kccnceu2026.sched.com/event/d78059314acf7327f5f23ee6d3252f43
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Not Yet Another Envoy Implementation - Exploring Kgateway To Write Your Own GatewayAPI Backend - Ricardo Katz\, Red Hat
@@ -1063,7 +1051,7 @@ UID:7205ce6788c7f024b9d3957b765c6a85
 URL:http://kccnceu2026.sched.com/event/7205ce6788c7f024b9d3957b765c6a85
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Ask the Experts: Behind the Electric Glider - Open Science\, Edge Computing\, and Real-Time Data in Flight - Ricardo Rocha\, CERN & Klaus Ohlmann\, Mountain-Wave-Project
@@ -1075,7 +1063,7 @@ UID:aa11d0652ffa28bd9578d1141d149b7d
 URL:http://kccnceu2026.sched.com/event/aa11d0652ffa28bd9578d1141d149b7d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:10 Years of Cilium: Connecting\, Securing\, and Simplifying the Cloud Native Stack - Bill Mulligan & Paul Arah\, Isovalent at Cisco; Marcelo Mello\, Celonis; Neha Aggarwal\, Microsoft
@@ -1087,7 +1075,7 @@ UID:186efe2e047f1a1db9925ea78f286f2b
 URL:http://kccnceu2026.sched.com/event/186efe2e047f1a1db9925ea78f286f2b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Continuous AI Conformance: The kOps Approach - Arnaud Meukam\, Indpendent; Janet Kuo & Justin Santa Barbara\, Google; Ciprian Hacman\, Microsoft
@@ -1099,7 +1087,7 @@ UID:d8e2c30ec726325dc823706f6017f562
 URL:http://kccnceu2026.sched.com/event/d8e2c30ec726325dc823706f6017f562
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Multi-cluster Orchestration System: Karmada Updates and Use Cases - Hongcai Ren\, Huawei; Tessa Pham\, Michas Szacillo & Wei-Cheng Lai\, Bloomberg; Zongqing Li\, Trip.com
@@ -1111,7 +1099,7 @@ UID:99d153205c0e62bab2f27fe9ee0f80ba
 URL:http://kccnceu2026.sched.com/event/99d153205c0e62bab2f27fe9ee0f80ba
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:What's Coming Next in Containerd 2.3? - Mike Brown\, IBM & Krisztian Litkey\, Intel
@@ -1123,7 +1111,7 @@ UID:1c56496122f0ef0ba780fa22f98d68e3
 URL:http://kccnceu2026.sched.com/event/1c56496122f0ef0ba780fa22f98d68e3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:What's New in gRPC - Kevin Nilson & John Feig\, Google
@@ -1135,7 +1123,7 @@ UID:29b6653e7274652f4ae5d6e3d6b9ae31
 URL:http://kccnceu2026.sched.com/event/29b6653e7274652f4ae5d6e3d6b9ae31
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:The Hills Are Alive with the Sound of Kubernetes - Stevie Caldwell\, Fairwinds
@@ -1147,7 +1135,7 @@ UID:636e35f05f8156e52dad0a9a8c2b4fe7
 URL:http://kccnceu2026.sched.com/event/636e35f05f8156e52dad0a9a8c2b4fe7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:A Tale of Two KEPs: How the Community is Taming Kubernetes' CrashLoopBackoff - Yang Li\, Google
@@ -1159,7 +1147,7 @@ UID:3dc9224afcfd14b6a2a30b953631d9f8
 URL:http://kccnceu2026.sched.com/event/3dc9224afcfd14b6a2a30b953631d9f8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Bringing Cloud Native PaaS To Space: Onboard Edge Computing for Satellites - Adele Karam Hankache\, Thales Alenia Space & Sergiu Weisz\, POLITEHNICA Bucharest
@@ -1171,7 +1159,7 @@ UID:0ddc2b658ad94c2855822141bcd38848
 URL:http://kccnceu2026.sched.com/event/0ddc2b658ad94c2855822141bcd38848
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Enterprise-Scale Migrations Using Agentic Workflows with Human-in-the-loop - Alvaro Saurin & Jose M Navarro\, Adobe
@@ -1183,7 +1171,7 @@ UID:0608a55292dfbe981856b34c56a6f7b8
 URL:http://kccnceu2026.sched.com/event/0608a55292dfbe981856b34c56a6f7b8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:What LLMs Do\, and Don't\, Know About Securing Kubernetes - Rory McCune\, Datadog
@@ -1195,7 +1183,7 @@ UID:3bc5c72d1f8bd959f93f2ab822479504
 URL:http://kccnceu2026.sched.com/event/3bc5c72d1f8bd959f93f2ab822479504
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T140000Z
 SUMMARY:Cloud Native Theater | Istio Day: Running State of the Art Inference with Istio and LLM-D - Jackie Maertens\, Microsoft and Nili Guy\, IBM
@@ -1207,19 +1195,19 @@ UID:e8563596b87b72419720a62e0a3bd2a0
 URL:http://kccnceu2026.sched.com/event/e8563596b87b72419720a62e0a3bd2a0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T135000Z
 SUMMARY:Sponsored Demo: Stop React2Shell & Shai Hulud: Live Demo of Curation with Compliant Version Selection
 DESCRIPTION:Blocking malicious packages usually means breaking the build. In this live demo\, we show a better way. We will tackle the "Safe vs. Productive" dilemma head-on using real-world threat scenarios like XZ Utils\, Shai Hulud\, and React2Shell.\n Standard tools just block a bad package and throw a 403 error\, halting your developers. We will demonstrate a smarter approach: Compliant Version Selection (CVS).\n Watch the CLI terminal as we request a malicious "latest" package version. Instead of breaking the flow\, see how JFrog Curation transparently detects the threat and automatically delivers the latest safe version instead. The build passes\, the malware is rejected\, and the developer keeps coding without manual intervention.\n No marketing slides\, just a live walkthrough of how to automate safety without sacrificing speed.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:a5b3d077b10d91ed2ed5c9e179434331
 URL:http://kccnceu2026.sched.com/event/a5b3d077b10d91ed2ed5c9e179434331
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T144500Z
 SUMMARY:🚨 Contribfest: Bring Agentic AI To Cloud Native\, One PR at a Time With Kagent - Lin Sun\, Peter Jausovec & Eitan Yarmush\, Solo.io & Dmytriy Rashko\, Amdocs
@@ -1231,7 +1219,7 @@ UID:2e2b77213a6fe42b3efe00420bd84e75
 URL:http://kccnceu2026.sched.com/event/2e2b77213a6fe42b3efe00420bd84e75
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T144500Z
 SUMMARY:🚨 Contribfest: Testing the Waters: Getting Started With Kgateway - Nina Polshakova\, Solo.io; Mayowa Fajobi\, Marsh McLennan; David Jumani & Steven Thwaites\, Solo.io
@@ -1243,7 +1231,7 @@ UID:1b6c898a4d4631932a8746f83b8b3d16
 URL:http://kccnceu2026.sched.com/event/1b6c898a4d4631932a8746f83b8b3d16
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T133000Z
 DTEND:20260324T144500Z
 SUMMARY:📚 Tutorial: AI on Kubernetes Without the Chaos: Building Reproducible ML Environments with Argo and Kubeflow - Nourhan Mohamed\, KodeKloud
@@ -1255,7 +1243,7 @@ UID:960632057477bf9242cb944a79877515
 URL:http://kccnceu2026.sched.com/event/960632057477bf9242cb944a79877515
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T140000Z
 DTEND:20260324T143000Z
 SUMMARY:Cloud Native Theater | Istio Day: Zero-Downtime Migration from ingress-nginx to Istio in a Multi-Cluster Kubernetes Platform at Bloomberg - Joe Abellard\, Bloomberg
@@ -1267,19 +1255,19 @@ UID:a207a6659a9c0dd2bc7a2d652b955d9b
 URL:http://kccnceu2026.sched.com/event/a207a6659a9c0dd2bc7a2d652b955d9b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T140000Z
 DTEND:20260324T142000Z
 SUMMARY:Sponsored Demo: Context is All You Need: The Art and Science of Information Design
-DESCRIPTION:AI systems today have unprecedented capabilities\, yet they consistently fail at tasks that should be simple. The bottleneck isn't model intelligence\, it's information design. While everyone focuses on better models and fancier frameworks\, the real breakthrough lies in understanding context as a design discipline. In this session\, you'll discover the patterns that separate high-performing AI systems from those that struggle. We'll explore the "art" - intuitive principles of information hierarchy and attention flow\, alongside the "science" = measurable patterns for structuring and managing information that consistently improve AI results. You'll learn practical design patterns that work across any AI application: how to architect information flows that scale\, when to compress vs. expand context\, and why sequence often matters more than content. Walk away with a systematic approach to context engineering that transforms unreliable AI interactions into more predictable\, powerful tools. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:AI systems today have unprecedented capabilities\, yet they consistently fail at tasks that should be simple. The bottleneck isn't model intelligence\, it's information design. While everyone focuses on better models and fancier frameworks\, the real breakthrough lies in understanding context as a design discipline.\n \n In this session\, you'll discover the patterns that separate high-performing AI systems from those that struggle. We'll explore the "art" - intuitive principles of information hierarchy and attention flow\, alongside the "science" = measurable patterns for structuring and managing information that consistently improve AI results.\n \n You'll learn practical design patterns that work across any AI application: how to architect information flows that scale\, when to compress vs. expand context\, and why sequence often matters more than content. Walk away with a systematic approach to context engineering that transforms unreliable AI interactions into more predictable\, powerful tools.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:b8a9d9708a15453d868d3cfcfeda9104
 URL:http://kccnceu2026.sched.com/event/b8a9d9708a15453d868d3cfcfeda9104
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T140500Z
 DTEND:20260324T143000Z
 SUMMARY:Project Demo
@@ -1291,7 +1279,7 @@ UID:c56fb6e371add86452f870d8fd8fd6fa
 URL:http://kccnceu2026.sched.com/event/c56fb6e371add86452f870d8fd8fd6fa
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Instrumenting Kueue Scheduling for ML Training - Amy Chen\, CoreWeave & Gabriel Saba\, Google
@@ -1303,7 +1291,7 @@ UID:6314fed7768c9ffbe1dd083432b53a03
 URL:http://kccnceu2026.sched.com/event/6314fed7768c9ffbe1dd083432b53a03
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:To Swap or Not To Swap: Memory Management Design Patterns for AI Workloads in Kubernetes 1.34+ - Nic Vermande\, ScaleOps
@@ -1315,7 +1303,7 @@ UID:5e5c95057810c5a931e39a11147ea764
 URL:http://kccnceu2026.sched.com/event/5e5c95057810c5a931e39a11147ea764
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Rust Vs. Go: Building a Container Network Stack From Scratch - Matt Heon\, Red Hat & Shivang K Raghuvanshi\, Podman Container Tools
@@ -1327,11 +1315,11 @@ UID:11aadf2c21d5df8791a40ecbe4d02263
 URL:http://kccnceu2026.sched.com/event/11aadf2c21d5df8791a40ecbe4d02263
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Choose Your Own Adventure: AI Meets Internal Developer Platform - Whitney Lee\, Datadog & Viktor Farcic\, Upbound
-DESCRIPTION:Our hero app lives in a Kubernetes cluster supported by an Internal Developer Platform built with Crossplane\, ArgoCD\, Kyverno\, Tekton\, Buildpacks\, OpenTelemetry\, and Backstage. But the developers want more: can AI make their experience even smoother? In this interactive session\, the audience will vote at key moments to guide the app’s journey from idea to deployment—with help from AI. We’ll explore three categories of AI tools: models\, agents\, and Model Context Protocol (MCP) servers. At each step\, we’ll introduce a concept\, present AI tooling options\, and let the audience decide which to use in the live demo. This talk isn’t just about how AI works—it’s about how AI can interface with and enrich a modern platform. Will our AI choices help or hinder? However it goes\, you’ll see how emerging AI tools can complement platform technologies and shape system design. Expect surprises\, stumbles\, and a lively discussion about what AI is (and isn’t) ready for in platform engineering.
+DESCRIPTION:Our hero app lives in a Kubernetes cluster supported by an Internal Developer Platform built with Crossplane and OpenTelemetry. But the developers want more: can an AI agent make their experience even smoother?\n\nIn this interactive session\, the audience will vote at key moments to guide the investigation of a broken app — with help from AI. We'll explore three categories of AI tooling: agent frameworks\, vector databases\, and observability backends. At each step\, we'll introduce a concept\, present options\, and let the audience decide which to use in the live demo.\n\nThis talk isn't just about how AI works — it's about how an AI agent can interface with and enrich a modern platform.\n\nWill our AI choices help or hinder? However it goes\, you'll see how an agent with the right tools can investigate and deploy on behalf of a developer who has no direct cluster access. Expect surprises\, stumbles\, and a lively discussion about what AI is (and isn't) ready for in platform engineering.
 CATEGORIES:CLOUD NATIVE NOVICE
 LOCATION:Hall 7 | Room A\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -1339,7 +1327,7 @@ UID:aa1770fb41b3ccf27f1d20ce484c9853
 URL:http://kccnceu2026.sched.com/event/aa1770fb41b3ccf27f1d20ce484c9853
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Kubernetes Network Driver Unpacked: Modularity\, Trade-offs and the Road Ahead - Lionel Jouin & Sebastian Scheinkman\, Red Hat; Antonio Ojea\, Google; Sunyanan Choochotkaew\, IBM
@@ -1351,7 +1339,7 @@ UID:b3baba1cfb52fdb5cb4924e1a19d9e52
 URL:http://kccnceu2026.sched.com/event/b3baba1cfb52fdb5cb4924e1a19d9e52
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T150000Z
 SUMMARY:Laughter Workshop
@@ -1363,7 +1351,7 @@ UID:e54d6fa21af61671e73ef5644f107222
 URL:http://kccnceu2026.sched.com/event/e54d6fa21af61671e73ef5644f107222
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Crossplane - The Cloud Native Framework for Platform Engineering - Jared Watts & Adam Wolfe Gordon\, Upbound
@@ -1375,7 +1363,7 @@ UID:442db1ee1ff99470352c17b8e1b82a27
 URL:http://kccnceu2026.sched.com/event/442db1ee1ff99470352c17b8e1b82a27
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:etcd 3.6 Updates and 3.7 Roadmap - Arka Saha\, Broadcom & Josh Berkus\, Red Hat
@@ -1387,7 +1375,7 @@ UID:3d5b3346b8a5fe9862140bc0ea129407
 URL:http://kccnceu2026.sched.com/event/3d5b3346b8a5fe9862140bc0ea129407
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Kubeflow in Cloud Native AI: Orchestrating the Next Wave of Agentic AI and LLMOps - Johnu George\, Nutanix; Valentina Rodriguez Sosa & Antonin Stefanutti\, Red Hat; Alexander Perlman & Michael Zazula\, Capital One
@@ -1399,7 +1387,7 @@ UID:c1c5a6c98dae5dab33c80ec2117ee05c
 URL:http://kccnceu2026.sched.com/event/c1c5a6c98dae5dab33c80ec2117ee05c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:OpenCost - Cost and Resource Management Deep Dive - Rajith Attapattu\, Randoli
@@ -1411,7 +1399,7 @@ UID:f3c84107d2ea9b4c7829d62f3b6e3c5d
 URL:http://kccnceu2026.sched.com/event/f3c84107d2ea9b4c7829d62f3b6e3c5d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:What Happens in Kubernetes SIG Scalability: Intro + DeepDive - Wojciech Tyczyński\, Google
@@ -1423,7 +1411,7 @@ UID:c49423aa4f3e212486a76ff8d3f617df
 URL:http://kccnceu2026.sched.com/event/c49423aa4f3e212486a76ff8d3f617df
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Schema Inference and Automation: A New Era for Telemetry Management - Nicolas Takashi\, Coralogix & Arthur Silva Sens\, Grafana Labs
@@ -1435,7 +1423,7 @@ UID:c63289ac13fb5270fee9da0d0426ed75
 URL:http://kccnceu2026.sched.com/event/c63289ac13fb5270fee9da0d0426ed75
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:The Future of Kubernetes Scalability: Challenges of the GigaWatt Computing Power of the AI Era - Maciek Różacki\, Google Cloud & Artur Rodrigues\, Anthropic
@@ -1447,11 +1435,11 @@ UID:f29ff04f96d3f7d2bca6d55a6cb22468
 URL:http://kccnceu2026.sched.com/event/f29ff04f96d3f7d2bca6d55a6cb22468
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
-SUMMARY:Amplifying End User Voices: Platform Architects on the Future of Kubernetes - Rajas Kakodkar & Zach Shepherd\, Broadcom; Kevin Klues\, NVIDIA; Amine Hilaly\, AWS; Dawn Chen\, Google
-DESCRIPTION:Platform architects bridge Kubernetes innovation and real-world adoption\, engaging daily with end users facing operational challenges. Their direct engagement makes them uniquely qualified to amplify user voices. In this panel\, they share practical lessons and strategies attendees can apply directly to their environments: - Conveniently treading the line between escalating configuration complexity and supporting diverse workloads - Extending beyond traditional Kubernetes distributions - Hard-won lessons from production incidents - upgrade anxiety\, configuration drift and disaster recovery - How user feedback drives features like Dynamic Resource Allocation and app packaging frameworks like Kubernetes Resource Orchestrator - How enterprises can draw from CNCF TOC\, TAG\, K8s SIG to structure teams and responsibilities around Kubernetes operations We will address how the community can contribute to this effort by engaging with CNCF TAG Workload Foundation and leveraging the End User TAB.
+SUMMARY:Amplifying End User Voices: Platform Architects on the Future of Kubernetes - Rajas Kakodkar & Zach Shepherd\, Broadcom; Kevin Klues\, NVIDIA; Elias Tarn\, AWS; Dawn Chen\, Google
+DESCRIPTION:Platform architects bridge Kubernetes innovation and real-world adoption\, engaging daily with end users facing operational challenges. Their direct engagement makes them uniquely qualified to amplify user voices. In this panel\, they share practical lessons and strategies attendees can apply directly to their environments: \n \n - Conveniently treading the line between escalating configuration complexity and supporting diverse workloads \n - Extending beyond traditional Kubernetes distributions \n - Hard-won lessons from production incidents - upgrade anxiety\, configuration drift and disaster recovery \n - How user feedback drives features like Dynamic Resource Allocation and app packaging frameworks like Kubernetes Resource Orchestrator \n - How enterprises can draw from CNCF TOC\, TAG\, K8s SIG to structure teams and responsibilities around Kubernetes operations \n \n We will address how the community can contribute to this effort by engaging with CNCF TAG Workload Foundation and leveraging the End User TAB.
 CATEGORIES:PLATFORM ENGINEERING
 LOCATION:Hall 7 | Room C\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -1459,7 +1447,7 @@ UID:eafdcf2a7b72a1b9f48eec5dfca8b247
 URL:http://kccnceu2026.sched.com/event/eafdcf2a7b72a1b9f48eec5dfca8b247
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Leveling up with Radius: Custom Resources and Headlamp Integration for Real-World Workloads - Nuno Guedes\, Millennium bcp & Will Tsai\, Microsoft
@@ -1471,7 +1459,7 @@ UID:995d7198f3c19a37df333a3518079d0d
 URL:http://kccnceu2026.sched.com/event/995d7198f3c19a37df333a3518079d0d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Operators in Action: Making Kubernetes Work for You - Verena Traub\, b'nerd GmbH
@@ -1483,7 +1471,7 @@ UID:31fd0922eff40b9e27e112abc1108b80
 URL:http://kccnceu2026.sched.com/event/31fd0922eff40b9e27e112abc1108b80
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T141500Z
 DTEND:20260324T144500Z
 SUMMARY:Real-World Supply-Chain Security - Alex Leong\, Buoyant
@@ -1495,7 +1483,7 @@ UID:6e1035fd470b78e24ea2abba8ac453d1
 URL:http://kccnceu2026.sched.com/event/6e1035fd470b78e24ea2abba8ac453d1
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T143000Z
 DTEND:20260324T150000Z
 SUMMARY:Cloud Native Theater | Istio Day: The Good\, The Ugly\, and The Bad: Leaving Sidecars Behind with Istio Ambient Mesh - Alfonso Ming and Jorge Turrado\, SCRM Lidl International Hub
@@ -1507,7 +1495,7 @@ UID:bc67f48bcc70022bf54a12b9f9526dfe
 URL:http://kccnceu2026.sched.com/event/bc67f48bcc70022bf54a12b9f9526dfe
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T144500Z
 DTEND:20260324T151500Z
 SUMMARY:Coffee Break ☕
@@ -1519,7 +1507,7 @@ UID:270626492cf25e5aab6c0b56b1c43fa8
 URL:http://kccnceu2026.sched.com/event/270626492cf25e5aab6c0b56b1c43fa8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T144500Z
 DTEND:20260324T151000Z
 SUMMARY:Project Demo
@@ -1531,11 +1519,11 @@ UID:a873d4600fe4557dc7e5af8d8217d81a
 URL:http://kccnceu2026.sched.com/event/a873d4600fe4557dc7e5af8d8217d81a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T144500Z
 DTEND:20260324T151500Z
 SUMMARY:Gold Sponsor In-Booth Demos
-DESCRIPTION:Sponsor: Cloudsmith Demo: AI’s Impact on Dependency Risk: When Your Build Pulls Code You Didn’t Choose Booth Number: 570 Sponsor: Sysdig Demo: Pivoting from detection to investigation with Falco and Stratoshark Booth Number: 671 Sponsor: Veeam Demo: Modern Kubernetes Data Protection - Live Demo! Booth Number: 950 *In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.*
+DESCRIPTION:Sponsor: Cloudsmith\n Demo: AI’s Impact on Dependency Risk: When Your Build Pulls Code You Didn’t Choose\n Booth Number: 570\n\nSponsor: PortDemo: Agents sprawl. Solved.Booth Number: 330 \n \n Sponsor: Sysdig\n Demo: Pivoting from detection to investigation with Falco and Stratoshark\n Booth Number: 671\n \n Sponsor: Veeam\n Demo: Modern Kubernetes Data Protection - Live Demo!\n Booth Number: 950\n \n \n *In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.*
 CATEGORIES:SOLUTIONS SHOWCASE
 LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -1543,7 +1531,7 @@ UID:553a368064c4aefa66463bff6533f3a4
 URL:http://kccnceu2026.sched.com/event/553a368064c4aefa66463bff6533f3a4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T144500Z
 DTEND:20260324T150000Z
 SUMMARY:Learning Lounge: Don’t Cross Wires - Cross-Skill: Aligning Teams Around Smart Learning Paths - Mary Campbell & Randi Armour\, Linux Foundation Education
@@ -1555,19 +1543,19 @@ UID:c738f7c604a554e5fa44b8ad9235096f
 URL:http://kccnceu2026.sched.com/event/c738f7c604a554e5fa44b8ad9235096f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T144500Z
 DTEND:20260324T150500Z
 SUMMARY:Sponsored Demo: Running Containers under Systemd: Exploring Podman Quadlet
 DESCRIPTION:Containers are typically deployed in Kubernetes clusters. But at a smaller scale\, on a single-node server\, or for development purposes\, Kubernetes will be overkill. What’s the recommended way to run a fully autonomous application with several interacting containers in these cases?\n \n The answer is systemd. It can orchestrate containers as is an already running process manager\, and containers are just child processes. It’s a perfect fit for running containerized workloads without human intervention.\n \n The concept of Quadlet has been introduced in Podman v4.4.0. It’s a systemd-generator that writes and maintains systemd services using Podman. It can manage containers lifecycle (start\, stop\, restart)\, volumes\, pods\, deployments etc. via systemd. The name comes from the following: “What do you get if you squash a Kubernetes kubelet? A quadlet”. Both system and user systemd units are supported to deploy applications without root privileges.\n In this presentation\, we will discuss what are Podman Quadlets and demonstrate how Podman Kubernetes features can be associated with it to deploy a fully autonomous application.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:7e1a2c33d0f7e9295fff8db73a47b8ee
 URL:http://kccnceu2026.sched.com/event/7e1a2c33d0f7e9295fff8db73a47b8ee
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T150000Z
 DTEND:20260324T160000Z
 SUMMARY:Women's Community Gathering
@@ -1579,7 +1567,7 @@ UID:17bbb79627ac86549ececfc232f77426
 URL:http://kccnceu2026.sched.com/event/17bbb79627ac86549ececfc232f77426
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T150000Z
 DTEND:20260324T152000Z
 SUMMARY:Project Pavilion Tour with Joseph Sandoval\, CNCF Ambassador
@@ -1591,7 +1579,7 @@ UID:a79a966568ed3ed8f247814ed8b4e492
 URL:http://kccnceu2026.sched.com/event/a79a966568ed3ed8f247814ed8b4e492
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T150000Z
 DTEND:20260324T154500Z
 SUMMARY:Cloud Native Theater | Istio Day: Panel: Tales From the Mesh: Horrors and Successes of Running Istio in Production
@@ -1603,7 +1591,7 @@ UID:bffe653a20e5e08032c789858ae5046f
 URL:http://kccnceu2026.sched.com/event/bffe653a20e5e08032c789858ae5046f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Lessons Learned Orchestrating Multi-Tenant GPUs on OpenShift AI with NVIDIA KAI (G/H200) - Luca Berton\, Dell Technologies
@@ -1615,7 +1603,7 @@ UID:5b3b8aba909b7741a073db35e290dca9
 URL:http://kccnceu2026.sched.com/event/5b3b8aba909b7741a073db35e290dca9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Slinky Expanded: Slurm\, Kubernetes\, and DRA - Praveen Krishna\, Google & Marlow Warnicke\, SchedMD LLC
@@ -1627,7 +1615,7 @@ UID:06c5e53931f26cad93e8c4b244bf1e56
 URL:http://kccnceu2026.sched.com/event/06c5e53931f26cad93e8c4b244bf1e56
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:The Developer’s Nightmare: How To Survive Compliance Checklists (and Still Ship Fast) - Alexandra Hou Aldershaab\, Eficode & Thomas Vitale\, Systematic
@@ -1639,7 +1627,7 @@ UID:ef1bcd84018b69dab77c06bf436007f9
 URL:http://kccnceu2026.sched.com/event/ef1bcd84018b69dab77c06bf436007f9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:How to Build Your Cloud Native Balance Sheet - Danielle Cook\, Akamai & Simon Forster\, Stackegy
@@ -1651,7 +1639,7 @@ UID:3847a707c4379cd8d1c9206bb1fe0f75
 URL:http://kccnceu2026.sched.com/event/3847a707c4379cd8d1c9206bb1fe0f75
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Smart Routing at Scale: How Spotify’s XDS Control Plane Cut 75% of Cross-Zone Traffic - Yannick Epstein & Anya Hristova\, Spotify
@@ -1663,7 +1651,7 @@ UID:ca96e511dd5db88364000aa9c95dafe6
 URL:http://kccnceu2026.sched.com/event/ca96e511dd5db88364000aa9c95dafe6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Towards Building an Open Source AI Reference Stack for EU Sovereign Cloud - Madhav Bhargava\, SAP Labs & Sanjay Chatterjee\, NVIDIA
@@ -1675,7 +1663,7 @@ UID:eff0b0903ef296cea37c102c04018b0b
 URL:http://kccnceu2026.sched.com/event/eff0b0903ef296cea37c102c04018b0b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:From Static Tokens to Attestation: The Evolution of Secure Node Joining - Ciprian Hacman & Jack Francis\, Microsoft; Michael McCune & Josephine Pfeiffer\, Red Hat; Justin Santa Barbara\, Google
@@ -1687,7 +1675,7 @@ UID:ecbf2879ae82a104b973a6c3e16ac57f
 URL:http://kccnceu2026.sched.com/event/ecbf2879ae82a104b973a6c3e16ac57f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:OpenTelemetry Project Update and 'Ask the Experts' - Pablo Baeyens\, Datadog; Juraci Paixão Kröhling\, OllyGarden; Marylia Gutierrez\, Grafana Labs; Severin Neumann\, Causely
@@ -1699,7 +1687,7 @@ UID:ec4232b201cee092aa34c8f355a4f037
 URL:http://kccnceu2026.sched.com/event/ec4232b201cee092aa34c8f355a4f037
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:SIG API Machinery: SIG Updates and Deep Dive in the AI/ML Era - Stefan Schimanski\, NVIDIA
@@ -1711,7 +1699,7 @@ UID:2c959dde727a223492d02d7c0f1fca96
 URL:http://kccnceu2026.sched.com/event/2c959dde727a223492d02d7c0f1fca96
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:What's New With Kubectl and Kustomize … and How You Can Help! - Marly Salazar\, Integral Ad Science; Yugo Kobayashi\, SB Intuitions; Eddie Zaneski & Maciej Szulik\, Defense Unicorns; Arda Guclu\, Red Hat
@@ -1723,7 +1711,7 @@ UID:bc222eec7a6b3d96db465d29539889b6
 URL:http://kccnceu2026.sched.com/event/bc222eec7a6b3d96db465d29539889b6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:OpenTelemetry Logs Driving a Major Shift: Events\, Richer Data\, and Smarter Semantics - Robert Pająk\, Splunk
@@ -1735,7 +1723,7 @@ UID:e27201daf6bf51be3ca4c13486ef2c7f
 URL:http://kccnceu2026.sched.com/event/e27201daf6bf51be3ca4c13486ef2c7f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Smoothed and Anchored Rate Calculation in PromQL - Björn Rabenstein\, Grafana Labs
@@ -1747,7 +1735,7 @@ UID:9de08e4907e91c07355d22963a62d6ff
 URL:http://kccnceu2026.sched.com/event/9de08e4907e91c07355d22963a62d6ff
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:From Alert Fatigue To Self-Healing: Building AI-Enabled Control Planes in Banking - Nuno Guedes\, Millennium bcp & Yury Tsarev\, Upbound
@@ -1759,7 +1747,7 @@ UID:4a88a8e78ddb46c00d82f762f34480b0
 URL:http://kccnceu2026.sched.com/event/4a88a8e78ddb46c00d82f762f34480b0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:LLM Inference at Scale: Orchestrating Prefill-Decode Disaggregation - Zhonghu Xu\, Huawei Technologies Co.\, Ltd
@@ -1771,7 +1759,7 @@ UID:70cb0974be7628d34a5ba7160e2fe922
 URL:http://kccnceu2026.sched.com/event/70cb0974be7628d34a5ba7160e2fe922
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T160000Z
 SUMMARY:Celebration of Newly Graduated Projects + Project Birthdays 🎉
@@ -1783,7 +1771,7 @@ UID:014f6418724c49c338b67749b14e73d0
 URL:http://kccnceu2026.sched.com/event/014f6418724c49c338b67749b14e73d0
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T154500Z
 SUMMARY:Privacy as Infrastructure: Declarative Data Protection for AI on Kubernetes - Joaquin Rodriguez\, Microsoft & Krishnendu Dasgupta\, AXONVERTEX AI
@@ -1795,19 +1783,19 @@ UID:19ba87b7740d882d9c23e3dff4dfe568
 URL:http://kccnceu2026.sched.com/event/19ba87b7740d882d9c23e3dff4dfe568
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T153500Z
 SUMMARY:Sponsored Demo: Beyond Grep: Interactive\, Offline Analysis of Kubernetes Failures
-DESCRIPTION:Static support bundles capture logs and resource dumps\, but lack the interactivity needed for real analysis. To fully understand a Kubernetes failure\, engineers must query the API as it existed during the incident. This talk introduces a technique that turns static bundles into interactive\, queryable Kubernetes environments. We'll start by creating a diagnostic bundle of the failing cluster. Then we'll show how we can ingest that bundle and launch a local API server and etcd instance\, rehydrating the cluster state. The result is a high-fidelity\, offline replica accessible via kubeconfig with any compliant tool\, enabling interactive debugging\, post-mortem analysis\, and automated triage without production access. Finally\, by making use of these bundles\, we show how teams can enhance local development environments\, improve end-to-end testing\, and train AIOps pipelines. This improves day-to-day troubleshooting while paving the way for next-gen intelligent Kubernetes operations. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Static support bundles capture logs and resource dumps\, but lack the interactivity needed for real analysis. To fully understand a Kubernetes failure\, engineers must query the API as it existed during the incident. This talk introduces a technique that turns static bundles into interactive\, queryable Kubernetes environments. \n \n We'll start by creating a diagnostic bundle of the failing cluster. Then we'll show how we can ingest that bundle and launch a local API server and etcd instance\, rehydrating the cluster state. The result is a high-fidelity\, offline replica accessible via kubeconfig with any compliant tool\, enabling interactive debugging\, post-mortem analysis\, and automated triage without production access. \n \n Finally\, by making use of these bundles\, we show how teams can enhance local development environments\, improve end-to-end testing\, and train AIOps pipelines. This improves day-to-day troubleshooting while paving the way for next-gen intelligent Kubernetes operations.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:2da8863b1f30ee3228b49cd1fb642364
 URL:http://kccnceu2026.sched.com/event/2da8863b1f30ee3228b49cd1fb642364
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T163000Z
 SUMMARY:🚨 Contribfest: Dive Into cert-manager and Start Contributing! - Richard Wall & Mladen Rusev\, Palo Alto Networks
@@ -1819,7 +1807,7 @@ UID:482637c1543e44f5d85695bc3776db29
 URL:http://kccnceu2026.sched.com/event/482637c1543e44f5d85695bc3776db29
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T163000Z
 SUMMARY:🚨 Contribfest: Getting Started in the Tinkerbell Playground - Jacob Weinstock\, NVIDIA
@@ -1831,7 +1819,7 @@ UID:30a3e0cccbe9ed5e06457b3dbbb70b60
 URL:http://kccnceu2026.sched.com/event/30a3e0cccbe9ed5e06457b3dbbb70b60
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T151500Z
 DTEND:20260324T163000Z
 SUMMARY:📚 Tutorial: Attack Defense: Leverage eBPF To Reveal Attack Flows With Rich Context - Constanze Roedig\, fusioncore.ai; Markus Gierlinger\, Independent; Teodor Janez Podobnik\, Prewave GmbH
@@ -1843,7 +1831,7 @@ UID:ff69618a8b4feff93b23fe299bac3a16
 URL:http://kccnceu2026.sched.com/event/ff69618a8b4feff93b23fe299bac3a16
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T152500Z
 DTEND:20260324T154000Z
 SUMMARY:Project Demo
@@ -1855,19 +1843,19 @@ UID:8345a22836b53cc30e32b1338eb26ba2
 URL:http://kccnceu2026.sched.com/event/8345a22836b53cc30e32b1338eb26ba2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T154500Z
 DTEND:20260324T160500Z
 SUMMARY:Sponsored Demo: From Symptom to Root Cause: A Cross-Layer Approach to Kubernetes Troubleshooting
-DESCRIPTION:Kubernetes performance incidents often appear as application-level symptoms such as latency spikes\, reduced throughput\, or intermittent timeouts\, while the underlying cause may exist in a different layer of the system. Because signals are distributed across application telemetry\, workload state\, scaling behavior\, and cluster configuration\, engineers must pivot between multiple tools and manually correlate data\, leading to slow and fragmented investigations. This session presents a practical\, cross-layer methodology for root cause analysis that connects service-level symptoms with workload and cluster signals in a unified investigation flow. Rather than focusing on a single failure type\, we will show how to recognize when system capacity does not match demand\, detect when expected workload behavior does not materialize\, and trace these conditions back to their source. We will also discuss how automated analysis and emerging AI-assisted RCA techniques can help correlate these signals\, highlight likely causes\, and reduce the cognitive load on operators without replacing existing debugging workflows. Attendees will leave with a repeatable troubleshooting framework for moving systematically from symptom to cause\, identifying hidden bottlenecks that are not visible from a single data source\, and reducing mean time to resolution in complex Kubernetes environments. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Kubernetes performance incidents often appear as application-level symptoms such as latency spikes\, reduced throughput\, or intermittent timeouts\, while the underlying cause may exist in a different layer of the system. Because signals are distributed across application telemetry\, workload state\, scaling behavior\, and cluster configuration\, engineers must pivot between multiple tools and manually correlate data\, leading to slow and fragmented investigations.\n \n This session presents a practical\, cross-layer methodology for root cause analysis that connects service-level symptoms with workload and cluster signals in a unified investigation flow. Rather than focusing on a single failure type\, we will show how to recognize when system capacity does not match demand\, detect when expected workload behavior does not materialize\, and trace these conditions back to their source. We will also discuss how automated analysis and emerging AI-assisted RCA techniques can help correlate these signals\, highlight likely causes\, and reduce the cognitive load on operators without replacing existing debugging workflows.\n \n Attendees will leave with a repeatable troubleshooting framework for moving systematically from symptom to cause\, identifying hidden bottlenecks that are not visible from a single data source\, and reducing mean time to resolution in complex Kubernetes environments.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:c48b3f7bab27d765917e2ffa73a1670b
 URL:http://kccnceu2026.sched.com/event/c48b3f7bab27d765917e2ffa73a1670b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Securing the AI/ML Lifecycle With MLSecOps: Open Source Best Practices - Bahaulddin Shammary\, Dell & Andrey Shorov\, Ericsson
@@ -1879,7 +1867,7 @@ UID:88dbe613c76a7310042aaf851833a17a
 URL:http://kccnceu2026.sched.com/event/88dbe613c76a7310042aaf851833a17a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:From Laptop to Cluster: Running AI Workloads Seamlessly from Podman to Kubernetes - Ashley Cui & Urvashi Mohnani\, Red Hat
@@ -1891,19 +1879,19 @@ UID:4bacc78ee74f5b597b2f66695b203d4c
 URL:http://kccnceu2026.sched.com/event/4bacc78ee74f5b597b2f66695b203d4c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Demystifying the Kubernetes Network Stack (From Pod to Pod) - Simone Rodigari\, Microsoft
 DESCRIPTION:When two Pods talk\, what really happens under the hood?\nThis session unpacks the Kubernetes network stack step by step: from Pod namespaces and virtual Ethernet pairs to CNI plugins\, kube-proxy\, and DNS. Using simple diagrams and live command-line demos\, we’ll trace a packet’s journey across nodes and clusters to reveal how traffic actually flows in Kubernetes.\n\nAttendees will learn how CNIs like Cilium and Calico establish Pod connectivity\, how kube-proxy manages Services through iptables or IPVS\, and how CoreDNS ties everything together with name resolution. We’ll also highlight common pitfalls such as misconfigured routes\, DNS delays\, and hairpin traffic\, and show practical debugging commands (ip\, tcpdump\, kubectl exec) to investigate them.\n\nBy the end\, you’ll have a clear mental model of how Kubernetes networking works end to end\, understand where to look when things break\, and gain the confidence to reason about performance\, connectivity\, and security in any cluster.
 CATEGORIES:CLOUD NATIVE NOVICE
-LOCATION:Hall 7 | Room A\, Amsterdam\, Netherlands
+LOCATION:Hall 8 | Room G\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:66a8a386717dcaf7089bbb0fba2e8e4a
 URL:http://kccnceu2026.sched.com/event/66a8a386717dcaf7089bbb0fba2e8e4a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Building the Next Generation of Multi-Cluster with Gateway API - Mike Morris\, Microsoft & Alan Grosskurth\, Google
@@ -1915,7 +1903,7 @@ UID:3cd3d58abda885a515c16743bebd534c
 URL:http://kccnceu2026.sched.com/event/3cd3d58abda885a515c16743bebd534c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Why Is It So Hard to Run a 5G Core on Kubernetes—And What Needs to Change for 6G - Joel Studler\, Swisscom & Ashan Senevirathne\, Telstra
@@ -1927,7 +1915,7 @@ UID:f3ace8e59bcfab592600de912a6531de
 URL:http://kccnceu2026.sched.com/event/f3ace8e59bcfab592600de912a6531de
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:OpenTelemetry Collector SIG: Project Updates - Jade Guiton\, Datadog; Dmitrii Anoshin\, Cisco; Alex Boten\, Honeycomb; Evan Bradley\, Dynatrace LLC; Antoine Toulme\, Splunk
@@ -1939,10 +1927,10 @@ UID:e7e2be766446d088598ee8e0cb949437
 URL:http://kccnceu2026.sched.com/event/e7e2be766446d088598ee8e0cb949437
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
-SUMMARY:SIG Network: The State of Networking for AI on Kubernetes - David Martin\, Red Hat; Haiyan Meng & Bowei Du\, Google; Nadia Pinaeva\, NVIDIA; Etai Lev Ran\, IBM
+SUMMARY:SIG Network: The State of Networking for AI on Kubernetes - David Martin\, Red Hat; Haiyan Meng & Bowei Du & Kellen Swain\, Google; Nadia Pinaeva\, NVIDIA
 DESCRIPTION:In Kubernetes SIG Network a lot of our most recent endeavors have been around providing networking support for AI use cases. From foundational components like Gateway API\, to specific AI extensions like the Gateway API Inference Extension\, to our most recent endeavor to support networking for Agentic AI systems\, we've been busy maintaining Kubernetes as a tier 1 platform for AI workloads\, and in particular their networking requirements. \n \n This session will be a blend of presentation and panel: We'll present on some of the highlights\, talk about key projects\, and up-and-coming initiatives. We'll discuss the ways in which networking for AI is just networking\, and the ways in which it isn't. We'll shift into more guided discussion\, and then take questions from the audience. If you're generally interested in where we're going with AI networking on Kubernetes\, OR if you have specific things you want to ask us about\, join us in Amsterdam for the discussion!
 CATEGORIES:MAINTAINER TRACK
 LOCATION:E103-105\, Amsterdam\, Netherlands
@@ -1951,7 +1939,7 @@ UID:0fc5702bcdbbf43b906ef67d62b04cb7
 URL:http://kccnceu2026.sched.com/event/0fc5702bcdbbf43b906ef67d62b04cb7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:The 10x DevOps Engineer’s Toolkit: Argo CD + AI-Driven MCP Automation - Alexander Matyushentsev\, Akuity & Leonardo Luz Almeida\, Intuit
@@ -1963,7 +1951,7 @@ UID:178a2be4640bbceaf048339c88da692a
 URL:http://kccnceu2026.sched.com/event/178a2be4640bbceaf048339c88da692a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Volcano: Orchestrating the Full AI Lifecycle – From Training To Inference and Agents - Chen Zicong\, Huawei Technologies; Hajnal Máté\, Aumovio
@@ -1975,7 +1963,7 @@ UID:4f1eea807de846822fbf80d7b2edfe4e
 URL:http://kccnceu2026.sched.com/event/4f1eea807de846822fbf80d7b2edfe4e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Observing Chaos: Real-Time Monitoring of AI-Driven Kubernetes Destruction - Josh Halley\, Cisco & Ricardo Aravena\, CNCF
@@ -1987,7 +1975,7 @@ UID:4dbeababa6df226e05f28a6dff85c438
 URL:http://kccnceu2026.sched.com/event/4dbeababa6df226e05f28a6dff85c438
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Retroactive Sampling with OpenTelemetry: Cut 90% Distributed Tracing Bandwidth Usage - Roman Khavronenko & Zhu Jiekun\, VictoriaMetrics
@@ -1999,7 +1987,7 @@ UID:0b78ea1bc5264efef324062ca17c5acc
 URL:http://kccnceu2026.sched.com/event/0b78ea1bc5264efef324062ca17c5acc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Declarative Edge Kubernetes: Immutable Clusters with Talos + Zarf - Brandt Keller\, Defense Unicorns & Merijn Keppel\, TrueFullstaq
@@ -2011,7 +1999,7 @@ UID:3bd18f2d896fc4fb78866c846ebcdd3e
 URL:http://kccnceu2026.sched.com/event/3bd18f2d896fc4fb78866c846ebcdd3e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Moving Spotify’s Infrastructure Management Up the Stack from Kubebuilder to Kro and K-poperator - Alexander Buck & Tomas Aschan\, Spotify
@@ -2023,7 +2011,7 @@ UID:91ac77f05c8ca7a7579918599a09e49b
 URL:http://kccnceu2026.sched.com/event/91ac77f05c8ca7a7579918599a09e49b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T170000Z
 SUMMARY:Technical Oversight Committee: Ask the Experts
@@ -2035,19 +2023,19 @@ UID:df0535e0f8653b58d8bfef2c7c7bb830
 URL:http://kccnceu2026.sched.com/event/df0535e0f8653b58d8bfef2c7c7bb830
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Policy Engines for Kubernetes: Picking One Without Losing Your Mind - Nabarun Pal\, Broadcom
-DESCRIPTION:Enforcing Kubernetes policies sounds simple until you actually have to do it. Block privileged pods? Sure. Inject sidecars automatically? Easy\, right? There's more to consider than you'd think. This talk will explore the prominent options people use: native Validating/Mutating Admission Policies\, Kyverno\, OPA/Gatekeeper\, Kubewarden. Each has its pros and makes different tradeoffs. Native k8s policies need no extra services but require CEL knowledge. Kyverno uses simple YAML for validation and mutation. OPA offers maximum flexibility with Rego\, but adds a learning curve. Kubewarden uses WebAssembly\, allowing to write policies in any Wasm-compatible language and distribute via OCI registries. We'll dig into performance at scale because that additional overhead matters when you're deploying 1000s of pods. I'll share lessons running them in production\, beyond what usually doesn’t make it to elevator pitches. You'll leave knowing which engine fits your situation.
+DESCRIPTION:Enforcing Kubernetes policies sounds simple until you actually have to do it. Block privileged pods? Sure. Inject sidecars automatically? Easy\, right? There's more to consider than you'd think. \n \n This talk will explore the prominent options people use: native Validating/Mutating Admission Policies\, Kyverno\, OPA/Gatekeeper\, Kubewarden. Each has its pros and makes different tradeoffs. \n \n Native k8s policies need no extra services but require CEL knowledge. Kyverno uses simple YAML for validation and mutation. OPA offers maximum flexibility with Rego\, but adds a learning curve. Kubewarden uses WebAssembly\, allowing to write policies in any Wasm-compatible language and distribute via OCI registries. \n \n We'll dig into performance at scale because that additional overhead matters when you're deploying 1000s of pods. I'll share lessons running them in production\, beyond what usually doesn’t make it to elevator pitches. You'll leave knowing which engine fits your situation.
 CATEGORIES:SECURITY
-LOCATION:Hall 8 | Room G\, Amsterdam\, Netherlands
+LOCATION:Hall 7 | Room A\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:fb0ed098b1cf51eae85343720b2326af
 URL:http://kccnceu2026.sched.com/event/fb0ed098b1cf51eae85343720b2326af
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:When Multitenancy Goes Wrong: A Deep Dive Into Kcp’s First CVE - Marko Mudrinić\, Kubermatic & Marvin Beckers\, ClickHouse
@@ -2059,7 +2047,7 @@ UID:12467c3e009b6f26575b8c551ef1067c
 URL:http://kccnceu2026.sched.com/event/12467c3e009b6f26575b8c551ef1067c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T160000Z
 DTEND:20260324T163000Z
 SUMMARY:Sponsored Session: Performance at Enterprise Cloud Scale: Coupa’s Kubernetes Optimization Journey - Peter Irwin\, ScaleOps & Carl Baumcratz\, Coupa
@@ -2071,7 +2059,7 @@ UID:46ae279d9fef44660c49ca1c1179e40e
 URL:http://kccnceu2026.sched.com/event/46ae279d9fef44660c49ca1c1179e40e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T161500Z
 DTEND:20260324T164500Z
 SUMMARY:Gold Sponsor In-Booth Demos
@@ -2083,19 +2071,19 @@ UID:236911544f239271e550814077aa2c7d
 URL:http://kccnceu2026.sched.com/event/236911544f239271e550814077aa2c7d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T161500Z
 DTEND:20260324T161500Z
 SUMMARY:Sponsored Demo: Closing the Loop: Leveraging Agentic AI for Real-Time Diagnosis and Secure Remediation
-DESCRIPTION:Incidents are inevitable\, but identifying their probable causes doesn’t have to be overwhelming. What if you could harness the power of AI Agents to streamline your incident response? In this talk\, we will demonstrate how to integrate agent-based AI systems with infrastructure metrics and events to revolutionize your incident management process. We will explore how to leverage data sources like Prometheus\, OpenTelemetry\, and Kubernetes state metrics to build a knowledge graph that maps relationships between system components\, incidents\, and telemetry data. This graph simplifies troubleshooting by narrowing down potential causes\, enabling faster root cause analysis. We will then dive into how an agent-based AI system uses this graph to reason and provide real-time auto-diagnosis\, offering actionable insights when incidents occur. These systems continuously learn from past events\, helping to reduce Mean-Time-to-Resolution (MTTR) and improve diagnostic accuracy in distributed environments. Finally\, we will demonstrate how to close the loop using automated remediation. We will discuss leveraging secure runners to interface with your infrastructure\, executing localized remediation scripts and playbooks. By triggering these runners directly from the AI’s diagnostic output\, you can move from "knowing what’s wrong" to "fixing the problem" in seconds\, all while maintaining strict security boundaries. You will leave this session with practical insights on integrating Agentic AI with Kubernetes to maintain system reliability with greater confidence. **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
+DESCRIPTION:Incidents are inevitable\, but identifying their probable causes doesn’t have to be overwhelming. What if you could harness the power of AI Agents to streamline your incident response? In this talk\, we will demonstrate how to integrate agent-based AI systems with infrastructure metrics and events to revolutionize your incident management process.\n We will explore how to leverage data sources like Prometheus\, OpenTelemetry\, and Kubernetes state metrics to build a knowledge graph that maps relationships between system components\, incidents\, and telemetry data. This graph simplifies troubleshooting by narrowing down potential causes\, enabling faster root cause analysis. We will then dive into how an agent-based AI system uses this graph to reason and provide real-time auto-diagnosis\, offering actionable insights when incidents occur. These systems continuously learn from past events\, helping to reduce Mean-Time-to-Resolution (MTTR) and improve diagnostic accuracy in distributed environments.\n Finally\, we will demonstrate how to close the loop using automated remediation. We will discuss leveraging secure runners to interface with your infrastructure\, executing localized remediation scripts and playbooks. By triggering these runners directly from the AI’s diagnostic output\, you can move from "knowing what’s wrong" to "fixing the problem" in seconds\, all while maintaining strict security boundaries. You will leave this session with practical insights on integrating Agentic AI with Kubernetes to maintain system reliability with greater confidence.\n \n \n **In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:ee1eaf6ef35bed1e910da5bb59a71740
 URL:http://kccnceu2026.sched.com/event/ee1eaf6ef35bed1e910da5bb59a71740
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T163000Z
 DTEND:20260324T180000Z
 SUMMARY:🎉 #KubeCrawl + #CloudNativeFest
@@ -2107,7 +2095,7 @@ UID:eeaae12243404a42a154f093a7d48a10
 URL:http://kccnceu2026.sched.com/event/eeaae12243404a42a154f093a7d48a10
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T164500Z
 DTEND:20260324T170500Z
 SUMMARY:Sponsored Demo: Cherry Picking your Cluster: Building a Modular CaaS with Dell Automation Platform ​
@@ -2119,11 +2107,11 @@ UID:1a3bca103cc0019055c18f086aa50e28
 URL:http://kccnceu2026.sched.com/event/1a3bca103cc0019055c18f086aa50e28
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T171000Z
 DTEND:20260324T180000Z
-SUMMARY:CLBO: ClashLoopBackOff
-DESCRIPTION:Come and watch a competition of two people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high\, as this isn’t just a “live demo” for the masses. Over the course of twenty minutes\, competitors will attempt to resolve a broken cluster\, or deploy a service to production. At the end of the time\, entries will be judged on four categories. Each category will be rated on Stability\, Resiliency\, Flexibility\, and Observability.\n\nParticipants won’t know what challenge they’ll be given ahead of time but will be informed whether certain cloud resources or APIs will need to be enabled and available. Pre-creating any helpful scripts\, code\, or cloud resources is strictly prohibited. During the competition\, the Scheduler will bounce between the participants’ screens\, engage with the audience\, and ask questions of the participants live.\n\nJoin us\, root for our competitors\, and feel free to engage live!\n\n
+SUMMARY:Open Source After Hours: Demos and Dragons
+DESCRIPTION:Have a side project that you're pumped about? Working on a feature in OSS and wanna shout it from the heavens? OR\, do you have an idea and want to talk it out with a crowd? Well\, you have a stage\, a microphone\, and seven minutes. Get on out there and don't be shy!\n\n
 CATEGORIES:PROJECT OPPORTUNITIES
 LOCATION:Hall 1-5 | Gouda Zone | Project Pavilion\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -2131,7 +2119,7 @@ UID:35c9e77ac209fe8b2b2fbf036ef10b1a
 URL:http://kccnceu2026.sched.com/event/35c9e77ac209fe8b2b2fbf036ef10b1a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T171500Z
 DTEND:20260324T174500Z
 SUMMARY:Gold Sponsor In-Booth Demos
@@ -2143,19 +2131,19 @@ UID:86de398ec969f523e51ac4013931e149
 URL:http://kccnceu2026.sched.com/event/86de398ec969f523e51ac4013931e149
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T171500Z
 DTEND:20260324T173500Z
 SUMMARY:Sponsored Demo: Beyond Training: Volcano for Inference & Agents
 DESCRIPTION:As AI workloads shift toward massive scale and autonomous agents\, enterprises face a dual challenge: orchestrating complex parallel inference at the bottom\, and meeting the millisecond-latency demands of agents at the top. Volcano is evolving beyond training to bridge this gap via two new sub-projects: Kthena and AgentCube.\n\nThis session demonstrates a complete "Train-Infer-Act" solution. We dive into Kthena\, showcasing its 3-layer architecture (ModelServing -&gt\; ServingGroup -&gt\; Role) that simplifies TP/PP/EP deployments. See how its router leverages KV-cache-aware logic and Prefill-Decode (PD) separation to double throughput.\n\nWe then explore AgentCube\, a Serverless sandbox mechanism for Agent workloads. We’ll demonstrate how "WarmPools" achieve millisecond startup times and how Session-ID routing ensures context persistence. Finally\, we’ll show a live Dify integration\, executing a full-stack AI workflow from intelligent routing to secure code execution.\n\n**In order to facilitate networking and business relationships at the event\, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities\, the third party will receive some of your registration data. This data includes your first name\, last name\, title\, company\, address\, email\, standard demographics questions (i.e. job function\, industry)\, and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content\, you are explicitly consenting to receipt and use of such data by the third-party recipients\, which will be subject to their own privacy policies.**
 CATEGORIES:SOLUTIONS SHOWCASE
-LOCATION:Hall 1-5 | Solutions Showcase\, Amsterdam\, Netherlands
+LOCATION:Hall 1-5 | Tram Zone | Demo Theater\, Amsterdam\, Netherlands
 SEQUENCE:0
 UID:7a8f89b199b2ee839afe9530b711e8ae
 URL:http://kccnceu2026.sched.com/event/7a8f89b199b2ee839afe9530b711e8ae
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260324T174500Z
 DTEND:20260324T180000Z
 SUMMARY:Gold Sponsor In-Booth Demos

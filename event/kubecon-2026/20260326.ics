@@ -7,7 +7,7 @@ CALSCALE:GREGORIAN
 PRODID:-//Sched.com KubeCon + CloudNativeCon Europe 2026//EN
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T070000Z
 DTEND:20260326T150000Z
 SUMMARY:Badge Pick-Up
@@ -19,7 +19,7 @@ UID:2294913df2188b1fa64aad047ae2f014
 URL:http://kccnceu2026.sched.com/event/2294913df2188b1fa64aad047ae2f014
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T070000Z
 DTEND:20260326T150000Z
 SUMMARY:Badge Pick-Up
@@ -31,7 +31,7 @@ UID:85e063f0ceb53e49efee2f8b7b4736eb
 URL:http://kccnceu2026.sched.com/event/85e063f0ceb53e49efee2f8b7b4736eb
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T070000Z
 DTEND:20260326T151500Z
 SUMMARY:Cloakroom
@@ -43,7 +43,7 @@ UID:2d0a0c7ea81928f6ef61134f3af0251e
 URL:http://kccnceu2026.sched.com/event/2d0a0c7ea81928f6ef61134f3af0251e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T070000Z
 DTEND:20260326T151500Z
 SUMMARY:Cloakroom
@@ -55,10 +55,10 @@ UID:75c2d06a12c9a61d7d264e479c294810
 URL:http://kccnceu2026.sched.com/event/75c2d06a12c9a61d7d264e479c294810
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T080000Z
 DTEND:20260326T080300Z
-SUMMARY:Keynote: Welcome Back + Opening Remarks
+SUMMARY:Keynote: Welcome Back + Opening Remarks - Jorge Castro\, Developer Relations\, Cloud Native Computing Foundation
 DESCRIPTION:\n
 CATEGORIES:KEYNOTE SESSIONS
 LOCATION:Hall 12\, Amsterdam\, Netherlands
@@ -67,7 +67,7 @@ UID:49219e62f1864ed8e07558e50c46dee7
 URL:http://kccnceu2026.sched.com/event/49219e62f1864ed8e07558e50c46dee7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T080500Z
 DTEND:20260326T082000Z
 SUMMARY:Keynote: The Cloud Native Feedback Loop: How End Users and Developers Drive CNCF Projects Forward - Karena Angell\, Red Hat; Katie Gamanji\, Apple; Chad Beaudin\, Boeing Software Factory; Ahmed Bebars\, New York Times
@@ -79,7 +79,7 @@ UID:74dbddb73af580aadca9226c41488acf
 URL:http://kccnceu2026.sched.com/event/74dbddb73af580aadca9226c41488acf
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T082200Z
 DTEND:20260326T082700Z
 SUMMARY:Sponsored Keynote: Universal Mesh: Connect and Secure Everything - Baptiste Assmann\, Director of Product\, HAProxy Technologies
@@ -91,7 +91,7 @@ UID:4ccb792a48d1a21122c3a4ff6fb6cb26
 URL:http://kccnceu2026.sched.com/event/4ccb792a48d1a21122c3a4ff6fb6cb26
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T082900Z
 DTEND:20260326T083200Z
 SUMMARY:Keynote: How Ubisoft Orchestrates Global Multiplayer Games with Agones - Jean-François Hubert\, Development Director\, Ubisoft Entertainment & Mark Mandel\, Staff Developer Advocate\, Discord
@@ -103,7 +103,7 @@ UID:761fa27a2347b63d8d25d31579538c5a
 URL:http://kccnceu2026.sched.com/event/761fa27a2347b63d8d25d31579538c5a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T083400Z
 DTEND:20260326T084400Z
 SUMMARY:Keynote: From Cloud-Native Apps to Cloud-Native Platforms - Abby Bangser\, Principal Engineer\, Syntasso
@@ -115,7 +115,7 @@ UID:59dd67d53f4f8e7df2b51cb5e4363e10
 URL:http://kccnceu2026.sched.com/event/59dd67d53f4f8e7df2b51cb5e4363e10
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T084600Z
 DTEND:20260326T085100Z
 SUMMARY:Sponsored Keynote: From Cloud Native to Accelerator Native: Kubernetes as the Distributed OS for Accelerated Workloads and Frameworks - Jago Macleod\, Engineering Director\, Google
@@ -127,7 +127,7 @@ UID:af85c33e4476fd4afe5893706c4a8b5a
 URL:http://kccnceu2026.sched.com/event/af85c33e4476fd4afe5893706c4a8b5a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T085300Z
 DTEND:20260326T085600Z
 SUMMARY:Keynote: Agents as First-Class Users in Production - Mathias Biilmann\, Co-Founder and CEO\, Netlify
@@ -139,11 +139,11 @@ UID:ee1e417e3ec0d55bb2ecce3417b8bdc9
 URL:http://kccnceu2026.sched.com/event/ee1e417e3ec0d55bb2ecce3417b8bdc9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T085800Z
 DTEND:20260326T090100Z
 SUMMARY:Keynote: Building Autonomous Networks for the AI Era - Gergely Csatari\, Senior Open Source Specialist\, DMTS\, Nokia
-DESCRIPTION:\n
+DESCRIPTION:Networks are the hidden nerve system of the internet\, the nerve system what connects all human and artificial intelligence. In his keynote Gergely a Senior Open Source Specialist from the Open Source Program Office of Nokia will explain how these networks evolve towards being autonomous networks with the help of cloud native technology. Technology evolution in open source requires participation in communities and community events. Gergely will discuss the CNCF community projects\, groups and events where Nokia is actively collaborating with the CNCF community in its mission to bridge the ever closing gap between cloud native and telecoms.
 CATEGORIES:KEYNOTE SESSIONS
 LOCATION:Hall 12\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -151,7 +151,7 @@ UID:2024e89ab283418033020e85d3eaac30
 URL:http://kccnceu2026.sched.com/event/2024e89ab283418033020e85d3eaac30
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T090300Z
 DTEND:20260326T091800Z
 SUMMARY:Keynote: Live Demo Showcase
@@ -163,7 +163,7 @@ UID:c909561cd614481e6831816473c53bb7
 URL:http://kccnceu2026.sched.com/event/c909561cd614481e6831816473c53bb7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T092000Z
 DTEND:20260326T093000Z
 SUMMARY:Keynote: Closing Remarks
@@ -175,7 +175,7 @@ UID:2c7188d5e4de2cb4d80adf83626d2b17
 URL:http://kccnceu2026.sched.com/event/2c7188d5e4de2cb4d80adf83626d2b17
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T093000Z
 DTEND:20260326T100000Z
 SUMMARY:Coffee Break ☕
@@ -187,7 +187,7 @@ UID:591ea49387f19a5c3e242ffeca35ae5b
 URL:http://kccnceu2026.sched.com/event/591ea49387f19a5c3e242ffeca35ae5b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T093000Z
 DTEND:20260326T130000Z
 SUMMARY:Solutions Showcase
@@ -199,7 +199,7 @@ UID:ab3c7dc83446d390d4fa43440a1dce26
 URL:http://kccnceu2026.sched.com/event/ab3c7dc83446d390d4fa43440a1dce26
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T094500Z
 DTEND:20260326T101000Z
 SUMMARY:Security Slam Awards Ceremony
@@ -211,7 +211,7 @@ UID:d593543090003f422a6324a2a30a2f2f
 URL:http://kccnceu2026.sched.com/event/d593543090003f422a6324a2a30a2f2f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T094500Z
 DTEND:20260326T100000Z
 SUMMARY:Learning Lounge: CNPA or CNPE? Roles\, Skills & Which One is Right For You? - Alex Coma\, Linux Foundation Education
@@ -223,7 +223,7 @@ UID:dfc3b7f167dd0e2f650c2f843c1d2ee3
 URL:http://kccnceu2026.sched.com/event/dfc3b7f167dd0e2f650c2f843c1d2ee3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Achieving Resilient Multi-Cluster AI Inference on Kubernetes With Karmada and KubeRay - Wei-Cheng Lai\, Bloomberg & Han-Ju Chen\, Anyscale
@@ -235,7 +235,7 @@ UID:02c14b8750ea0c44d46fc02a0a19487d
 URL:http://kccnceu2026.sched.com/event/02c14b8750ea0c44d46fc02a0a19487d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:To Upstream or Not? Why Becoming the Maintainer of Your Dependencies Matters - Christos Markou\, Elastic
@@ -247,7 +247,7 @@ UID:bdeac188053d2312a287a5d5d228f650
 URL:http://kccnceu2026.sched.com/event/bdeac188053d2312a287a5d5d228f650
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:An Immersive and Visual Journey Into Kubernetes Networking - Benoit Entzmann\, Feesh
@@ -259,7 +259,7 @@ UID:933240fa6eac1fcadb802fd744b9e1c3
 URL:http://kccnceu2026.sched.com/event/933240fa6eac1fcadb802fd744b9e1c3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Beyond Stateless: Distributed Transactions with Autoscaling and Consistency on Kubernetes - Jumpei Nishitani\, Hitachi
@@ -271,7 +271,7 @@ UID:89f157a0b04bb111aaaf697ba83a858a
 URL:http://kccnceu2026.sched.com/event/89f157a0b04bb111aaaf697ba83a858a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Scaling Valkey the Right Way: Kubernetes at XL Scale - Sarthak Aggarwal & Madelyn Olson\, AWS
@@ -283,7 +283,7 @@ UID:0ba6231d79673b0ae007ebaad166984c
 URL:http://kccnceu2026.sched.com/event/0ba6231d79673b0ae007ebaad166984c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:From Chaos to Control: A Prescription for Managing Apps on Private Cellular Networks - Luis Ariza\, Beanters
@@ -295,7 +295,7 @@ UID:f35878ed0b45e0a776917d362d822e2d
 URL:http://kccnceu2026.sched.com/event/f35878ed0b45e0a776917d362d822e2d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T110000Z
 SUMMARY:Kubernetes Book Club Gathering
@@ -307,7 +307,7 @@ UID:d4b01322b818d61a48e1d31e6002dd20
 URL:http://kccnceu2026.sched.com/event/d4b01322b818d61a48e1d31e6002dd20
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:A Bug’s-Eye View: Kubernetes SIG Security Explains It All - Ian Coldwater\, Independent; Tabitha Sable & Rory McCune\, Datadog; Iain Smart\, AmberWolf; Mahé Tardy\, Isovalent at Cisco
@@ -319,7 +319,7 @@ UID:2d49580647a7aa4756063576d456d901
 URL:http://kccnceu2026.sched.com/event/2d49580647a7aa4756063576d456d901
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Addressing Non-Deterministic Scheduling: Introducing the Node Readiness Controller - Ajay Sundar Karuppasamy\, Google; Sreeram Venkitesh\, DigitalOcean; Karthik K N\, IBM; Priyanka Saggu\, SUSE
@@ -331,7 +331,7 @@ UID:5b2c3389b9b09ff6e13bb1ecf9b77bb6
 URL:http://kccnceu2026.sched.com/event/5b2c3389b9b09ff6e13bb1ecf9b77bb6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Advanced Kyverno Patterns : Automating Platform Security and Operations - Frank Jogeleit\, Nirmata; Johannes Sonner\, Deutsche Telekom
@@ -343,7 +343,7 @@ UID:13522b4fdb2891abf2bd7ddd711e6643
 URL:http://kccnceu2026.sched.com/event/13522b4fdb2891abf2bd7ddd711e6643
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Advancing Kubernetes AI Conformance: Current State and Roadmap - Yuan Tang\, Red Hat; Mario Fahlandt\, Kubermatic; Janet Kuo\, Google
@@ -355,7 +355,7 @@ UID:cbfca97ebadc583871e402f1e569cea2
 URL:http://kccnceu2026.sched.com/event/cbfca97ebadc583871e402f1e569cea2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Cert-manager – Project Update: Beyond 2026 - Tim Ramlot & Maël Valais\, Palo Alto Networks
@@ -367,7 +367,7 @@ UID:19d6d0089a24ee7fe6466148f298b620
 URL:http://kccnceu2026.sched.com/event/19d6d0089a24ee7fe6466148f298b620
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Cutting Metrics Traffic\, Cutting Costs: The AZ-Aware Observability Blueprint - Iris Dyrmishi & Rodrigo Fior Kuntzer\, Miro
@@ -379,7 +379,7 @@ UID:6c4f9c864c8e6e42ad805604bc211364
 URL:http://kccnceu2026.sched.com/event/6c4f9c864c8e6e42ad805604bc211364
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:Enforce VIP Access Only Through Node Attestation - Alice Frosi & Jakob Naucke\, Red Hat
@@ -391,10 +391,10 @@ UID:91e16e34070130e621e94aaa8f6fc9bd
 URL:http://kccnceu2026.sched.com/event/91e16e34070130e621e94aaa8f6fc9bd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
-SUMMARY:Stop Flying Blind: Real-Time\, Enforceable Cluster-Wide Quotas with Kyverno and KRO - Mariam Fahmy\, Nirmata & Amine Hilaly\, AWS
+SUMMARY:Stop Flying Blind: Real-Time\, Enforceable Cluster-Wide Quotas with Kyverno and KRO - Mariam Fahmy\, Nirmata & Adam Crowder\, AWS
 DESCRIPTION:Managing resource quotas in a multi-tenant Kubernetes cluster often feels like a game of whack-a-mole. Are you tired of exporting YAMLs and summing up requests in a spreadsheet just to answer a simple question: "Is Team A still within their budget?" This manual toil is slow\, error-prone\, and leaves you guessing about your cluster's true capacity.\nWhat if you could have a live dashboard for each team's total resource usage? And what if you could use that same dashboard to enforce a cluster-wide budget\, rejecting any new request that would push a team over their limit?\nIn this session\, we'll show you how to combine two powerful open-source tools\, Kyverno and the Kube Resource Operator (KRO)\, to build a fully automated\, self-healing quota management system. This talk moves beyond theoretical policy discussions and showcases a powerful\, reusable design pattern: using Kyverno to aggregate distributed state into a centralized custom resource created by KRO for both reporting and enforcement.
 CATEGORIES:PLATFORM ENGINEERING
 LOCATION:Hall 8 | Room G\, Amsterdam\, Netherlands
@@ -403,7 +403,7 @@ UID:30462f975c397b17be310d74894a40cd
 URL:http://kccnceu2026.sched.com/event/30462f975c397b17be310d74894a40cd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T103000Z
 SUMMARY:SPIFFE Meets OAuth: Federated Identity for Cloud Native Workloads - Yoshiyuki Tabata\, Hitachi\, Ltd.
@@ -415,7 +415,7 @@ UID:cd6ce0e9458fb5cf10c9924965dc589f
 URL:http://kccnceu2026.sched.com/event/cd6ce0e9458fb5cf10c9924965dc589f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T101000Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: Opening Remarks and Community Update - Andrew Burden and Itamar Holder\, Red Hat
@@ -427,7 +427,7 @@ UID:d41cc69fd64a32778297bc1c93138aa8
 URL:http://kccnceu2026.sched.com/event/d41cc69fd64a32778297bc1c93138aa8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T111500Z
 SUMMARY:🚨 Contribfest: kcp: From Zero To Your First Pull Request - Karol Szwaj\, Kubermatic & Nelo-T. Wallus\, SAP
@@ -439,11 +439,11 @@ UID:d097f938018e7637119f9e5ebc4b3189
 URL:http://kccnceu2026.sched.com/event/d097f938018e7637119f9e5ebc4b3189
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T111500Z
-SUMMARY:🚨 Contribfest: Podman/Buildah Contribfest - Neil Smith & Matt Heon\, Red Hat
-DESCRIPTION:KubeCon EU ContribFest: Podman & Buildah - BuildKit Integration! The Podman and Buildah communities are driving a critical effort to integrate BuildKit for improved compatibility with industry-standard tooling. We need your help to make it happen at our ContribFest! Join core maintainers for a hands-on coding session. You will: - Code Deep Dive: Contribute directly to issues impacting BuildKit integration. - Architecture Review: Learn the impacted systems and the current roadmap. - Contribution Mastery: Understand our policies\, CI/CD pipeline\, and how to get your PR reviewed and merged into main. Prerequisites: Familiarity with Go and Git workflows. This is your chance to make a significant\, tangible contribution to two essential open-source container tools. Come collaborate\, code\, and connect with the community!
+SUMMARY:🚨 Contribfest: Podman/Buildah Contribfest - Ashley Cui & Matt Heon\, Red Hat
+DESCRIPTION:KubeCon EU ContribFest: Podman & Buildah - BuildKit Integration! \n The Podman and Buildah communities are driving a critical effort to integrate BuildKit for improved compatibility with industry-standard tooling. We need your help to make it happen at our ContribFest! \n Join core maintainers for a hands-on coding session. You will: \n - Code Deep Dive: Contribute directly to issues impacting BuildKit integration. \n - Architecture Review: Learn the impacted systems and the current roadmap. \n - Contribution Mastery: Understand our policies\, CI/CD pipeline\, and how to get your PR reviewed and merged into main. \n Prerequisites: Familiarity with Go and Git workflows. \n This is your chance to make a significant\, tangible contribution to two essential open-source container tools. Come collaborate\, code\, and connect with the community!
 CATEGORIES:🚨 CONTRIBFEST
 LOCATION:G107\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -451,10 +451,10 @@ UID:5eb42ffab5116261b72f55709ffa8aed
 URL:http://kccnceu2026.sched.com/event/5eb42ffab5116261b72f55709ffa8aed
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T100000Z
 DTEND:20260326T111500Z
-SUMMARY:📚 Tutorial: KV-Cache Wins You Can Feel: Building AI-Aware LLM Routing on Kubernetes - Tyler Michael Smith\, Red Hat; Kay Yan\, DaoCloud; Vita Bortnikov\, Michal Malka & Maroon Ayoub\, IBM
+SUMMARY:📚 Tutorial: KV-Cache Wins You Can Feel: Building AI-Aware LLM Routing on Kubernetes - Tyler Michael Smith\, Red Hat; Kay Yan\, DaoCloud; Vita Bortnikov\, Nili Guy & Maroon Ayoub\, IBM
 DESCRIPTION:Every LLM request carries invisible state: the KV-cache. Hit it\, and your response is 10x cheaper and 50x faster. Miss it\, and you're recomputing work you just did. Yet Kubernetes' default load balancing is cache-blind\, scattering related requests across pods and destroying locality. The result? Your AI workloads are slower and vastly more expensive than they should be. \n \n In this hands-on tutorial\, we’ll fix that. \n \n Attendees will deploy a distributed vLLM cluster\, benchmark its performance\, and visualize how cache-blind routing wastes GPU cycles. Then\, we’ll replace the default Service with the Kubernetes Gateway API (Inference Extension) and deploy llm-d\, a Kubernetes-native framework for distributed LLM inference with an AI-aware scheduler. By re-running the same benchmarks\, you’ll see latency and throughput transform as prefix-reuse becomes first-class. You’ll leave with a working lab\, dashboards\, and a mental model for building cache-aware routing into any production AI stack.
 CATEGORIES:📚 TUTORIALS
 LOCATION:Elicium 1\, Amsterdam\, Netherlands
@@ -463,7 +463,7 @@ UID:4a7b8f0f45f3266729de3c0b2de45b2e
 URL:http://kccnceu2026.sched.com/event/4a7b8f0f45f3266729de3c0b2de45b2e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T101500Z
 DTEND:20260326T104000Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: Breaking the Performance Barrier: High-Performance AI Storage Virtualization with KubeVirt - Jian Li\, SK Telecom and Yves Weisser\, NetApp
@@ -475,7 +475,7 @@ UID:ab13d0631c8df4fba3804dc0b30e9126
 URL:http://kccnceu2026.sched.com/event/ab13d0631c8df4fba3804dc0b30e9126
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T102500Z
 DTEND:20260326T105000Z
 SUMMARY:Project Demo
@@ -487,7 +487,7 @@ UID:34ec67c203681e5f6c5ea7ae71cf06f7
 URL:http://kccnceu2026.sched.com/event/34ec67c203681e5f6c5ea7ae71cf06f7
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:AI Agents & Platform Engineering: Efficiency Boost or New Source of Trouble? - Hasith Kalpage\, Cisco; Vincent Caldeira\, Red Hat; Sara Qasmi\, United Nations; Idit Levine\, Solo.io; Carlos Santana\, AWS
@@ -499,7 +499,7 @@ UID:2877d56c3830e4ffddb83755b03aa49b
 URL:http://kccnceu2026.sched.com/event/2877d56c3830e4ffddb83755b03aa49b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Building a Scalable and Cost-Effective MLOps Platform at PepsiCo Using CNCF Tools - Chaitanya G\, PepsiCo
@@ -511,7 +511,7 @@ UID:5ccb404091c6946e2ebc8c12500bd675
 URL:http://kccnceu2026.sched.com/event/5ccb404091c6946e2ebc8c12500bd675
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:From Idle to Savings: Building a Global Scheduler for Cost‑Efficient Data Processing on K8s - Rainie Li & Ang Zhang\, Pinterest
@@ -523,7 +523,7 @@ UID:5616d9c94fcced95255c3c5268a0924e
 URL:http://kccnceu2026.sched.com/event/5616d9c94fcced95255c3c5268a0924e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Redis on EC2 to Valkey on Kubernetes: A Zero-Downtime Case Study - Joe Heyburn\, Braze
@@ -535,7 +535,7 @@ UID:5288a1bb14100891961ebdb7bd38305f
 URL:http://kccnceu2026.sched.com/event/5288a1bb14100891961ebdb7bd38305f
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Ctrl-X\, Ctrl-V Your Pods: WG Checkpoint Restore in Kubernetes - Peter Hunt & Adrian Reber\, Red Hat; Radostin Stoyanov\, University of Oxford; Viktória Spišaková\, Masaryk University
@@ -547,7 +547,7 @@ UID:d490be8a86a140d0cb4c6c0d5c6d901c
 URL:http://kccnceu2026.sched.com/event/d490be8a86a140d0cb4c6c0d5c6d901c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Multi-Network Step-by-Step: Enabling SR-IOV Support From Kubernetes Network (DRA) Drivers - Masaharu Kanda\, NTT\, Inc. & Lionel Jouin\, Red Hat
@@ -559,7 +559,7 @@ UID:f56666b9ac835373e7efc235f13f15d4
 URL:http://kccnceu2026.sched.com/event/f56666b9ac835373e7efc235f13f15d4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Beyond Image Pull-Time: Ensuring Runtime Integrity With Image Layer Signing - Toddy Mladenov\, Flora Taagen & Dallas Delaney\, Microsoft
@@ -571,7 +571,7 @@ UID:c0e3334327d56fb72e2fc6f981475765
 URL:http://kccnceu2026.sched.com/event/c0e3334327d56fb72e2fc6f981475765
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Dragonfly V2.4.0 - Intro\, Updates\, Data Distribution in AI Infrastructure - Wenbo Qi & Chenyu Zhang\, Ant Group
@@ -583,7 +583,7 @@ UID:4e24f0b444c97fdcedcb5357bec21ad2
 URL:http://kccnceu2026.sched.com/event/4e24f0b444c97fdcedcb5357bec21ad2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Evolution or Revolution: Istio as the Network Platform for Cloud Native - Mitch Connors\, Microsoft & Daniel Grimm\, Red Hat
@@ -595,11 +595,11 @@ UID:bfbc4d252994ebc9538f0e9db887f8f4
 URL:http://kccnceu2026.sched.com/event/bfbc4d252994ebc9538f0e9db887f8f4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
-SUMMARY:How To (Not) Fork Headlamp - Joaquim Rocha\, Microsoft
-DESCRIPTION:Headlamp is a graphical user interface for viewing and managing Kubernetes\, officially part of the Kubernetes project under SIG UI. Its extensibility makes it an excellent foundation for building new graphical interfaces through its plugin system. But what happens when your needs go beyond what plugins can offer? Is that a reason to maintain a friendly fork? Even if your project is essentially Headlamp plus a set of plugins\, does forking make sense? In this talk I will give a brief overview of Headlamp's architecture including its plugin system\, and go deeper into our recommendations on developing your project as a Headlamp plugin\, as well as when actually creating a friendly fork of the project is adequate. We will also cover the best practices when keeping a plugin and a fork.
+SUMMARY:How To (Not) Fork Headlamp - Joaquim Rocha\, Amutable
+DESCRIPTION:Headlamp is a graphical user interface for viewing and managing Kubernetes\, officially part of the Kubernetes project under SIG UI. \n \n Its extensibility makes it an excellent foundation for building new graphical interfaces through its plugin system. But what happens when your needs go beyond what plugins can offer? Is that a reason to maintain a friendly fork? Even if your project is essentially Headlamp plus a set of plugins\, does forking make sense? \n \n In this talk I will give a brief overview of Headlamp's architecture including its plugin system\, and go deeper into our recommendations on developing your project as a Headlamp plugin\, as well as when actually creating a friendly fork of the project is adequate. We will also cover the best practices when keeping a plugin and a fork.
 CATEGORIES:MAINTAINER TRACK
 LOCATION:E106-108\, Amsterdam\, Netherlands
 SEQUENCE:0
@@ -607,7 +607,7 @@ UID:1cb703705e85da9d330040c3be5592d8
 URL:http://kccnceu2026.sched.com/event/1cb703705e85da9d330040c3be5592d8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Longhorn: Intro\, Deep Dive and Q&A - David Ko & Divya Mohan\, SUSE
@@ -619,7 +619,7 @@ UID:d4c026cf8b910cce228df85244b80a36
 URL:http://kccnceu2026.sched.com/event/d4c026cf8b910cce228df85244b80a36
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Kill the Ticket Queue: A CNCF Blueprint for Self-Service Platforms - Bhavani Indukuri & Aparna Prabhu\, DigitalOcean
@@ -631,7 +631,7 @@ UID:8c6b1989db90778b1b4f36c04454b177
 URL:http://kccnceu2026.sched.com/event/8c6b1989db90778b1b4f36c04454b177
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Taming Complexity: Building Observable Workflows With Dapr and OpenTelemetry - Mauricio "Salaboy" Salatino\, Diagrid & Kasper Borg Nissen\, Dash0
@@ -643,7 +643,7 @@ UID:e8b6aa6a282b30b98ac22a677b35c95d
 URL:http://kccnceu2026.sched.com/event/e8b6aa6a282b30b98ac22a677b35c95d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:End User Technical Advisory Board (TAB) Town Hall
@@ -655,7 +655,7 @@ UID:4fc0e72adca7da1199597f08b41689cc
 URL:http://kccnceu2026.sched.com/event/4fc0e72adca7da1199597f08b41689cc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T111500Z
 SUMMARY:Tailor Made: Dynamic Fine-Grained Authorization for API Traffic - Erica Hughberg\, Tetrate & Andres Aguiar\, Okta
@@ -667,7 +667,7 @@ UID:cdb5bc57c961048817025ab15230c18a
 URL:http://kccnceu2026.sched.com/event/cdb5bc57c961048817025ab15230c18a
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T104500Z
 DTEND:20260326T112000Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: KubeVirt on GB200: Virtualizing a Rack-Scale Supercomputer - Fan Zhang\, Kevin Klues\, and Alay Patel\, NVIDIA
@@ -679,7 +679,7 @@ UID:9838228a0fc9471dd120c339b1e21496
 URL:http://kccnceu2026.sched.com/event/9838228a0fc9471dd120c339b1e21496
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T110000Z
 DTEND:20260326T112500Z
 SUMMARY:Project Demo
@@ -691,7 +691,7 @@ UID:d81604fe0abb8ed01bb07cee68afe9ff
 URL:http://kccnceu2026.sched.com/event/d81604fe0abb8ed01bb07cee68afe9ff
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T111500Z
 DTEND:20260326T124500Z
 SUMMARY:Lunch 🍲
@@ -703,7 +703,7 @@ UID:0a4a0bea85431f98f71545fbe5ef4a34
 URL:http://kccnceu2026.sched.com/event/0a4a0bea85431f98f71545fbe5ef4a34
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T111500Z
 DTEND:20260326T121500Z
 SUMMARY:Your Voice on Stage: The Iterative Pitch Lab
@@ -715,7 +715,7 @@ UID:89a874c6f481afc854ccf1284ba516e9
 URL:http://kccnceu2026.sched.com/event/89a874c6f481afc854ccf1284ba516e9
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T112500Z
 DTEND:20260326T115000Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: Achieving 10× Faster VM Migration to KubeVirt with Storage Offload in Forklift - Ryosuke Tatsumi\, Hitachi America\, Ltd.
@@ -727,7 +727,7 @@ UID:8c926efe61e49ac143bcef9315497c99
 URL:http://kccnceu2026.sched.com/event/8c926efe61e49ac143bcef9315497c99
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T113000Z
 DTEND:20260326T123000Z
 SUMMARY:Network Nook Meetup: Share + Continue the Conversation
@@ -739,7 +739,7 @@ UID:627978a66cbf71f635178fa4ae51f13d
 URL:http://kccnceu2026.sched.com/event/627978a66cbf71f635178fa4ae51f13d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T113000Z
 DTEND:20260326T115500Z
 SUMMARY:Project Demo
@@ -751,7 +751,7 @@ UID:7570aa83b5662d5f994ef280a7f70c39
 URL:http://kccnceu2026.sched.com/event/7570aa83b5662d5f994ef280a7f70c39
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T115500Z
 DTEND:20260326T120500Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: Measuring KubeVirt Performance and Scale with KWOK - Sreeja Varnam\, NVIDIA
@@ -763,7 +763,7 @@ UID:10b5199e56dffa8b682af65eba04027e
 URL:http://kccnceu2026.sched.com/event/10b5199e56dffa8b682af65eba04027e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T120000Z
 DTEND:20260326T121500Z
 SUMMARY:Learning Lounge: 3-2-1 Certify! - Everything You Want to Know About Exams\, but Are Afraid to Ask - Zuzanna Piskorz-Nałęcka\, Linux Foundation Education
@@ -775,7 +775,7 @@ UID:b73be18d4ae6d62ab76146ebdab1b018
 URL:http://kccnceu2026.sched.com/event/b73be18d4ae6d62ab76146ebdab1b018
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T121000Z
 DTEND:20260326T123500Z
 SUMMARY:Cloud Native Theater | KubeVirt Summit: Bridging Islands: EVPN Overlays for Multi-Cluster KubeVirt - Miguel Duarte\, Red Hat
@@ -787,7 +787,7 @@ UID:89275c763ad7a9f1ae47774876247a3e
 URL:http://kccnceu2026.sched.com/event/89275c763ad7a9f1ae47774876247a3e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T123000Z
 DTEND:20260326T131500Z
 SUMMARY:Non-Code Contribution Crash Course
@@ -799,7 +799,7 @@ UID:2f9840d2464aa2123172788989d91587
 URL:http://kccnceu2026.sched.com/event/2f9840d2464aa2123172788989d91587
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Cloud Native at the Far(m) Edge: Running Kubernetes and AI on Tractors - Mauro Morales\, Spectro Cloud & Jordan Karapanagiotis\, Aurea Imaging
@@ -811,7 +811,7 @@ UID:f36708f6f24a37b5e0b3a05be37e4419
 URL:http://kccnceu2026.sched.com/event/f36708f6f24a37b5e0b3a05be37e4419
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Navigating the Gateway API Maze: 40+ Implementations\, 55+ Features\, and a Path to Portability - Beka Modebadze\, Google & Christine Kim\, Isovalent at Cisco
@@ -823,7 +823,7 @@ UID:52de73b651ea02281ab189240cc72d72
 URL:http://kccnceu2026.sched.com/event/52de73b651ea02281ab189240cc72d72
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Beyond the Edge: Cloud Native Application Management Under Extreme Network Conditions - Tobias Nöthlich & Maximilian Nitsch\, D3TN GmbH
@@ -835,7 +835,7 @@ UID:23f1362ade5f430300af2d5b2f586011
 URL:http://kccnceu2026.sched.com/event/23f1362ade5f430300af2d5b2f586011
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:BoF: AI Infrastructure and Platform: LLMs\, Agentic AI
@@ -847,7 +847,7 @@ UID:f58745b397070bb680e37c0695363806
 URL:http://kccnceu2026.sched.com/event/f58745b397070bb680e37c0695363806
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:AI'm at the Gate! Introducing the AI Gateway Working Group in Kubernetes - Morgan Foster & Nir Rozenbaum\, Red Hat; Shachar Tal\, Palo Alto Networks
@@ -859,7 +859,7 @@ UID:a27a4f0028d865f7226ed00dadd0ca3e
 URL:http://kccnceu2026.sched.com/event/a27a4f0028d865f7226ed00dadd0ca3e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Discover Cortex: High Scalability Metrics in 2026 - Friedrich Gonzalez & Charlie Le\, Apple
@@ -871,10 +871,10 @@ UID:d97e5a8f8d66bb3ce8e8f96898df7d30
 URL:http://kccnceu2026.sched.com/event/d97e5a8f8d66bb3ce8e8f96898df7d30
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
-SUMMARY:Evolving KServe: The Unified Model Inference Platform for Both Predictive and Generative AI - Yuan Tang\, Red Hat & Dan Sun\, Bloomberg
+SUMMARY:Evolving KServe: The Unified Model Inference Platform for Both Predictive and Generative AI - Filippe Spolti & JooHoo Lee\, Red Hat
 DESCRIPTION:As generative AI transforms how organizations build and deploy intelligent applications\, the need for scalable\, flexible\, and interoperable model serving infrastructure is becoming critical. This session explores the evolution of model serving — from early\, custom-built deployments to today’s cloud-native\, Kubernetes-based platforms. We’ll discuss emerging challenges in productionizing large language models (LLMs)\, including inference efficiency\, distributed execution\, KV-cache management\, and cost optimization. \n \n We are excited to introduce the latest addition to the CNCF family - KServe project - and its latest release\, a major leap forward in serving generative AI workloads beyond predictive AI. This release features a new CRD purpose-built for LLM serving via llm-d\, support for disaggregated inference architectures\, enhanced model and KV caching\, and seamless integration with the open source Envoy AI Gateway.
 CATEGORIES:MAINTAINER TRACK
 LOCATION:G102-103\, Amsterdam\, Netherlands
@@ -883,10 +883,10 @@ UID:03a54846933edab5e7413df4d9a2a0ce
 URL:http://kccnceu2026.sched.com/event/03a54846933edab5e7413df4d9a2a0ce
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
-SUMMARY:KubeVirt's Evolution: Governance\, Features\, and Community Growth - Sreeja Varnam\, NVIDIA; Itamar Holder
+SUMMARY:KubeVirt's Evolution: Governance\, Features\, and Community Growth - Sreeja Varnam\, NVIDIA & Luboslav Pivarc\, Red Hat 
 DESCRIPTION:Maintaining a healthy open source project amid competing company interests is hard. KubeVirt addresses this with its Enhancements (VEP) process and SIG governance\, inspired by Kubernetes’ KEP framework\, to enable transparent\, community-driven development. \n In this session\, we’ll explain how KubeVirt adapted these practices\, walk through the VEP lifecycle from proposal to graduation\, and show how it enables collaboration across companies. Using the VirtualMachinePool feature as a real-world example\, we’ll highlight how an NVIDIA engineer and a Red Hat core contributor worked together to deliver IaaS-style VM lifecycle management in Kubernetes. \n Attendees will gain practical strategies for fostering effective open source collaboration and see how VEP is evolving to support new challenges\, including AI/high-performance workloads and multi-hypervisor support\, as KubeVirt moves toward CNCF graduation. \n Join us to see how Kubernetes-inspired governance drives innovation and growth.
 CATEGORIES:MAINTAINER TRACK
 LOCATION:E103-105\, Amsterdam\, Netherlands
@@ -895,7 +895,7 @@ UID:6fa5b7dbef76b8d78701124ff93aaa68
 URL:http://kccnceu2026.sched.com/event/6fa5b7dbef76b8d78701124ff93aaa68
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Prometheus V3 One Year In: OpenMetrics 2.0 and More! - Jan Fajerski\, Red Hat & Bartłomiej Płotka\, Google
@@ -907,7 +907,7 @@ UID:9f20802bf32768ad7fd30470a7adbf50
 URL:http://kccnceu2026.sched.com/event/9f20802bf32768ad7fd30470a7adbf50
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Visualizing GitOps: A Tour of Flux UIs in the Open Source Ecosystem - Stefan Prodan\, ControlPlane
@@ -919,7 +919,7 @@ UID:97f85a47d3dd0719f71f724eb99269ae
 URL:http://kccnceu2026.sched.com/event/97f85a47d3dd0719f71f724eb99269ae
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Scaling the Kubernetes Ecosystem: Uber's Approach to Cluster Lifecycle Management - Silvio Simunic & Vadim Plakhtinskii\, Uber
@@ -931,7 +931,7 @@ UID:fdea9e78b42e04ea1919b73bca794bb4
 URL:http://kccnceu2026.sched.com/event/fdea9e78b42e04ea1919b73bca794bb4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Spin-Up\, Test\, Tear-Down: How Trivago Runs Developer Preview Environments at Scale - Armin Aminian\, Trivago & Jan Wozniak\, Kedify
@@ -943,7 +943,7 @@ UID:9f5f434b35a5dba6195fc93eaad0211b
 URL:http://kccnceu2026.sched.com/event/9f5f434b35a5dba6195fc93eaad0211b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:Evolving Policy Management with Agentic AI: Kyverno MCP and Kagent for Multi-Cluster Governance - Shuting Zhao\, Nirmata & Dahu Kuang\, Alibaba Cloud
@@ -955,7 +955,7 @@ UID:825ccaced1f2141a2ee58521189afa69
 URL:http://kccnceu2026.sched.com/event/825ccaced1f2141a2ee58521189afa69
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:The Accidental Platform Team: Kubernetes Operators at Swisscom - Fabian Schulz & Jelena Malic\, Swisscom
@@ -967,7 +967,7 @@ UID:6cdd19b910d825a438b9e24fae4db683
 URL:http://kccnceu2026.sched.com/event/6cdd19b910d825a438b9e24fae4db683
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T131500Z
 SUMMARY:The Shared Service Blueprint: A Guide to Multi-Tenancy\, Illustrated With KEDA - Aya Igarashi\, Preferred Networks\, Inc.
@@ -979,7 +979,7 @@ UID:163bc4c2e62910a4956fe9107fd83397
 URL:http://kccnceu2026.sched.com/event/163bc4c2e62910a4956fe9107fd83397
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T140000Z
 SUMMARY:🚨 Contribfest: Supercharge Your Open Source Impact: Backstage ContribFest Live! 🚀 - André Wanlin & Emma Indal\, Spotify; Heikki Hellgren\, OP Financial Group; Elaine Bezerra\, DB Systel GmbH
@@ -991,7 +991,7 @@ UID:0ab7ac76591ca2ff28be8f0d628e3293
 URL:http://kccnceu2026.sched.com/event/0ab7ac76591ca2ff28be8f0d628e3293
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T124500Z
 DTEND:20260326T140000Z
 SUMMARY:📚 Tutorial: Your Application\, Batteries Included: Packaging for Deterministic\, Secure\, and Portable Delivery - Brandt Keller & Austin Abro\, Defense Unicorns; William Crum\, Spectro Cloud; Merijn Keppel\, TrueFullstaq; Jessica Keppel-Drost\, Isala
@@ -1003,7 +1003,7 @@ UID:6e6fc3382f4f0108f707fc2119758856
 URL:http://kccnceu2026.sched.com/event/6e6fc3382f4f0108f707fc2119758856
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Optimizing Error Recovery for Cost-Efficient Distributed AI Model Training with Kubernetes - Radostin Stoyanov\, University of Oxford & Andrey Velichkevich\, Apple; Viktória Spišáková\, Masaryk University
@@ -1015,7 +1015,7 @@ UID:e2ee17dab349b8685abb8258e9eb9205
 URL:http://kccnceu2026.sched.com/event/e2ee17dab349b8685abb8258e9eb9205
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Virtualizing Large Scale GPU Cluster for Sovereign AI: Petasus AI Cloud Journey with Kubernetes - Jian Li\, SK Telecom
@@ -1027,7 +1027,7 @@ UID:37dc0d9b51d5c03b17e333118dd9a73c
 URL:http://kccnceu2026.sched.com/event/37dc0d9b51d5c03b17e333118dd9a73c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Metal3.io’s Path to CNCF Incubation: Governance\, Processes\, and Community - Kashif Khan\, Ericsson & Dmitry Tantsur\, Red Hat
@@ -1039,7 +1039,7 @@ UID:d2f8abddcdae0bf6508d6a3ecc779493
 URL:http://kccnceu2026.sched.com/event/d2f8abddcdae0bf6508d6a3ecc779493
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:How Telemetry Data Moves: Lessons From Building a High-Performance Open Source Agent - Eduardo Silva\, Chronosphere | A Palo Alto Networks Company
@@ -1051,7 +1051,7 @@ UID:e6088b6c24be2d561e5bd7213aabbbc8
 URL:http://kccnceu2026.sched.com/event/e6088b6c24be2d561e5bd7213aabbbc8
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:A Unified Management and Control Plane for Cloud Native Robots With KubeEdge - Sitong Mao\, Huawei; Huan Wei\, Hangzhou HarmonyCloud Technologies; Yin Ding\, Broadcom
@@ -1063,7 +1063,7 @@ UID:7db62f6e010f35d54cc49c9609669ade
 URL:http://kccnceu2026.sched.com/event/7db62f6e010f35d54cc49c9609669ade
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:BoF: Infrastructure Optimization for GPUs / Inference / Training / Networking
@@ -1075,7 +1075,7 @@ UID:16669c5233b5819dcd7a121806408063
 URL:http://kccnceu2026.sched.com/event/16669c5233b5819dcd7a121806408063
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T144500Z
 SUMMARY:Peer Group Mentoring
@@ -1087,7 +1087,7 @@ UID:53b16bb3632fa294bd3f20b713489e6d
 URL:http://kccnceu2026.sched.com/event/53b16bb3632fa294bd3f20b713489e6d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Buildpacks: Towards 1.0\, AI and Other Things - Aidan Delaney\, Bloomberg
@@ -1099,7 +1099,7 @@ UID:3fab07331a79c8c51cfcaf6d9c45bd2d
 URL:http://kccnceu2026.sched.com/event/3fab07331a79c8c51cfcaf6d9c45bd2d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:CRI-O: Faster Pulls\, Better Metrics\, and a Future Beyond Images - Sohan Kunkerkar & Ayato Tokubi\, Red Hat
@@ -1111,7 +1111,7 @@ UID:10703557cb9b4b5ac874d694ad02b84c
 URL:http://kccnceu2026.sched.com/event/10703557cb9b4b5ac874d694ad02b84c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Envoy in the Era of Agentic Workloads - Yan Avlasov\, Google & Erica Hughberg\, Tetrate
@@ -1123,7 +1123,7 @@ UID:f52983fe92de9787b2788d1ec820d69d
 URL:http://kccnceu2026.sched.com/event/f52983fe92de9787b2788d1ec820d69d
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Harbor Project - The Maintainers Session - Yan Wang\, Broadcom & Vadim Bauer\, 8gears
@@ -1135,7 +1135,7 @@ UID:42a1dcdd868720c82cc2c58e245df399
 URL:http://kccnceu2026.sched.com/event/42a1dcdd868720c82cc2c58e245df399
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Making Topology-Aware Scheduling Practical for AI Workloads: From Discovery to Simulation at Scale - Weizhou Lan\, Daocloud
@@ -1147,7 +1147,7 @@ UID:b2804fb882af3d815d29f0ce7a944629
 URL:http://kccnceu2026.sched.com/event/b2804fb882af3d815d29f0ce7a944629
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Redefining SLIs for LLM Inference: Managing Hybrid Cloud with vLLM & LLM-D - Christopher Nuland & Hilliary Lipsig\, Red Hat
@@ -1159,7 +1159,7 @@ UID:a664e9aa940f325224175075c945a0db
 URL:http://kccnceu2026.sched.com/event/a664e9aa940f325224175075c945a0db
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Freedom Through Boundaries: Building Configurations That Age Well - Bogdan Stancu\, Adobe
@@ -1171,7 +1171,7 @@ UID:0d9b9bca4816efd1d29ba6c167f4f7c4
 URL:http://kccnceu2026.sched.com/event/0d9b9bca4816efd1d29ba6c167f4f7c4
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:Three Shades of Isolation: A Multi-tenancy Fortress - Braulio Dumba & Paolo Dettori\, IBM
@@ -1183,7 +1183,7 @@ UID:c6bca5cfa160b19c79adba27062c544b
 URL:http://kccnceu2026.sched.com/event/c6bca5cfa160b19c79adba27062c544b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T133000Z
 DTEND:20260326T140000Z
 SUMMARY:SB💣💣M: Making SBOMs Play Together - Jacopo Bufalino\, CNAM & Agathe Blaise\, Thales SIX GTS France
@@ -1195,7 +1195,7 @@ UID:2006c49c90d012c7a520ad784ebb175c
 URL:http://kccnceu2026.sched.com/event/2006c49c90d012c7a520ad784ebb175c
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:From Logs to Decisions: Autonomous AI Agents for Real-Time Kubernetes Threat Response - Willem Berroubache\, Orange
@@ -1207,7 +1207,7 @@ UID:2e817212d67b3d82dbe338a5ec5af71e
 URL:http://kccnceu2026.sched.com/event/2e817212d67b3d82dbe338a5ec5af71e
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:From Jenkins to Tekton: Our Journey Toward a Kubernetes-Native CI/CD with ArgoCD - Mustafa Barış Ege & Özge Aygül\, TÜBİTAK-BİLGEM
@@ -1219,7 +1219,7 @@ UID:ceac803e91ffc877cc874d825717d1fd
 URL:http://kccnceu2026.sched.com/event/ceac803e91ffc877cc874d825717d1fd
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:How Statistical Offices Move to Cloud Native Technology - Frédéric Comte\, Insee & Trygve Tatsuya Falch
@@ -1231,7 +1231,7 @@ UID:f2e1c54279d3d7bc66325759a236bcaf
 URL:http://kccnceu2026.sched.com/event/f2e1c54279d3d7bc66325759a236bcaf
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:How Many Spark Applications Can Your Etcd Really Handle? - João Soares & João Azevedo\, Feedzai
@@ -1243,7 +1243,7 @@ UID:45b69aa813cda127fb150670314509e2
 URL:http://kccnceu2026.sched.com/event/45b69aa813cda127fb150670314509e2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:BoF: AI Observability
@@ -1255,7 +1255,7 @@ UID:91be94df9e4606cb323376390fb9709b
 URL:http://kccnceu2026.sched.com/event/91be94df9e4606cb323376390fb9709b
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Beyond the Cloud: Managing Baremetal the Kubernetes Way Using Metal3.io: Sylva Project as a Use-case - Ádám Rozmán\, Ericsson Software Technology; Nicolas Belouin\, SUSE
@@ -1267,7 +1267,7 @@ UID:2a0a862e38268b01ddb503ace1363feb
 URL:http://kccnceu2026.sched.com/event/2a0a862e38268b01ddb503ace1363feb
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Emissary-ingress: Version 4 and What Comes Next - Flynn\, Buoyant
@@ -1279,7 +1279,7 @@ UID:eea5dfbb55f5e475d81be03122c432c5
 URL:http://kccnceu2026.sched.com/event/eea5dfbb55f5e475d81be03122c432c5
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:SIG Docs and You: The New Chapter of the Kubernetes API Reference Generator - Kat Cosgrove\, Minimus; Lavish Pal\, Independent; Rey Lejano\, Red Hat
@@ -1291,7 +1291,7 @@ UID:2fc43132190bf73bc233c9386c6ff1ae
 URL:http://kccnceu2026.sched.com/event/2fc43132190bf73bc233c9386c6ff1ae
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:WG-Batch Updates: What’s New and What Is Next? - Yuki Iwai\, CyberAgent\, Inc. & Kevin Hannon\, Red Hat
@@ -1303,7 +1303,7 @@ UID:e7495eebe0400213af8afe9e570f4efc
 URL:http://kccnceu2026.sched.com/event/e7495eebe0400213af8afe9e570f4efc
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:18 Bluetooth Controllers Walk into a Bar: Observability & Runtime Configuration with CNCF Tools - Simon Schrottner\, Dynatrace & Manuel Timelthaler\, Tractive
@@ -1315,7 +1315,7 @@ UID:a82d724582988b5d0b09a2c5fa066acb
 URL:http://kccnceu2026.sched.com/event/a82d724582988b5d0b09a2c5fa066acb
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Collisions in the Dark: Illuminating the 95% of Kubeflow You Can't See - Amine Lahouel & Laura Llinares\, CERN
@@ -1327,7 +1327,7 @@ UID:f5b2ab58666d6b920b6b9bc5de0bbac3
 URL:http://kccnceu2026.sched.com/event/f5b2ab58666d6b920b6b9bc5de0bbac3
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Day-2 Reality Check: Taming Wasteful Telemetry - Juraci Paixão Kröhling\, OllyGarden & Elena Kovalenko\, Delivery Hero
@@ -1339,7 +1339,7 @@ UID:0bd2e8d5becd0983d551cf5f7186fcd2
 URL:http://kccnceu2026.sched.com/event/0bd2e8d5becd0983d551cf5f7186fcd2
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:The Fourth Pillar Arrives: OpenTelemetry Profiling Alpha in Action - Felix Geisendörfer\, Datadog & Florian Lehner\, Elastic
@@ -1351,7 +1351,7 @@ UID:de5648d4674ff14fe01cf9c215861532
 URL:http://kccnceu2026.sched.com/event/de5648d4674ff14fe01cf9c215861532
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Is the Agent in the Room with Us Right Now? - Nick Rutigliano & Andrew Halaney\, Netflix
@@ -1363,7 +1363,7 @@ UID:770d16cf7746d247828f9b841ffa6938
 URL:http://kccnceu2026.sched.com/event/770d16cf7746d247828f9b841ffa6938
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:K8s-sigs NFD × SYLVA: Declarative Image-to-Node Compatibility for Telco Clouds. - Eduardo Arango Gutierrez\, NVIDIA & Chaoyi Huang\, Huawei Technology Co.\, Ltd
@@ -1375,7 +1375,7 @@ UID:f37cfb60b915cf3dcab8c8a98a5a4db6
 URL:http://kccnceu2026.sched.com/event/f37cfb60b915cf3dcab8c8a98a5a4db6
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T131510Z
+DTSTAMP:20260322T191353Z
 DTSTART:20260326T141500Z
 DTEND:20260326T144500Z
 SUMMARY:Platform Engineering 2.0: Just-Enough Kubernetes and AI-Native DevOps - Shweta Vohra\, Booking.com
